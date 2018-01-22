@@ -1,0 +1,6 @@
+{
+    "scripts": { 
+        "deploy": "node ./node_modules/vue-gh-pages/index.js",
+        "homepage": "https://github.com/Geektree0101/app"
+    }
+}
