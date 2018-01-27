@@ -5,7 +5,8 @@
         "start": "gulp Vue:start",
         "deploy": "node ./node_modules/vue-gh-pages/index.js",
         "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
-        "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+        "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+        "homepage": "https://geektree0101.github.io"
     },
     "licenses": [
         {

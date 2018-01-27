@@ -70,3 +70,4 @@ gulp.task("webPack", function(done) {
     return gulp.src("./")
         .pipe(run("npm run build"))
         .pipe(livereload());
+})

@@ -1,19 +1,19 @@
 import Vue from 'vue';
+const BannerView = require("./components/Banner");
+//const IntroView = require("./components/Introduction");
+//const HistoryView = require("./components/History");
+const ContactView = require("./components/Contact");
 
-const placeholderView = { 
-    template : "<h1> Coming soon.... </h1>"
-};
+let MainView = Vue.component("main-view", {
+    template: `
+    <div>
+        <banner-view/>
+        <contact-view/>
+    </div>
+    `
+})
 
-//#start Vue application
 new Vue({
-    el: '#app',
-    data : {
-        currentRoute : window.location.pathname
-    },
-    computed : {
-        ViewComponent (){
-            return placeholderView;
-        }
-    },
-    render (h) { return h(this.ViewComponent) }
-});
+    el: '#application',
+    template: `<main-view></main-view>`
+})
