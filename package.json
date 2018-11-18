@@ -18,7 +18,8 @@
     "vue": "^2.5.17",
     "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "push-dir": "^0.4.1"
   },
   "description": "Geektree0101.github.io",
   "devDependencies": {
