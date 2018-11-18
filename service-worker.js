@@ -19,6 +19,7 @@ importScripts(
 
 workbox.core.setCacheNameDetails({prefix: "Geektree0101.github.io"});
 
+
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
