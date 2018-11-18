@@ -2,7 +2,7 @@
   <div id="article-node"
    data-aos="fade-up"
    data-aos-duration="500"
-   v-on:click="openURL">
+   v-on:click="openURL(source)">
     <img :src="preview" />
     <h1>{{title}}</h1>
     <p>{{desc}}</p>
@@ -14,8 +14,8 @@ export default {
   name: "ArticleNode",
   props: ["title", "desc", "preview", "source"],
   methods: {
-    openURL: function() {
-      window.open("http://github.com/Geektree0101");
+    openURL: function(sourceUrl) {
+      window.open(sourceUrl);
     }
   }
 };
