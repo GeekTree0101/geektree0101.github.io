@@ -2,11 +2,14 @@
   <div id="interest-section" 
        data-aos="zoom-in"
        data-aos-duration="500">
-    <p id="bio">{{bio}}</p>
-    <div data-aos="zoom-in"
-       data-aos-duration="500" v-bind:key="interest" v-for="interest in interests">
-        <p id="interest-tag" v-on:click="openURL(interest.url)">{{interest.name}}</p>
-    </div>
+          <p id="bio">{{bio}}</p>
+
+      <div id="interest-container">
+          <div data-aos="zoom-in"
+               data-aos-duration="500" v-bind:key="interest" v-for="interest in interests">
+              <p id="interest-tag" v-on:click="openURL(interest.url)">{{interest.name}}</p>
+          </div>
+      </div>
   </div>
 </template>
 
@@ -42,15 +45,25 @@ export default {
 #interest-section {
   background: clear;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 10vw;
 
   font-size: 140%;
   font-weight: 500;
 }
+
+#interest-container {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 #interest-section #bio {
   font-size: 120%;
   font-style: italic;

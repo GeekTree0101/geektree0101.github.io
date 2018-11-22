@@ -146,6 +146,14 @@ export default {
             "https://cdn-images-1.medium.com/max/1200/1*qAfL9DqKdLSzUVTTyhdXcg.gif",
           source:
             "https://medium.com/@h2s1880/how-to-pre-append-ascellnode-like-a-chat-application-23b35d39b6cb"
+        },
+        {
+          title: "Tic Toc! ASTimeStampNode",
+          desc: "How to make time stamp text UI with Texture",
+          preview:
+            "https://cdn-images-1.medium.com/max/2000/1*8Mji-ra60rD0mbmbyjA4-g.gif",
+          source:
+            "https://medium.com/@h2s1880/tic-toc-tic-toc-astimestampnode-e29d8ae66371"
         }
       ],
       businessProjects: [
