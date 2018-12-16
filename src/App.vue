@@ -84,6 +84,14 @@ export default {
       ],
       personalProjects: [
         {
+          title: "Vetty (Reactive Model Provider)",
+          desc:
+            "Very easy commit & read & mutation mechanism about all of model, Reactive Model Provider built on RxSwift",
+          preview:
+            "https://cdn-images-1.medium.com/max/1600/1*HQzYhDJwiqyvTSymv5fTrg.gif",
+          source: "https://medium.com/@h2s1880/oh-vetty-vam-da-lam-reactive-model-provider-9c622e499d2a"
+        },
+        {
           title: "RxMVVM-Texture",
           desc:
             "iOS MVVM archtecture pattern built on Texture(AsyncDisplayKit)",
