@@ -86,7 +86,7 @@ export default {
         {
           title: "Buck으로 iOS앱 빌드해보자!",
           desc:
-            "Very easy commit & read & mutation mechanism about all of model, Reactive Model Provider built on RxSwift",
+            "Buck is a build system developed and used by Facebook.",
           preview:
             "https://cdn-images-1.medium.com/max/1600/0*gYLTNTOEKBH0J_at",
           source: "https://medium.com/@h2s1880/buck%EC%9C%BC%EB%A1%9C-ios%EC%95%B1-%EB%B9%8C%EB%93%9C%ED%95%B4%EB%B3%B4%EC%9E%90-d811ad541416?fbclid=IwAR2w31ca8OvnerlUdhy57fO2onPngyjSvxCv2B2sJWVSBcPJRBpnhejomE4"
