@@ -84,6 +84,14 @@ export default {
       ],
       personalProjects: [
         {
+          title: "Texture(AsyncDisplayKit) of business practice",
+          desc:
+            "Texture를 실제 현업에서 잘 사용하는 법!",
+          preview:
+            "https://cdn-images-1.medium.com/max/1200/1*r_CdNRroBn5NKiJoCUQqZw.gif",
+          source: "https://medium.com/vingle-tech-blog/texture-%ED%98%84%EC%97%85-%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-98865bd6a38"
+        },
+        {
           title: "Buck으로 iOS앱 빌드해보자!",
           desc:
             "Buck is a build system developed and used by Facebook.",

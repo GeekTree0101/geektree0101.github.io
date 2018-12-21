@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.7e87ade4a52afc8dae6721d8c6830006.js"
+  "/precache-manifest.8b1c8a08d666e95934cf57d263252d38.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "Geektree0101.github.io"});
