@@ -84,6 +84,14 @@ export default {
       ],
       personalProjects: [
         {
+          title: "Hello Bazel!",
+          desc:
+            "SDL Cube Example x Bazel",
+          preview:
+            "https://cdn-images-1.medium.com/max/1600/1*09HtddPsqzV-CfUKBxMIVw.png",
+          source: "https://medium.com/@h2s1880/hello-bazel-db5d237e204c"
+        },
+        {
           title: "Buck으로 iOS앱 빌드해보자!",
           desc:
             "Buck is a build system developed and used by Facebook.",
