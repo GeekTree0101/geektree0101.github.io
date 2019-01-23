@@ -186,7 +186,7 @@ export default {
           desc:
             "Lightweight and Powerful Editor Kit",
           preview:
-            "https://github.com/GeekTree0101/VEditorKit/blob/master/screenshots/test3.gif",
+            "https://cdn-images-1.medium.com/max/400/1*9ytvYQ-cRnh7P7FJYxKoYQ.gif",
           source: "https://github.com/GeekTree0101/VEditorKit"
         },
         {
