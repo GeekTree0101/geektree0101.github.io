@@ -182,6 +182,14 @@ export default {
       ],
       businessProjects: [
         {
+          title: "VEditorKit",
+          desc:
+            "Lightweight and Powerful Editor Kit",
+          preview:
+            "https://github.com/GeekTree0101/VEditorKit/blob/master/screenshots/test3.gif",
+          source: "https://github.com/GeekTree0101/VEditorKit"
+        },
+        {
           title: "Texture of business practice",
           desc:
             "Texture를 실제 현업에서 잘 사용하는 법!",
