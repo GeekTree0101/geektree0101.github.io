@@ -182,6 +182,14 @@ export default {
       ],
       businessProjects: [
         {
+          title: "Vingle Texture Style guide",
+          desc:
+            "We hope anybody who loves iOS and Texture find this guide helpful!",
+          preview:
+            "https://cdn-images-1.medium.com/max/1600/1*bLxgJzoG5ktMJ5ZLSNgu5A.png",
+          source: "https://medium.com/vingle-tech-blog/vingle-texture-style-guide-2caf8c13322f"
+        },
+        {
           title: "VEditorKit",
           desc:
             "Lightweight and Powerful Editor Kit",
