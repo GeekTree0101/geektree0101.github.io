@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+
 importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js"
+  "/precache-manifest.5dafe037597d65986e3eb6968246dae1.js"
 );
 
-importScripts("/precache-manifest.94b67796a1d808e5fd203aa0ec29b64e.js");
-
-workbox.core.setCacheNameDetails({ prefix: "Geektree0101.github.io" });
+workbox.core.setCacheNameDetails({prefix: "Geektree0101.github.io"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
