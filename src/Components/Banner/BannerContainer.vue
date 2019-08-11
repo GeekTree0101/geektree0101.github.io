@@ -4,8 +4,8 @@
       <img src="https://avatars1.githubusercontent.com/u/19504988?s=460&v=4" />
     </div>
     <div id="banner-content">
-      <h1> GEEKTREE0101 </h1>
-      <p> iOS Developer @Vingle </p>
+      <h1>GEEKTREE0101</h1>
+      <p>iOS Developer @당근마켓</p>
     </div>
   </div>
 </template>
