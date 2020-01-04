@@ -891,7 +891,7 @@ var app = (function () {
     			}
 
     			attr_dev(div, "id", "article-container");
-    			attr_dev(div, "class", "svelte-1nsjs8h");
+    			attr_dev(div, "class", "svelte-1k01457");
     			add_location(div, file$3, 6, 0, 103);
     		},
     		l: function claim(nodes) {
