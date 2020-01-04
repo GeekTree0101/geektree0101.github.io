@@ -1411,7 +1411,7 @@ var app = (function () {
     			create_component(sectionheaderview4.$$.fragment);
     			t9 = space();
     			create_component(contactview.$$.fragment);
-    			attr_dev(main, "class", "svelte-u9qvfs");
+    			attr_dev(main, "class", "svelte-1577dks");
     			add_location(main, file$6, 168, 0, 10237);
     		},
     		l: function claim(nodes) {
