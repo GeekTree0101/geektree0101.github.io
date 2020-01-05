@@ -7,8 +7,8 @@
         source: "-",
     }
 
-    function didTapArticle() {
-        window.open(source)
+    function didTapArticle(sourceURLString) {
+        window.open(sourceURLString)
     }
 </script>
 
@@ -16,8 +16,8 @@
     id="article-node"
     data-aos="fade-up"
     data-aos-duration="500"
-    on:click={didTapArticle}>
-    <img src={viewModel.preview} />
+    on:click={() => didTapArticle(viewModel.source)}>
+    <img src={viewModel.preview} alt="" />
     <h1>{viewModel.title}</h1>
     <p>{viewModel.desc}</p>
 </div>

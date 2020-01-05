@@ -35,14 +35,16 @@
         }
     ];
 
-    function didTapInterestTag() {}
+    function didTapInterestTag(urlString) {
+        window.open(urlString)
+    }
 </script>
 
 <div id="interest-section" data-aos="zoom-in" data-aos-duration="500">
     <p id="bio">{bio}</p>
     <div id="interest-container" data-aos="zoom-in" data-aos-duration="500">
         {#each interests as interest}
-            <p id="interest-tag" on:click={didTapInterestTag}>{interest.name}</p>
+            <p id="interest-tag" on:click={() => didTapInterestTag(interest.url)}>{interest.name}</p>
         {/each}
     </div>
 </div>
