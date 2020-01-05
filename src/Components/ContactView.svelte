@@ -12,6 +12,9 @@
         }, {
             name: "@Texture-Slack",
             url: "https://asyncdisplaykit.slack.com/"
+        }, {
+            name: "@LinkedIn",
+            url: "https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/"
         }
     ];
 
