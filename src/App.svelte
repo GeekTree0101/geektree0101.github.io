@@ -85,6 +85,11 @@
                 desc: "How to make time stamp text UI with Texture",
                 preview: "https://cdn-images-1.medium.com/max/2000/1*8Mji-ra60rD0mbmbyjA4-g.gif",
                 source: "https://medium.com/@h2s1880/tic-toc-tic-toc-astimestampnode-e29d8ae66371"
+            }, {
+                title: "ASCollectionNode #1",
+                desc: "How to use an AScollectionNode?",
+                preview: "https://miro.medium.com/max/5056/1*2Y6Efz4kXNRvznzrl6s4nQ.png",
+                source: "https://medium.com/@h2s1880/ascollectionnode-%EB%8B%A4%EB%A3%A8%EA%B8%B0-1-f4f55151102b"
             }
         ],
         businessProjects: [
@@ -176,7 +181,6 @@
     <ArticleGroupView itemViewModels={articles.businessProjects}></ArticleGroupView>
     <SectionHeaderView title={sectionConst.internationalActivity}></SectionHeaderView>
     <ArticleGroupView itemViewModels={articles.internationalActivities}></ArticleGroupView>
-    <SectionHeaderView title={sectionConst.internationalActivity}></SectionHeaderView>
 	<ContactView title={sectionConst.contact}></ContactView>
 </main>
 

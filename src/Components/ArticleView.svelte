@@ -18,11 +18,17 @@
     data-aos-duration="500"
     on:click={() => didTapArticle(viewModel.source)}>
     <img src={viewModel.preview} alt="" />
-    <h1>{viewModel.title}</h1>
-    <p>{viewModel.desc}</p>
+    <div id="article-node-content">
+      <h1>{viewModel.title}</h1>
+      <p>{viewModel.desc}</p>
+    </div>
 </div>
 
 <style>
+
+    #article-node-content {
+        padding: 10pt
+    }
 
     #article-node {
         position: relative;

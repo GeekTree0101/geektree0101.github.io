@@ -8,7 +8,7 @@
     </div>
     <div id="banner-content">
         <h1>GEEKTREE0101</h1>
-        <p>iOS Developer @당근마켓</p>
+        <p>iOS Developer @Daangn Market(Karrot)</p>
     </div>
 </div>
 
