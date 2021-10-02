@@ -1,7 +1,6 @@
 baseURL = 'https://geektree0101.github.io/'
 languageCode = 'ko-KR'
 title = 'geektree0101.github.io'
-theme = 'somrat'
 
 # post pagination
 paginate = "6"
