@@ -74,6 +74,7 @@ author = "somrat"
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+ogimage = "images/david2.png"
   
 ############################# social site ########################
 [[params.social]]
