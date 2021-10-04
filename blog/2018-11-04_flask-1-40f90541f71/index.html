@@ -1,0 +1,199 @@
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>Flask사용하면서 느낀점 정리 #1</title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="내가 Flask 를 최근에 많이 가지고 논 이유는 다음과 같다.">
+<meta name=author content="somrat">
+<meta name=generator content="Hugo 0.88.1">
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/hover/hover.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/magnific-popup/magnific-popup.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.theme.default.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/text-animation/text-animation.css>
+<link rel=stylesheet href=https://geektree0101.github.io/css/style.min.css media=screen>
+<link rel=stylesheet href=https://geektree0101.github.io/css/custom.min.css media=screen>
+<link rel="shortcut icon" href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<link rel=icon href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<meta property="og:image" content="https://geektree0101.github.io/images/blog/1__4__iwzhEuTi8Cm83ueft7LA.png">
+<meta property="og:title" content="Flask사용하면서 느낀점 정리 #1">
+<meta property="og:description" content="내가 Flask 를 최근에 많이 가지고 논 이유는 다음과 같다.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://geektree0101.github.io/blog/2018-11-04_flask-1-40f90541f71/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2018-11-04T07:31:23+00:00">
+<meta property="article:modified_time" content="2018-11-04T07:31:23+00:00">
+</head><body>
+<div class=preloader>
+<img src=https://geektree0101.github.io/images/preloader.gif alt=preloader>
+</div>
+<section class="menu menu-fix" id=home>
+<nav>
+<div class="menu-container menu-normal">
+<ul class="desktop-menu list-inline mb-0 justify-content-end" id=desktop-menu>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<div class=mobile-menu>
+<a class=menu-link>
+<div class=mobile-menu-nav>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</a>
+<div class=menu-slider>
+<nav>
+<ul class=mobile-menu-list>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<ul class="mobile-menu-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</nav>
+</section>
+<div style=height:50px></div>
+<section class=section>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
+<img src=https://geektree0101.github.io/images/blog/1__4__iwzhEuTi8Cm83ueft7LA.png alt=image class="img-fluid w-100 mb-5">
+<div class="about-me-text mb-4">
+<h1>Flask사용하면서 느낀점 정리 #1</h1>
+</div>
+<div class=content><p><img src=/images/blog/1__4__iwzhEuTi8Cm83ueft7LA.png alt></p>
+<p>내가 Flask 를 최근에 많이 가지고 논 이유는 다음과 같다.</p>
+<ul>
+<li>코드 많이 쓰기 <strong>귀찮아서</strong></li>
+<li>간만에 Node로 때우자니 이전에 사용했던 경험 되살리기 <strong>귀찮아서</strong></li>
+<li>Xcode랑 AppCode빼고 남아있는게 PyCharm 밖에 없고 vscode사용하자니 내 입맛대로 셋팅하자니 <strong>귀찮아서</strong></li>
+</ul>
+<p>그냥 귀찮아서…</p>
+<p>용불용설이라고… 했던거 한동안 안하면 까먹거나 가물가물한다.</p>
+<p>요즘엔 AWS가 핫하지 않습니꽈, 특히 lambda (회사 생활하면서 주로 간접적으로 체감했던거라)</p>
+<p>그리고 dynamoDB, 솔직히 이번 포스팅하면서 첨 접하는거라 약간의 룰정도만 익히고 PynamoDB를 씁니다.</p>
+<p><a href=https://github.com/pynamodb/PynamoDB title=https://github.com/pynamodb/PynamoDB><strong>pynamodb/PynamoDB</strong><br>
+_A pythonic interface to Amazon&rsquo;s DynamoDB. Contribute to pynamodb/PynamoDB development by creating an account on…_github.com</a><a href=https://github.com/pynamodb/PynamoDB></a></p>
+<p>참 잘만든 라이브러리인거 같습니다. 언능 star 1,000 달성하길 기원합니다.</p>
+<p>우선 Model 대충 맹글어봅시다.</p>
+<p>from pynamodb.models import Model<br>
+from pynamodb.attributes import (<br>
+NumberAttribute,<br>
+UnicodeAttribute<br>
+)</p>
+<p>class User(Model):</p>
+<pre><code>class Meta:  
+    table\_name = 'User'  
+    read\_capacity\_units = 1  
+    write\_capacity\_units = 1  
+    host = &quot;http://localhost:8000&quot;  
+
+id = NumberAttribute(hash\_key=True)  
+username = UnicodeAttribute()  
+bio = UnicodeAttribute()
+</code></pre>
+<p>역시 귀찮아서 저는 Local DB를 사용하겠습니다. Table이름과 read_capacity, write_capacity를 Meta에 define해주고 제가 사용하고자 하는 property 들을 작성해줍니다. (id/username/bio)</p>
+<p>대충 user.json 만들어서 seed 때려줍니다. 그리고 user API가 있는 user_service blue print는 app객체에 register_blueprint해줍니다.</p>
+<p>from flask import Flask<br>
+from user_service import user_service<br>
+import db</p>
+<p>app = Flask(__name__)<br>
+db.seed() &lt;&ndash; 여기<br>
+app.register_blueprint(user_service)</p>
+<p>if __name__ == &ldquo;__main__":<br>
+app.run()</p>
+<p>bluePrint쓰는건 체계적으로 설계하기 위함입니다. 한 페이지에 API 로직 다 때려박는건 저도 원치않습니다. 아무리 귀찮아도 blueprint를 써야겠습니다.</p>
+<p>user_service.py 에 대충 GET user/{id} 만 대충맹글어봅니다.</p>
+<p>from flask import Blueprint, make_response, jsonify, request<br>
+from models.user import User</p>
+<p>user_service = Blueprint(&ldquo;users&rdquo;, __name__, url_prefix="/users&rdquo;)</p>
+<p>@user_service.route("/<a href=int:id>int:id</a>", methods=[&ldquo;GET&rdquo;])<br>
+def get_user(id: int):<br>
+user: User</p>
+<pre><code>try:  
+    user = User.get(id)  
+except User.DoesNotExist:  
+    return make\_response(&quot;Not Found&quot;, 404)  
+
+res\_obj = {  
+    &quot;data&quot;: {  
+        &quot;username&quot;: user.username,  
+        &quot;bio&quot;: user.bio  
+    }  
+}  
+return make\_response(jsonify(res\_obj), 200)
+</code></pre>
+<p>data object로 처리하는 이유는 나중에 after key를 추가해서 user list pagination 를 만들기 위해서입니다. (솔직히 Vingle 백엔드 개발자분들 이런거 뚝딱 만들어 내는거 보면 자랑스럽습니다.)</p>
+<p><img src=/images/blog/1__tngd1yo__NW9mOoAIpEneRg.jpeg alt></p>
+<p>파잘개(파이썬 잘아는 개발자)님들에게는 제 코드가 마치 뭔가 냄새나는 코드같겠지만, <strong>“아 글쓴분 iOS 개발자지”</strong> 하고 대충 그려려니 이해해줍시다.</p>
+<p>한번 대충 Postman으로 GET 때려봅시다.</p>
+<p><img src=/images/blog/1__6YQZyoMvkp__NXnb14N__7KA.png alt></p>
+<p>사실 어제 술을 많이마셔서 만사가 귀찮은데도 여기까지 한 제 자신을 보고 박수라도 쳐주고 싶었습니다.</p>
+<p>시작이 반 아니겠습니까.</p>
+<p>대충 Pagination도 구현해봅시다.</p>
+<p>@user_service.route("/list", methods=[&ldquo;GET&rdquo;])<br>
+def get_user_list():</p>
+<p>API는 GET users/list 으로 정의하겠습니다.</p>
+<p>그리고 DynamoDB Docs에서 대충 제눈에 들어오는게 <strong>last_evaluated_key</strong> 가 보이는군요 이걸 after key의 value로 넣으면 되지않을까 생각하고 대충 만들어서 API를 호출해봅니다.</p>
+<p><img src=/images/blog/1__ENgP4z2l6yHyelXRzm____Uw.png alt>
+<img src=/images/blog/1__zRbZRuyMoxKdD72BP43crg.png alt></p>
+<p>뭔가 엉성하지만 제가 원하는 느낌으로 연출되는거 같습니다.</p>
+<p>자세한건 <a href=https://github.com/pynamodb/PynamoDB/issues/248>https://github.com/pynamodb/PynamoDB/issues/248</a></p>
+<p>상단 issue에 많은 PynamoDB 팬 분들이 자세히?토론을 해주셔서 저 또한 도움 잘받은거 같습니다.</p>
+<p>숙취해소 되고나면 느낌점 #2로 돌아오겠습니다.</p>
+<p>(주의: 맘 변심해서 안돌아 올수도 있음)</p>
+<p>example source code:</p>
+<p><a href=https://gist.github.com/GeekTree0101/4005bfd63a1dab7f9a5f3039cf50075f>https://gist.github.com/GeekTree0101/4005bfd63a1dab7f9a5f3039cf50075f</a></p>
+</div>
+<div class="tags mt-4 content">
+<i class="fas fa-tags mr-2"></i>
+<a href=https://geektree0101.github.io/tags/python>Python</a>, <a href=https://geektree0101.github.io/tags/flask>Flask</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
+<div class=container>
+<div class=row>
+<div class="footer col-lg-10 offset-lg-1">
+<hr>
+<ul class="footer-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+<div class=to-top>
+<a href=#home><i class="fa fa-chevron-up"></i></a>
+</div>
+<div class="credit content">
+Copyright © 2021 a hugo theme by <a href=https://somrat.netlify.com>somrat</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://geektree0101.github.io/plugins/jQuery/jquery.min.js></script>
+<script src=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://geektree0101.github.io/plugins/wow.min.js></script>
+<script src=https://geektree0101.github.io/plugins/text-animation/text-animation.js></script>
+<script src=https://geektree0101.github.io/plugins/jquery.waypoints.min.js></script>
+<script src=https://geektree0101.github.io/plugins/shuffle/shuffle.min.js></script>
+<script src=https://geektree0101.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js></script>
+<script src=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.js></script>
+<script src=https://geektree0101.github.io/js/script.min.js></script>
+</body>
+</html>

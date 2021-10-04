@@ -1,0 +1,169 @@
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>Model-View-Intent with Texture</title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="1. Model">
+<meta name=author content="somrat">
+<meta name=generator content="Hugo 0.88.1">
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/hover/hover.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/magnific-popup/magnific-popup.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.theme.default.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/text-animation/text-animation.css>
+<link rel=stylesheet href=https://geektree0101.github.io/css/style.min.css media=screen>
+<link rel=stylesheet href=https://geektree0101.github.io/css/custom.min.css media=screen>
+<link rel="shortcut icon" href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<link rel=icon href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<meta property="og:image" content="https://geektree0101.github.io/images/blog/1__gaecppjo99HOwc6cQdwtzw.png">
+<meta property="og:title" content="Model-View-Intent with Texture">
+<meta property="og:description" content="1. Model">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://geektree0101.github.io/blog/2018-08-11_model-view-intent-with-texture-3ce1b4e01b1e/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2018-08-11T06:24:40+00:00">
+<meta property="article:modified_time" content="2018-08-11T06:24:40+00:00">
+</head><body>
+<div class=preloader>
+<img src=https://geektree0101.github.io/images/preloader.gif alt=preloader>
+</div>
+<section class="menu menu-fix" id=home>
+<nav>
+<div class="menu-container menu-normal">
+<ul class="desktop-menu list-inline mb-0 justify-content-end" id=desktop-menu>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<div class=mobile-menu>
+<a class=menu-link>
+<div class=mobile-menu-nav>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</a>
+<div class=menu-slider>
+<nav>
+<ul class=mobile-menu-list>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<ul class="mobile-menu-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</nav>
+</section>
+<div style=height:50px></div>
+<section class=section>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
+<img src=https://geektree0101.github.io/images/blog/1__gaecppjo99HOwc6cQdwtzw.png alt=image class="img-fluid w-100 mb-5">
+<div class="about-me-text mb-4">
+<h1>Model-View-Intent with Texture</h1>
+</div>
+<div class=content><p><img src=/images/blog/1__gaecppjo99HOwc6cQdwtzw.png alt>
+<img src=/images/blog/1__qhW165H54x0YCHa66CxV7A.png alt>
+<img src=/images/blog/1__7jKNFrN__a4Tb2TngUv7L8g.png alt></p>
+<h3 id=1-model>1. Model</h3>
+<p><img src=/images/blog/1__sAglVgbeJqi__T0pEVIzP8A.png alt></p>
+<p>ASRenderModelProtocol & ASRenderModelIdentifier is convenience ID object & protocol for identifying the model on ASModelSyncronizer.</p>
+<p>ASModelSyncronizer is model manager base on model unique identifier.</p>
+<p><img src=/images/blog/1__rwB6o__BG7IThfmgp4eM8hA.png alt></p>
+<p>it is work concurrent on background scheduler with thread safty</p>
+<p><img src=/images/blog/1__vs4RQRnAc__t4__ycnLtR2oQ.png alt></p>
+<p>You can inherit ASRenderModelProtocol on your basic model object</p>
+<p>and you should make some business logic like this</p>
+<p><img src=/images/blog/1__4XiBTCbUuUzBP1sVTpYU7Q.png alt>
+<img src=/images/blog/1__QG7vYSOayPBJjusNSFrSOw.png alt></p>
+<h3 id=2-view--intentauto>2. View & Intent(Auto)</h3>
+<p>I said my goal that All subnode attributes must initialize before Node initialize completes.</p>
+<p><a href=https://github.com/GeekTree0101/RxMVVM-Texture title=https://github.com/GeekTree0101/RxMVVM-Texture><strong>GeekTree0101/RxMVVM-Texture</strong><br>
+_RxMVVM-Texture - RxSwift MVVM pattern best practice built on Texture(AsyncDisplayKit) and written in Swift_github.com</a><a href=https://github.com/GeekTree0101/RxMVVM-Texture></a></p>
+<p>In upper repo case, You can see that alll subnode initialize asynchronously.</p>
+<p><img src=/images/blog/1__BkG9niN2fHR8__h6B3DLa5Q.png alt></p>
+<p>Even after the supernode completes its initialization, all subnode doesn’t know that their property values have been initialized by themselves.</p>
+<p>At first, intent will initialized with model</p>
+<p><img src=/images/blog/1__0t4jymhOE5H0redt__sISTw.png alt></p>
+<p>and next, intent should be subscribe with business logic (mutation closure)</p>
+<p><img src=/images/blog/1__Aivkga9Nmjc12Qn8mFdZ8w.png alt></p>
+<ul>
+<li>Mutation is business logic closure</li>
+<li>update(to:) is update target view property, it means output</li>
+<li>interact(from:) means input</li>
+</ul>
+<p>If you needs update layout after binding value. then insert update target node on update(to:) setNeedsLayout parameter.</p>
+<p><img src=/images/blog/1__K__lprGln46E__NiD__zXn3Bg.png alt></p>
+<p>You can see that all subnode attributes initialized before Node initialize completes from upper diagram.</p>
+<h3 id=3-workflow>3. WorkFlow</h3>
+<p><img src=/images/blog/1__b__OG__upyDorXwhocjRAUkA.gif alt></p>
+<ol>
+<li>User will touch profile Image. At that time, profile view will emit tap event</li>
+<li>profile tap event will call image download from backend service</li>
+</ol>
+<p><img src=/images/blog/1__o5l5Zk51Xu__pIsiXbBvHxw.png alt></p>
+<p>3. ASModelSyncronizer will automatically update all of identified user model with business logic.</p>
+<p><img src=/images/blog/1__CLTN32Cd4qTO1E__RB7W60Q.png alt>
+<img src=/images/blog/1__69RVNoB0ggmzTWgngbwDRw.png alt>
+<img src=/images/blog/1__LRL2EWOmEWEXExPAqyj6__Q.png alt>
+<img src=/images/blog/1__D3ARjHWZcq9YQQ4mdQLV__Q.png alt>
+<img src=/images/blog/1__vA3nvcyHZM__kj6qqqXmSiQ.png alt></p>
+<p>[1 ~ 2] user interaction > emit > intent</p>
+<p>[2 ~3 ] intent > backend-service</p>
+<p>[3 ~ 4 ] backend service > mutation closure for update model</p>
+<p>[4 ~ 5] mutation > model update</p>
+<p>[5 ~ 6] model > mutation closure for update view</p>
+<p><a href=https://github.com/GeekTree0101/RxCocoa-Texture title=https://github.com/GeekTree0101/RxCocoa-Texture><strong>GeekTree0101/RxCocoa-Texture</strong><br>
+_RxCocoa-Texture - RxCocoa Extension Library for Texture._github.com</a><a href=https://github.com/GeekTree0101/RxCocoa-Texture></a></p>
+</div>
+<div class="tags mt-4 content">
+<i class="fas fa-tags mr-2"></i>
+<a href=https://geektree0101.github.io/tags/ios>Ios</a>, <a href=https://geektree0101.github.io/tags/texture>Texture</a>, <a href=https://geektree0101.github.io/tags/framework>Framework</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
+<div class=container>
+<div class=row>
+<div class="footer col-lg-10 offset-lg-1">
+<hr>
+<ul class="footer-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+<div class=to-top>
+<a href=#home><i class="fa fa-chevron-up"></i></a>
+</div>
+<div class="credit content">
+Copyright © 2021 a hugo theme by <a href=https://somrat.netlify.com>somrat</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://geektree0101.github.io/plugins/jQuery/jquery.min.js></script>
+<script src=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://geektree0101.github.io/plugins/wow.min.js></script>
+<script src=https://geektree0101.github.io/plugins/text-animation/text-animation.js></script>
+<script src=https://geektree0101.github.io/plugins/jquery.waypoints.min.js></script>
+<script src=https://geektree0101.github.io/plugins/shuffle/shuffle.min.js></script>
+<script src=https://geektree0101.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js></script>
+<script src=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.js></script>
+<script src=https://geektree0101.github.io/js/script.min.js></script>
+</body>
+</html>

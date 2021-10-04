@@ -1,0 +1,180 @@
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>Vingle Texture Style guide</title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="We hope anybody who loves iOS and Texture find this helpful!">
+<meta name=author content="somrat">
+<meta name=generator content="Hugo 0.88.1">
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/hover/hover.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/magnific-popup/magnific-popup.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.theme.default.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/text-animation/text-animation.css>
+<link rel=stylesheet href=https://geektree0101.github.io/css/style.min.css media=screen>
+<link rel=stylesheet href=https://geektree0101.github.io/css/custom.min.css media=screen>
+<link rel="shortcut icon" href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<link rel=icon href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<meta property="og:image" content="https://geektree0101.github.io/images/blog/1__bLxgJzoG5ktMJ5ZLSNgu5A.png">
+<meta property="og:title" content="Vingle Texture Style guide">
+<meta property="og:description" content="We hope anybody who loves iOS and Texture find this helpful!">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://geektree0101.github.io/blog/blog18/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2019-02-14T12:53:17+00:00">
+<meta property="article:modified_time" content="2019-02-14T12:53:17+00:00">
+</head><body>
+<div class=preloader>
+<img src=https://geektree0101.github.io/images/preloader.gif alt=preloader>
+</div>
+<section class="menu menu-fix" id=home>
+<nav>
+<div class="menu-container menu-normal">
+<ul class="desktop-menu list-inline mb-0 justify-content-end" id=desktop-menu>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<div class=mobile-menu>
+<a class=menu-link>
+<div class=mobile-menu-nav>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</a>
+<div class=menu-slider>
+<nav>
+<ul class=mobile-menu-list>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<ul class="mobile-menu-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</nav>
+</section>
+<div style=height:50px></div>
+<section class=section>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
+<img src=https://geektree0101.github.io/images/blog/1__bLxgJzoG5ktMJ5ZLSNgu5A.png alt=image class="img-fluid w-100 mb-5">
+<div class="about-me-text mb-4">
+<h1>Vingle Texture Style guide</h1>
+</div>
+<div class=content><p><img src=/images/blog/1__bLxgJzoG5ktMJ5ZLSNgu5A.png alt></p>
+<p>We hope anybody who loves iOS and Texture find this guide helpful!</p>
+<h3 id=1-making-ui-components>1. Making UI Components</h3>
+<p><img src=/images/blog/1__Twwe1zjnmZ3wyKEs__2AfcQ.png alt></p>
+<ul>
+<li>use <strong>lazy property</strong> for <strong>Conditional</strong> UI Component.</li>
+</ul>
+<blockquote>
+<p>otherwise, you end up doing unnecessary allocation and computation even when given UI Component is not used at all</p>
+</blockquote>
+<ul>
+<li>Don’t use node generate <strong>function</strong>!</li>
+</ul>
+<p><img src=/images/blog/1__kIr__jgcKqwkwYJVKCU7Ezw.png alt></p>
+<p>We recommend to use <a href=http://texturegroup.org/docs/automatic-subnode-mgmt.html><strong>automaticallyManagesSubnodes</strong></a> instead of <strong>addSubnode</strong>.</p>
+<p><img src=/images/blog/1__e5jR9wmC1wRFsjIZ5y__p6A.png alt></p>
+<ul>
+<li>Place all UI Component attributes in Const structure.</li>
+</ul>
+<h3 id=2-layoutspec>2. LayoutSpec</h3>
+<p><img src=/images/blog/1__8A5IoN9DS__4RsdvpBSnNbA.png alt></p>
+<ul>
+<li><code>// MARK:</code> and <code>// MARK: -</code> is Swift equivalent of <code>#pragma mark</code> and <code>#pragma mark -</code> in Objective-C.</li>
+</ul>
+<p><img src=/images/blog/1__GjxLigCW__t4gVTHxHnnSPQ.png alt></p>
+<ul>
+<li>Recommended use extension for layoutSpec <a href=https://en.wikipedia.org/wiki/Cohesion_%28computer_science%29><strong>code cohesion</strong></a> <strong>& readability.</strong></li>
+<li>Do not put all the codes at layoutSpecThatFits: for readability sake</li>
+<li>Meaningful layoutSpec separation. (<a href=https://medium.com/@h2s1880/texture-best-practice-2-7259bde869ee>Article</a>)</li>
+<li>Method name must ends with“<strong>LayoutSpec”.</strong></li>
+<li>Local layoutSpec variable name must ends with “<strong>Layout”.</strong></li>
+</ul>
+<p>override func layoutSpecThatFits(:) -> ASLayoutSpec {</p>
+<pre><code>let ~~~~layout = ~~~~layoutSpec(:)
+</code></pre>
+<p>}</p>
+<p><img src=/images/blog/1__bSxdgAPLttQG0zpXOXagyA.png alt></p>
+<ul>
+<li><a href=https://yogalayout.com/><strong>FlexBox</strong></a> attribute should be defined at layoutSpecThatFits:</li>
+<li>Recommended to create a flex-style sugar code as shown in the screenshot below.</li>
+</ul>
+<p><img src=/images/blog/1__c552Tfu0sXqSqJ9jDrLsoQ.png alt></p>
+<h3 id=3-any-main-thread-view-related-property-accesses-must-be-handled-at-didloadmethod>3. Any main thread view related property accesses must be handled at didLoad method.</h3>
+<p><img src=/images/blog/1__6Yx____JQ3cH9RKPfV5ZlCTw.png alt>
+<img src=/images/blog/1__liKpDo7NYOBgnNA2__TxdHA.png alt></p>
+<h3 id=4-reactive-programming-rxswift>4. Reactive Programming (* RxSwift)</h3>
+<p><a href=https://github.com/RxSwiftCommunity/RxCocoa-Texture/blob/master/Example/RxCocoa-Texture/RepositoryListCellNode.swift title=https://github.com/RxSwiftCommunity/RxCocoa-Texture/blob/master/Example/RxCocoa-Texture/RepositoryListCellNode.swift><strong>RxSwiftCommunity/RxCocoa-Texture</strong><br>
+_RxCocoa Extension Library for Texture. Contribute to RxSwiftCommunity/RxCocoa-Texture development by creating an…_github.com</a><a href=https://github.com/RxSwiftCommunity/RxCocoa-Texture/blob/master/Example/RxCocoa-Texture/RepositoryListCellNode.swift></a></p>
+<p>RxCocoa doesn’t support Texture, So if you wanna use Rx, than download RxCocoa-Texture!. <em>Currently, it maintained by</em> <a href=https://careers.vingle.net/#/engineering/ios><em>Vingle Inc</em></a><em>.</em></p>
+<p>Please read <a href=https://github.com/RxSwiftCommunity/RxCocoa-Texture/blob/master/README.md>README.md</a></p>
+<p><img src=/images/blog/1__MVmmWPWGAPZBZvZjChUFqw.png alt></p>
+<ul>
+<li>Binding Logic has to be separate by using extension for <a href=https://en.wikipedia.org/wiki/Cohesion_%28computer_science%29><strong>code cohesion</strong></a> <strong>& readability.</strong></li>
+</ul>
+<p><img src=/images/blog/1__ItVvWSozCNUDBxfVwdunvg.png alt></p>
+<ul>
+<li>Do not access directly target node from outside.</li>
+<li>It is recommended to create <strong>reactive extension</strong>.</li>
+</ul>
+<h4 id=complex-example>Complex Example</h4>
+<p><img src=/images/blog/1__ITnqfOszUVIimLTxrGhGwA.png alt></p>
+<p>Vingle iOS팀은 수많은 사람들이 매일 새로운 관심사와 커뮤니티를 발견하는 빙글앱을 만들어 나갑니다.</p>
+<p><a href=https://careers.vingle.net/#/engineering/ios title=https://careers.vingle.net/#/engineering/ios><strong>[채용 공고] Vingle에서 함께 성장할 동료를 찾고 있습니다</strong><br>
+_관심사로 세상을 잇다! 관심사 기반 SNS, Vingle_careers.vingle.net</a><a href=https://careers.vingle.net/#/engineering/ios></a></p>
+</div>
+<div class="tags mt-4 content">
+<i class="fas fa-tags mr-2"></i>
+<a href=https://geektree0101.github.io/tags/ios>Ios</a>, <a href=https://geektree0101.github.io/tags/texture>Texture</a>, <a href=https://geektree0101.github.io/tags/vingle>Vingle</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
+<div class=container>
+<div class=row>
+<div class="footer col-lg-10 offset-lg-1">
+<hr>
+<ul class="footer-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+<div class=to-top>
+<a href=#home><i class="fa fa-chevron-up"></i></a>
+</div>
+<div class="credit content">
+Copyright © 2021 a hugo theme by <a href=https://somrat.netlify.com>somrat</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://geektree0101.github.io/plugins/jQuery/jquery.min.js></script>
+<script src=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://geektree0101.github.io/plugins/wow.min.js></script>
+<script src=https://geektree0101.github.io/plugins/text-animation/text-animation.js></script>
+<script src=https://geektree0101.github.io/plugins/jquery.waypoints.min.js></script>
+<script src=https://geektree0101.github.io/plugins/shuffle/shuffle.min.js></script>
+<script src=https://geektree0101.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js></script>
+<script src=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.js></script>
+<script src=https://geektree0101.github.io/js/script.min.js></script>
+</body>
+</html>

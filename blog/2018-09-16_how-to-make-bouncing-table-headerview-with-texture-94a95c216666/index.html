@@ -1,0 +1,149 @@
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>How to make Bouncing Table HeaderView with Texture?</title>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=description content="1. Define Bouncing Area">
+<meta name=author content="somrat">
+<meta name=generator content="Hugo 0.88.1">
+<link rel=preconnect href=https://fonts.gstatic.com>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/hover/hover.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/magnific-popup/magnific-popup.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/owl-carousel/owl.theme.default.min.css>
+<link rel=stylesheet href=https://geektree0101.github.io/plugins/text-animation/text-animation.css>
+<link rel=stylesheet href=https://geektree0101.github.io/css/style.min.css media=screen>
+<link rel=stylesheet href=https://geektree0101.github.io/css/custom.min.css media=screen>
+<link rel="shortcut icon" href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<link rel=icon href=https://geektree0101.github.io/images/favicon.png type=image/x-icon>
+<meta property="og:image" content="https://geektree0101.github.io/images/blog/1__COQcKhtNUWZpsrajD88mtA.gif">
+<meta property="og:title" content="How to make Bouncing Table HeaderView with Texture?">
+<meta property="og:description" content="1. Define Bouncing Area">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://geektree0101.github.io/blog/2018-09-16_how-to-make-bouncing-table-headerview-with-texture-94a95c216666/"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2018-09-16T03:44:57+00:00">
+<meta property="article:modified_time" content="2018-09-16T03:44:57+00:00">
+</head><body>
+<div class=preloader>
+<img src=https://geektree0101.github.io/images/preloader.gif alt=preloader>
+</div>
+<section class="menu menu-fix" id=home>
+<nav>
+<div class="menu-container menu-normal">
+<ul class="desktop-menu list-inline mb-0 justify-content-end" id=desktop-menu>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="menu-item menu-item-transparent dark hvr-underline-from-left 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<div class=mobile-menu>
+<a class=menu-link>
+<div class=mobile-menu-nav>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</a>
+<div class=menu-slider>
+<nav>
+<ul class=mobile-menu-list>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/>Home</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#blog>Post</a></li>
+<li class="hvr-shutter-out-vertical mobile-menu-item 1"><a href=https://geektree0101.github.io/#about>About me</a></li>
+</ul>
+<ul class="mobile-menu-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</nav>
+</section>
+<div style=height:50px></div>
+<section class=section>
+<div class=container>
+<div class=row>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
+<img src=https://geektree0101.github.io/images/blog/1__COQcKhtNUWZpsrajD88mtA.gif alt=image class="img-fluid w-100 mb-5">
+<div class="about-me-text mb-4">
+<h1>How to make Bouncing Table HeaderView with Texture?</h1>
+</div>
+<div class=content><p><img src=/images/blog/1__COQcKhtNUWZpsrajD88mtA.gif alt>
+<img src=/images/blog/1__JVC6__iU6hYzTc2iguVMcFQ.gif alt></p>
+<h3 id=1-define-bouncingarea>1. Define Bouncing Area</h3>
+<p><img src=/images/blog/1__556GWqJNticmvfIlGthjBw.png alt></p>
+<h3 id=2-make-constraints-bouncing-areanode>2. Make Constraints Bouncing Area Node</h3>
+<p><img src=/images/blog/1__GaNAmRcX1wSa2eBTEtW__gw.png alt></p>
+<p>Unfortunately, Recently Texture doesn’t support tableHeaderNode (In Texture 2.7)</p>
+<p>Well you know that ASDisplayNode is built on UIView. So, you just use view property from node like a upper source code.</p>
+<p><img src=/images/blog/1__0lChKUQUrolhjLeYxC7RnQ.png alt></p>
+<p>Also, you can see that backgroundView(bounding area view) setup with fixed height value. (ProfileHeaderNode.Const.defaultHeight)</p>
+<p>Because of <strong>consistency.</strong></p>
+<blockquote>
+<p>In my subjective opinion, If height of bouncing area UI doesn’t consistency then it will occur bad user experience.</p>
+</blockquote>
+<p><img src=/images/blog/1__5S2YLMhaSWZ05E9teHj8aA.png alt></p>
+<h3 id=3-update-bouncing-area-node-size-with-scrolloffset>3. Update Bouncing Area Node Size with scroll offset</h3>
+<p><img src=/images/blog/1__kY0KpZUkN632S6pK9Uaw7Q.png alt>
+<img src=/images/blog/1__Y__yU8yMbXfFhWodQiWvM5A.png alt></p>
+<p>Although, Texture doesn’t use apple constraints system. Recently Texture doesn’t support node for TableHeaderView. In this case, bouncing header view should lean on constraints system.</p>
+<p>In Summary:</p>
+<p><img src=/images/blog/1__JkA42Ug4dFSJWfDJkHh8Cg.png alt></p>
+<h3 id=4-bounus-bouncing-background-image>4. Bounus: Bouncing Background Image</h3>
+<p><img src=/images/blog/1__j__Xqsnmv4d59rqriRJZ65w.png alt></p>
+<blockquote>
+<p>If you wanna [bouncing background image] like this article example screen. you should setup contentMode as scaleAspeacFill</p>
+</blockquote>
+<p>Thank you!</p>
+<p><img src=/images/blog/1__Z____kOz__uzBDl5z4w6RzJBg.png alt></p>
+<p><a href=https://careers.vingle.net/#/engineering/ios title=https://careers.vingle.net/#/engineering/ios><strong>[채용 공고] Vingle에서 함께 성장할 동료를 찾고 있습니다</strong><br>
+_관심사로 세상을 잇다! 관심사 기반 SNS, Vingle_careers.vingle.net</a><a href=https://careers.vingle.net/#/engineering/ios></a></p>
+<blockquote>
+<p>We are looking for colleagues to grow together in Vingle!</p>
+</blockquote>
+</div>
+<div class="tags mt-4 content">
+<i class="fas fa-tags mr-2"></i>
+<a href=https://geektree0101.github.io/tags/ios>Ios</a>, <a href=https://geektree0101.github.io/tags/texture>Texture</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
+<div class=container>
+<div class=row>
+<div class="footer col-lg-10 offset-lg-1">
+<hr>
+<ul class="footer-icons list-inline">
+<li><a href="https://www.facebook.com/profile.php?id=100009249402427"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href=https://github.com/Geektree0101><i class="fab fa-github"></i></a></li>
+<li><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/><i class="fab fa-linkedin"></i></a></li>
+</ul>
+<div class=to-top>
+<a href=#home><i class="fa fa-chevron-up"></i></a>
+</div>
+<div class="credit content">
+Copyright © 2021 a hugo theme by <a href=https://somrat.netlify.com>somrat</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://geektree0101.github.io/plugins/jQuery/jquery.min.js></script>
+<script src=https://geektree0101.github.io/plugins/bootstrap/bootstrap.min.js></script>
+<script src=https://geektree0101.github.io/plugins/wow.min.js></script>
+<script src=https://geektree0101.github.io/plugins/text-animation/text-animation.js></script>
+<script src=https://geektree0101.github.io/plugins/jquery.waypoints.min.js></script>
+<script src=https://geektree0101.github.io/plugins/shuffle/shuffle.min.js></script>
+<script src=https://geektree0101.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js></script>
+<script src=https://geektree0101.github.io/plugins/owl-carousel/owl.carousel.min.js></script>
+<script src=https://geektree0101.github.io/js/script.min.js></script>
+</body>
+</html>
