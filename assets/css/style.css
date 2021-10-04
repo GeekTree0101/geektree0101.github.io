@@ -2316,6 +2316,7 @@ textarea.form-control::-webkit-input-placeholder,
 .card-img-wrapper{
   overflow: hidden;
   display: block;
+  max-height: 300pt;
 }
 
 .card:hover .card-img-top{
