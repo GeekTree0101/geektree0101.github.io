@@ -1,5 +1,5 @@
 ---
-title: "Posts"
+title: "POST"
 description: "This is meta description."
 draft: false
 

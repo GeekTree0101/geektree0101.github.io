@@ -116,9 +116,6 @@
             <span></span>
           </div>
         </a>
-        <div class="mobile-menu-logo"><a href="{{site.BaseURL | relLangURL }}"><img class="img-fluid"
-              src="{{ site.Params.logo_dark | absURL }}" alt="{{ site.Title }}"></a>
-        </div>
         <div class="menu-slider">
           <nav>
             <ul class="mobile-menu-list">
@@ -239,25 +236,6 @@
           </li>
           {{ end }}
         </ul>
-      </div>
-      {{ end }}
-      {{ end }}
-
-      {{ with .Params.skill }}
-      {{ if .enable }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <span class="skill-bar-percent">{{ .percentage }}</span>
-            <div class="skillbar" data-percent="{{ .percentage }}">
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
       </div>
       {{ end }}
       {{ end }}

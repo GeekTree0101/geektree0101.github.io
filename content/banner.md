@@ -6,7 +6,6 @@ last_name : "Ha"
 bg_image : "images/david2.png"
 # animated text loop
 occupations:
-- "你好世界"
 - "iOS Develper"
 - "Karrot Global Product Software Engineer"
 - "Everything consists of 0 and 1 in the world"
