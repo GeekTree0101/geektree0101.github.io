@@ -67,13 +67,13 @@ logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 logo_width = "150px"
 # Meta data
-description = "This is meta description"
-author = "somrat"
+description = "Everything consists of 0 and 1 in the world"
+author = "Geektree0101"
 
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+preloader = "images/geektree0101.png" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
 [[params.social]]
