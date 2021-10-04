@@ -1983,6 +1983,13 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
+
+@media (max-width: 400px) {
+  .animated-text {
+    font-size: 14px;
+  }
+}
+
 @media(max-width: 468px) and (max-height: 440px) {
   .full-nav-container {
     margin-bottom: 30px;
