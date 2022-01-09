@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bug on geektree0101.github.io</title><link>https://geektree0101.github.io/tags/bug/</link><description>Recent content in bug on geektree0101.github.io</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright &amp;copy; 2021 a hugo theme by [somrat](https://somrat.netlify.com)</copyright><lastBuildDate>Sat, 19 Sep 2020 09:25:48 +0000</lastBuildDate><atom:link href="https://geektree0101.github.io/tags/bug/index.xml" rel="self" type="application/rss+xml"/><item><title>iOS 14 CTTelephonyNetworkInfo</title><link>https://geektree0101.github.io/blog/blog8/</link><pubDate>Sat, 19 Sep 2020 09:25:48 +0000</pubDate><guid>https://geektree0101.github.io/blog/blog8/</guid><description>iOS 13 이하에선 serviceSubscriberCellularProviders 를 출력하면 국내 디바이스에선 듀얼 유심이 아니기 때문에 CTCarrier 반환값은 한개만 나온다.</description></item><item><title>Texture 2.7: RxSwift와 setNeedsLayout에 대한 고찰</title><link>https://geektree0101.github.io/blog/2018-08-03_texture-2-7-rxswift-setneedslayout-298609b85e1f/</link><pubDate>Fri, 03 Aug 2018 17:05:52 +0000</pubDate><guid>https://geektree0101.github.io/blog/2018-08-03_texture-2-7-rxswift-setneedslayout-298609b85e1f/</guid><description>Texture 2.7에서 많은 변화가 있었습니다. iOS 11 iPhoneX safeArea를 node 어디서든 적용할 수 있게 되었을 뿐만 아니라 전반적으로 퍼포먼스가 상향되었습니다.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bug on Geektree0101</title><link>/tags/bug/</link><description>Recent content in bug on Geektree0101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 19 Sep 2020 09:25:48 +0000</lastBuildDate><atom:link href="/tags/bug/index.xml" rel="self" type="application/rss+xml"/><item><title>iOS 14 CTTelephonyNetworkInfo</title><link>/blog/blog8/</link><pubDate>Sat, 19 Sep 2020 09:25:48 +0000</pubDate><guid>/blog/blog8/</guid><description>iOS 13 이하에선 serviceSubscriberCellularProviders 를 출력하면 국내 디바이스에선 듀얼 유심이 아니기 때문에 CTCarrier 반환값은 한개만 나온다.
+iOS 14에서 serviceSubscriberCellularProviders 를 출력하면 아래와 같은 값을 반환한다.
+▿ Optional&amp;lt;Dictionary&amp;lt;String, CTCarrier&amp;raquo;
+▿ some : 2 elements
+▿ 0 : 2 elements
+- key : &amp;ldquo;0000000100000002&amp;rdquo;
+- value : CTCarrier (0x282b9ae80) {
+Carrier name: []
+Mobile Country Code: []
+Mobile Network Code:[]
+ISO Country Code:[]
+Allows VOIP? [YES]
+}
+▿ 1 : 2 elements</description></item><item><title>Texture 2.7: RxSwift와 setNeedsLayout에 대한 고찰</title><link>/blog/2018-08-03_texture-2-7-rxswift-setneedslayout-298609b85e1f/</link><pubDate>Fri, 03 Aug 2018 17:05:52 +0000</pubDate><guid>/blog/2018-08-03_texture-2-7-rxswift-setneedslayout-298609b85e1f/</guid><description>Texture 2.7에서 많은 변화가 있었습니다. iOS 11 iPhoneX safeArea를 node 어디서든 적용할 수 있게 되었을 뿐만 아니라 전반적으로 퍼포먼스가 상향되었습니다.
+하지만
+Texture 2.6에서 2.7로 마이그레이션 후 프로덕트 테스트를 한 결과 치명적인 문제점을 발견하였는데 바로 아래 이슈입니다.
+[ASDisplayNode] setNeedsLayout doesn&amp;rsquo;t work only Texture 2.7 · Issue #977 · TextureGroup/Texture
+_similar issue In my case, I forced setNeedLayout after textNode attributedText value with a few sec delay…_github.com
+아무리 setNeedsLayout를 호출해도 layoutSpecThatFits: 에서 내려오는 constrainedSize (ASSizeRange)의 max과 min값이 변하지 않고 같은 값으로 계속 유지된다는 점이다.</description></item></channel></rss>

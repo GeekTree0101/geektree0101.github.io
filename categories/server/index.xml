@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Server on Geektree0101</title><link>/categories/server/</link><description>Recent content in Server on Geektree0101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 13 Nov 2020 22:28:49 +0000</lastBuildDate><atom:link href="/categories/server/index.xml" rel="self" type="application/rss+xml"/><item><title>Vapor, 테스트 주도 개발을 해가면서 Slack slash command 만들기</title><link>/blog/blog7/</link><pubDate>Fri, 13 Nov 2020 22:28:49 +0000</pubDate><guid>/blog/blog7/</guid><description>고린이(golang 입문기)시절 비록 iOS 앱을 개발하는 한낱의 모바일 개발자이지만, 지난 몇 달간 회사에 재직중인 고퍼(Gopher)분들로 부터 영감을 받아 Echo framework기반으로 간단한 업무용 Slack slash command 로직은 만든적이 있었습니다.
+처음엔 코드를 작성하기 쉬웠지만 가면 갈수록 어렵게 느껴짐과 동시에 서버사이드 개발과 테스트가 미숙하다보니 구조는 오히려 망가져가고 정상적인 테스트 코드를 작성하지 못해서. 결국, 나는 망가진 코드를 직면하게 될 수 밖에 없었습니다. :[
+제일 중요한건 혼자 이걸 유지보수 하다보니 외로움도 없잖아 있었습니다…
+구관이 명관 결국 제가 내린 결론은 처음부터 다시 새로 만드는 것!</description></item><item><title>Flask사용하면서 느낀점 정리 #1</title><link>/blog/2018-11-04_flask-1-40f90541f71/</link><pubDate>Sun, 04 Nov 2018 07:31:23 +0000</pubDate><guid>/blog/2018-11-04_flask-1-40f90541f71/</guid><description>내가 Flask 를 최근에 많이 가지고 논 이유는 다음과 같다.
+코드 많이 쓰기 귀찮아서 간만에 Node로 때우자니 이전에 사용했던 경험 되살리기 귀찮아서 Xcode랑 AppCode빼고 남아있는게 PyCharm 밖에 없고 vscode사용하자니 내 입맛대로 셋팅하자니 귀찮아서 그냥 귀찮아서…
+용불용설이라고… 했던거 한동안 안하면 까먹거나 가물가물한다.
+요즘엔 AWS가 핫하지 않습니꽈, 특히 lambda (회사 생활하면서 주로 간접적으로 체감했던거라)
+그리고 dynamoDB, 솔직히 이번 포스팅하면서 첨 접하는거라 약간의 룰정도만 익히고 PynamoDB를 씁니다.
+pynamodb/PynamoDB
+_A pythonic interface to Amazon&amp;rsquo;s DynamoDB.</description></item></channel></rss>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chat Service on Geektree0101</title><link>/categories/chat-service/</link><description>Recent content in Chat Service on Geektree0101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 04 Mar 2018 05:28:06 +0000</lastBuildDate><atom:link href="/categories/chat-service/index.xml" rel="self" type="application/rss+xml"/><item><title>Chatting application built on Texture</title><link>/blog/2018-03-04_chatting-application-built-on-texture-43961d4cb495/</link><pubDate>Sun, 04 Mar 2018 05:28:06 +0000</pubDate><guid>/blog/2018-03-04_chatting-application-built-on-texture-43961d4cb495/</guid><description>Texture 사용한지 이제 반년이 넘었다.
+그 동안 Vingle 앱 내부의 대부분 기능들을 Texture로 만들다보니 나름 여러 노하우라던가 Texture Core 까지 들여다볼 정도로 실력이 많이 늘어난거 같다.
+Texture 내부를 들여다보면 SNS 어플리케이션 만드는데 고려된 사소한 코드들과 핵심 로직을 배울 수가 있어서 마치 [수학의 정석?]같은 책을 정독하는 느낌이 든다.
+최근 Vingle에서 진행했던 프로젝트 중에 한가지가 채팅방을 만드는 기능이 있었다.
+물론 iOS 개발인력도 적고 나름 빙글에 다니면서 가장 하고싶었던 부분이기도 해서 3주동안 나혼자 맡게 되었다.</description></item></channel></rss>
