@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geektree0101</title><link>/</link><description>Recent content on Geektree0101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 28 Aug 2021 14:07:46 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>성장트랜지스터 (응용능력편)</title><link>/blog/blog3/</link><pubDate>Sat, 28 Aug 2021 14:07:46 +0000</pubDate><guid>/blog/blog3/</guid><description>“하루의 33%는 멘토와 함께 보내고, 33%는 동료들과 그리고 나머지 33%는 후배와 함께 보낸다.”
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geektree0101</title><link>/</link><description>Recent content on Geektree0101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 09 Jan 2022 04:23:30 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>예측지능 (Prediction Intelligence)과 OODA(우다)</title><link>/blog/prediction_intelligence/</link><pubDate>Sun, 09 Jan 2022 04:23:30 +0000</pubDate><guid>/blog/prediction_intelligence/</guid><description>예측지능이란, 이런 불확실성에 맞서 성공가능성을 보다 높일 수 있도록 적절히 계획하고 상황을 분석하며 실행하는 능력을 말한다.
+목표 정하기(Orient) &amp;amp; 체계화하기(Organize) 목표 정하기(Orient)와 체계화하기(Organize)먼저 미래에 대해 크고 생생한 목표를 세워야 한다.
+목표없는 항해는 아무리 빠르고 효율적으로 진행해도 헛수고일뿐이기 때문이다. 대신 너무 많은 목표를 정하는 어리석음을 범해서는 안된다.
+다음으로, 참여할 가치가 있는 게임인지를 파악해야 한다. 만약 게임의 규칙을 일방적으로 수용할 수 밖에 없고 그 결과 얻을것이 없다면 그 게임은 참여하지 않는것이 좋다.</description></item><item><title>실험제품을 만드는 네이티브 개발자의 고충 (확장성)</title><link>/blog/experiment_or_feature/</link><pubDate>Sat, 08 Jan 2022 04:23:30 +0000</pubDate><guid>/blog/experiment_or_feature/</guid><description>뚝딱뚝딱..
+오늘도 어느 iOS개발자는 유저의 니즈를 검증하기 위해서 실험제품을 만들고 있었다.
+그러던 와중 PM이 찾아와서 개발자에게 물었다.
+이전에 실험했었던 A제품을 다른 유저 타겟에게 확장하고 싶어요. 이전에 실험했었던 B제품에 기능을 더 추가하고 싶어요. 개발자는 머리를 굴려보았고, 돌아오는 답은
+“기술적으로 이러쿵 저러쿵해서 확장 및 추가하기가 쉽지 않아요&amp;quot; 이러쿵 저러쿵의 내용의 정답은 무엇일까?
+정답은!
+“기획상 실험을 목적으로 시작했던 제품이기 때문에 확장성을 설계상 고려하지 않았어요…&amp;quot; 아니 다~ 방법이 있다.
+그렇다면 이런 상황에서 어떻게 네이티브 개발자와 타협을 해서 확장해 나갈 것이며, 초기에 어떻게 설계해야지 확장성 있게 유저에게 실험과 동시에 가치를 전달할 수 있을까에 대해서 다뤄볼려고 한다.</description></item><item><title>버려지는 옷 그리고 환경문제</title><link>/blog/discarded_clothes/</link><pubDate>Fri, 07 Jan 2022 04:23:30 +0000</pubDate><guid>/blog/discarded_clothes/</guid><description>매년 생산되는 옷이 무려 1000억 개라고 한다. 가늠하기 힘든 숫자이다. 버려지는 옷은 얼마나 될까. 놀랄 준비하시라. 무려 330억 개이다. 도대체 이 옷들은 어디로 가는 걸까. 한철 입고 버릴 옷에 치러야 할 편리함의 대가는 누가 치르고 있을까.
+중고 시장에 들어온 헌 옷의 40%는 쓰레기가 됩니다. 지역의 폐기물 처리 시스템은 이 모든 쓰레기를 처리할 여력이 없습니다. 그래서 많은 쓰레기들이 비공식적으로 처리됩니다. 사람들은 옷 쓰레기를 직접 들거나 작은 수레로 싣고 와서 여기에 버립니다. 시장 근처에서 불태우기도 하죠.</description></item><item><title>성장트랜지스터 (응용능력편)</title><link>/blog/blog3/</link><pubDate>Sat, 28 Aug 2021 14:07:46 +0000</pubDate><guid>/blog/blog3/</guid><description>“하루의 33%는 멘토와 함께 보내고, 33%는 동료들과 그리고 나머지 33%는 후배와 함께 보낸다.”
 어느 한가로운 저녁시간 수 많은 영감을 얻기위해 Youtube에서 여러 영상을 보던중 접하게된 문장이다.
 나는 이 문장을 접하자마자 머리에 망치를 한대 맞은 느낌이 들었고, 비록 짧지만 지난 시간을 돌아보게한 정말 치명적인 문장이였다.
 사회생활을 시작하면서 동료들 그리고 멘토분들과 시간은 보냈었지만 나머지 33% 후배와의 시간을 전혀 보내지 못했던것이다.
