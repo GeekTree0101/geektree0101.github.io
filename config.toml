@@ -2,7 +2,7 @@ theme = "hugo-theme-minos"
 title = "Geektree0101"
 author = "Geektree0101"
 paginate = 20
-
+disqusShortname = "https-geektree0101-github-io"
 
 [[Menus.main]]
 name = "Tags"
