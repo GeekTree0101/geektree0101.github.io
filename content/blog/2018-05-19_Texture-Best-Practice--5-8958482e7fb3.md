@@ -3,6 +3,7 @@ title: 'Texture Best Practice #5'
 description: MVVM 패턴을 활용한 Texture로 Application 만들기
 date: '2018-05-19T03:55:29.686Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__Mnv7LOwnlzgzuNyE4__hbQw.png
 ---
 

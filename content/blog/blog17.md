@@ -3,6 +3,7 @@ title: 아~ Fastlane 이중인증 해결법
 description: Apple itune connect two-factor auth issue
 date: '2019-05-24T03:13:21.629Z'
 tags: ["ios", "fastlane"]
+categories: ["iOS", "Devops"]
 image: images/blog/0____betKn9zTRaLl3d4.png
 ---
 

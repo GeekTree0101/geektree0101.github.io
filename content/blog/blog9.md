@@ -3,6 +3,7 @@ title: 당근마켓 그리고 David (벌써일년 회고록)
 description: Intro
 date: '2020-06-10T03:56:25.346Z'
 tags: ["회고"]
+categories: ["Culture"]
 image: "images/blog/1__RW__Nku84GlSiJAWc1FRMiQ.png"
 ---
 

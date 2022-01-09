@@ -5,6 +5,7 @@ description: >-
   application.
 date: '2018-11-11T07:09:24.984Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__1DHz4zfJlbRSjyObGciImA.gif
 ---
 

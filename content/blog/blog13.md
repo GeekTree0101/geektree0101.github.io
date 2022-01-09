@@ -3,6 +3,7 @@ title: 맛있는 반응형 스파게티 레시피
 description: "Rx(ReactiveX)는 정말 힙하고 멋지고\_.. Awesome합니다."
 date: '2019-09-18T15:26:05.031Z'
 tags: ["ios", "RxSwift"]
+categories: ["iOS"]
 image: "images/blog/0__sBBV3zUsPP5bsnPM.jpg"
 ---
 

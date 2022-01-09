@@ -3,6 +3,7 @@ title: 'Texture Best Practice #1'
 description: 'Texture Best practice #1 기초편'
 date: '2018-04-12T04:30:25.262Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 ---
 
 Texture Best practice #1 기초편

@@ -3,6 +3,7 @@ title: 'Texture Best Practice #4'
 description: Texture를 사용하면서 주로 실수하는 부분과 노하우
 date: '2018-05-12T06:38:07.192Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__UcCDylxc8OWrH__ICMEAFVg.png
 ---
 

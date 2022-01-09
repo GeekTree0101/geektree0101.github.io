@@ -3,6 +3,7 @@ title: Texture Best Practice
 description: Keeps the most complex iOS user interfaces smooth and responsive.
 date: '2018-05-19T04:29:44.040Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__IJLH2VMJTa298r1TiITSMA.png
 ---
 

@@ -4,6 +4,7 @@ description: 'Texture Best Practice #2 LayoutSpec 기초 및 노하우'
 date: '2018-04-13T09:50:46.154Z'
 tags: ["ios", "texture"]
 image: images/blog/1__Euj2A7uCu4__XSCuYBsjCvA.png
+categories: ["iOS"]
 ---
 
 Texture Best Practice #2 LayoutSpec 기초 및 노하우

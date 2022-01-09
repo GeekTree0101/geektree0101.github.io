@@ -5,6 +5,7 @@ description: >-
   이모양이라니… + 와. 15분 만지고 배터리 20% 광탈…
 date: '2018-02-25T08:33:26.462Z'
 tags: ["ios", "vingle", "feed"]
+categories: ["iOS", "Feed Service"]
 image: images/blog/1__Buc33NyNafK0pfppR__LKBQ.png
 ---
 

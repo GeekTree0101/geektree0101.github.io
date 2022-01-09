@@ -3,6 +3,7 @@ title: 'Texture Best Practice #3'
 description: 'Texture Best Practice #3 iOS개발자가 FlexBox 를?'
 date: '2018-05-01T15:55:38.304Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__kjYPsEwvGVu4md0CbTxPew.png
 ---
 

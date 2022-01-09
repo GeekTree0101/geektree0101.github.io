@@ -3,6 +3,7 @@ title: 'ASCollectionNode 다루기 #1'
 description: "UICollectionView만 있으면 세상에 현존하는 어떠한 형태의  화면이든 자유롭게 그려낼 수 있는 아주 멋진 View에요!\_:]"
 date: '2020-01-31T12:41:56.347Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: "images/blog/1__I0CyqWilnxS__mYJPTXtN0Q.png"
 ---
 

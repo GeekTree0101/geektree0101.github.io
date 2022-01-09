@@ -3,6 +3,7 @@ title: "네이티브 개발자와 함께하는 피드 서비스 설계하기"
 date: 2021-06-15T00:00:00+09:00
 image: "images/blog/feed_preview.png"
 tags: ["ios", "feed"]
+categories: ["iOS", "Feed Service"]
 description: "This is meta description."
 draft: false
 ---

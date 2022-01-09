@@ -5,6 +5,7 @@ description: >-
   CTCarrier 반환값은 한개만 나온다.
 date: '2020-09-19T09:25:48.772Z'
 tags: ["ios", "bug"]
+categories: ["iOS"]
 image: "images/blog/0__sZc__5gq5USs5i9UT.png"
 ---
 

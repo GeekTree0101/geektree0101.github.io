@@ -6,6 +6,7 @@ description: >-
 date: '2019-08-23T01:08:50.548Z'
 image: "images/blog/0__ZyM3mDA67vy6eboU.png"
 tags: ["ios"]
+categories: ["iOS"]
 ---
 
 ![](/images/blog/0__ZyM3mDA67vy6eboU.png)

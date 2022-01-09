@@ -5,6 +5,7 @@ description: >-
   environment. It was a non-jealous jealousy to me. :(
 date: '2018-08-26T06:44:39.604Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__gLbtMlSs1A4bn73s7uoVaQ.png
 ---
 

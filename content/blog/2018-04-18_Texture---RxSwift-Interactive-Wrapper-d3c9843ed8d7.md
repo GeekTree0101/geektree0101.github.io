@@ -3,6 +3,7 @@ title: Texture + RxSwift Interactive Wrapper
 description: How to make RxSwift Interactive wrapper for Texture?
 date: '2018-04-18T04:24:21.206Z'
 tags: ["ios", "RxSwift", "texture"]
+categories: ["iOS"]
 image: images/blog/1__V2wNg6VHbao81vQkaBzk__g.png
 ---
 

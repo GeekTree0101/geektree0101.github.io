@@ -3,6 +3,7 @@ title: 글쓰게 하는 힘 (에디터 1편)
 description: 사람들은 왜 콘텐츠를 만들어 낼까? 그리고 좋은 에디터란?
 date: '2019-08-22T02:08:47.589Z'
 tags: ["회고", "service"]
+categories: ["Service"]
 image: "images/blog/1__8zfd4Qi8XO__eEO5Va4bDHg.png"
 ---
 

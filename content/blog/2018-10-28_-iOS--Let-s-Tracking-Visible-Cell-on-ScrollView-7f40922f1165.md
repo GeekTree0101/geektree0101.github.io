@@ -5,6 +5,7 @@ description: >-
   iOS UIKit default delegate method such as UITableView &…
 date: '2018-10-28T07:19:54.880Z'
 tags: ["ios", "tracking"]
+categories: ["iOS", "Analytics"]
 image: images/blog/1__8tPd5AAWctiPm9P07Mn6Wg.gif
 ---
 

@@ -2,7 +2,7 @@
 title: 당근런치를 만들어봤어요.
 description: 뚠뚠이들아 밥먹자 칙칙폭폭
 date: '2021-06-13T06:06:35.929Z'
-categories: []
+categories: ["Culture"]
 keywords: []
 image: "images/blog/1__SnmT5STQGtRre7IpVaynJw.png"
 tags: ["flutter"]

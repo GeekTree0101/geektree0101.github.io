@@ -4,6 +4,7 @@ description: Lightweight and Powerful Editor Kit built on Texture
 date: '2019-01-20T04:23:30.385Z'
 image: images/blog/0__SxvCIXdi445gUH7r.png
 tags: ["ios", "vingle", "VEditorKit"]
+categories: ["iOS"]
 ---
 
 ![](/images/blog/0__SxvCIXdi445gUH7r.png)

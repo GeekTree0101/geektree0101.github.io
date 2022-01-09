@@ -3,6 +3,7 @@ title: How to make Bouncing Table HeaderView with Texture?
 description: 1. Define Bouncing Area
 date: '2018-09-16T03:44:57.254Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__COQcKhtNUWZpsrajD88mtA.gif
 ---
 

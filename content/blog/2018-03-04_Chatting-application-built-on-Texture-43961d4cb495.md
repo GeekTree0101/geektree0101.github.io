@@ -3,6 +3,7 @@ title: Chatting application built on Texture
 description: Texture 사용한지 이제 반년이 넘었다.
 date: '2018-03-04T05:28:06.509Z'
 tags: ["ios", "texture", "chat", "vingle"]
+categories: ["iOS", "Chat Service"]
 image: images/blog/1__xe7qBOAFzmKNvwUR7Mr8Jg.png
 ---
 

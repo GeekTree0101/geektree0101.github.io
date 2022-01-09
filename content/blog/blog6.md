@@ -4,7 +4,6 @@ description: >-
   Flutter is an extremely good SDK for developing iOS and Android applications
   at the same time.
 date: '2021-05-01T13:12:49.446Z'
-categories: []
 keywords: []
 image: "images/blog/0__4EHTHHTEnugwxCTz.png"
 tags: ["flutter"]

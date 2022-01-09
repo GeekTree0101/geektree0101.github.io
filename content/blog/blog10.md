@@ -3,6 +3,7 @@ title: iOS & Android Declarative UI Programming 방식이 가져온 변화들
 description: Hello Declarative UI Programming!
 date: '2020-05-04T04:06:32.216Z'
 tags: ["mobile", "ios", "android"]
+categories: ["Culture"]
 image: "images/blog/1__IyvnR__EdXOPedQb41JoBKA.png"
 ---
 

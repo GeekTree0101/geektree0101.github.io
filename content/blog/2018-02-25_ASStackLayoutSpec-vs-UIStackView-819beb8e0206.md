@@ -3,7 +3,8 @@ title: ASStackLayoutSpec vs UIStackView
 description: 지난 2018년 2월 Vingle Tech-Talk에서 받은 질문중 하나가 아직도 기억에 남는다.
 date: '2018-02-25T08:28:49.375Z'
 tags: ["ios", "texture"]
-image: images/blog/1__oE94__u2j6bqVtjEfNHQJbA.png
+categories: ["iOS"]
+image: static/images/blog/1__oE94__u2j6bqVtjEfNHQJbA.png
 ---
 
 지난 2018년 2월 Vingle Tech-Talk에서 받은 질문중 하나가 아직도 기억에 남는다.

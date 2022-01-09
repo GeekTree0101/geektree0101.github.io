@@ -3,6 +3,7 @@ title: '[TIp] ASCollectionNode & Rotation'
 description: How to rotate ASCollectionNode efficiently?
 date: '2020-01-31T14:25:18.088Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: "images/blog/1__zZo5fSy__I__EpJ7qoohKCiQ.png"
 ---
 

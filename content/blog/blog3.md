@@ -4,6 +4,7 @@ description: "하루의 33%는 멘토와 함께 보내고, 33%는 동료들과 �
 date: "2021-08-28T14:07:46.005Z"
 image: "images/blog/0__wWR6yHiUpbqVss3r.jpg"
 tags: ["developer"]
+categories: ["Culture"]
 ---
 
 > “하루의 33%는 멘토와 함께 보내고, 33%는 동료들과 그리고 나머지 33%는 후배와 함께 보낸다.”

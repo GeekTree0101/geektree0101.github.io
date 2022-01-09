@@ -3,6 +3,7 @@ title: CAGradientLayer with Texture
 description: 1. Define Gradient Direction as Enum
 date: '2018-09-16T04:14:35.589Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__zNSdQScHXrdObEcEK__Mb7Q.png
 ---
 

@@ -4,6 +4,7 @@ description: We hope anybody who loves iOS and Texture find this helpful!
 date: '2019-02-14T12:53:17.335Z'
 image: images/blog/1__bLxgJzoG5ktMJ5ZLSNgu5A.png
 tags: ["ios", "texture", "vingle"]
+categories: ["iOS"]
 ---
 
 ![](/images/blog/1__bLxgJzoG5ktMJ5ZLSNgu5A.png)

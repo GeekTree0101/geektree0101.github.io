@@ -3,6 +3,7 @@ title: How to pre-append ASCellNode like a Chat Application
 description: How to pre-append ASCellNode like a Chat Application?
 date: '2018-06-06T04:08:11.073Z'
 tags: ["ios", "chat"]
+categories: ["iOS"]
 image: images/blog/1__qAfL9DqKdLSzUVTTyhdXcg.gif
 ---
 

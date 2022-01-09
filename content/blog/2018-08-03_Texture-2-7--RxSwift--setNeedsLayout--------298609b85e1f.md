@@ -5,6 +5,7 @@ description: >-
   아니라 전반적으로 퍼포먼스가 상향되었습니다.
 date: '2018-08-03T17:05:52.105Z'
 tags: ["ios", "texture", "bug"]
+categories: ["iOS"]
 image: images/blog/1__T8CAgDZ__c9F6E0DiFQYW6Q.png
 ---
 

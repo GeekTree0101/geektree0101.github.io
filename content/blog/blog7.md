@@ -4,7 +4,7 @@ description: >-
   왜 Vapor를 선택하게 되었는지, 어떠한 방식으로 TDD를 해가면서 간단한 Slack slash command API를 만들었는지에 대한
   과정을 적어봤어요,.
 date: '2020-11-13T22:28:49.334Z'
-categories: []
+categories: ["Server"]
 keywords: []
 image: "images/blog/0__JHVa3o6dFCX83a0r.png"
 tags: ["vapor", "swift", "server"]

@@ -3,6 +3,7 @@ title: 'Texture Reactive Wrapper [Let us: Go! 2018 Summer]'
 description: '본 게시물은 Let us: Go! 2018 summer 발표내용을 정리한 게시물 입니다.'
 date: '2018-07-21T11:31:54.736Z'
 tags: ["ios", "RxSwift", "texture"]
+categories: ["iOS"]
 image: images/blog/1__NoJIyovj1__Y__olNgqv06ug.png
 ---
 

@@ -3,6 +3,7 @@ title: "Clean Swift Scaffold"
 date: 2021-08-21T00:00:00+09:00
 image: "images/blog/clean-swift-scaffold.png"
 tags: ["ios","golang","utility"]
+categories: ["Devops"]
 description: "This is meta description."
 draft: false
 ---

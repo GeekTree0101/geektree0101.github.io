@@ -3,6 +3,7 @@ title: Smooth & responsive VideoPlayer Feed
 description: 이번 주제는 ASVideoNode로 간단한 Feed를 만들겁니다.
 date: '2018-07-22T17:05:04.150Z'
 tags: ["ios", "feed", "video"]
+categories: ["iOS", "Feed Service"]
 image: images/blog/0__OlEJjlPWXUDhjxQ6.jpeg
 ---
 

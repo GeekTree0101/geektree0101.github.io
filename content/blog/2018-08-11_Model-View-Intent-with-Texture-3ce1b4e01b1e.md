@@ -4,6 +4,7 @@ description: 1. Model
 date: '2018-08-11T06:24:40.311Z'
 image: images/blog/1__gaecppjo99HOwc6cQdwtzw.png
 tags: ["ios", "texture", "framework"]
+categories: ["iOS"]
 ---
 
 ![](/images/blog/1__gaecppjo99HOwc6cQdwtzw.png)

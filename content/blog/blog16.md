@@ -5,6 +5,7 @@ description: >-
   기쁘지만 한편으로는 iOS13부터 최소지원이라 아쉬운 감도 없잖아 있다.
 date: '2019-06-06T13:30:24.176Z'
 tags: ["ios", "texture", "SwiftUI"]
+categories: ["iOS"]
 image: "images/blog/1__FsLyc18Aw2__w2qJfCcHobQ__2x.jpeg"
 ---
 

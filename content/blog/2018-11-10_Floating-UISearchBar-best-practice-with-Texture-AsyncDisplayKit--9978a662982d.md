@@ -3,6 +3,7 @@ title: Floating UISearchBar best practice with Texture(AsyncDisplayKit)
 description: 'Today, I wanna show you that customized UISearchBar with Texture'
 date: '2018-11-10T07:29:38.199Z'
 tags: ["ios", "texture"]
+categories: ["iOS"]
 image: images/blog/1__KkINKRDy9dDqDQw2TUyN0g.gif
 ---
 

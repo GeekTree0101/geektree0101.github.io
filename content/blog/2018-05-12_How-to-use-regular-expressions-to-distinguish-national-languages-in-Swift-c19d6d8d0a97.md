@@ -3,6 +3,7 @@ title: How to use regular expressions to distinguish national languages in Swift
 description: 'String(“안녕하세요”).range(of: “\\p{Hangul}”, options: .regularExpression)'
 date: '2018-05-12T04:00:13.543Z'
 tags: ["ios", "regex"]
+categories: ["iOS"]
 ---
 
 String(“안녕하세요”).range(of: “\\\\p{Hangul}”, options: .regularExpression)

@@ -3,6 +3,7 @@ title: "모듈화하고 Needle 적용해보기"
 description: "iOS Dependency Injection by Uber’s Needle"
 date: '2021-08-23T14:33:41.799Z'
 tags: ["iOS", "DI"]
+categories: ["iOS", "Devops"]
 image: "images/blog/1__umJS__fyx49VhLHLhhXWLPg.png"
 ---
 
