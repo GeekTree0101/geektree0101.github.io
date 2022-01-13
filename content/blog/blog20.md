@@ -1,8 +1,7 @@
 ---
 title: 2022년 목표
 description: 2022년 당근마켓 글로벌 프로덕트팀 어느 iOS개발자의 목표
-date: '2022-01-13T13:57:25.390Z'
-image: images/blog/0__Y37Qx5__GpDz4Of3n.png
+date: '2022-01-13T00:00:00.390Z'
 tags: ["Vision"]
 categories: ["Vision"]
 ---
