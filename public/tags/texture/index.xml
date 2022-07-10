@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>texture on Geektree0101</title>
+    <link>/tags/texture/</link>
+    <description>Recent content in texture on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 31 Jan 2020 14:25:18 +0000</lastBuildDate><atom:link href="/tags/texture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TIp] ASCollectionNode &amp; Rotation</title>
+      <link>/blog/blog12/</link>
+      <pubDate>Fri, 31 Jan 2020 14:25:18 +0000</pubDate>
+      
+      <guid>/blog/blog12/</guid>
+      <description>How to rotate ASCollectionNode efficiently?
+In UICollectionView case, you just follow above code.
+But, ASCollectionNode doesn’t work. Cuz, Node requires latest constraint size for re-rendering.
+In ASCollectionNode.h, you can find relayoutItems.
+you don’t needs reloadData or performBatch. you just calls relayoutItems: inside of alongsideTransition closure.
+Extra
+If you needs calculate constrainedSize for cell with safe-area-insets, you just calls relayoutItems at viewSafeAreaInsetsDidChange override method! :]</description>
+    </item>
+    
+    <item>
+      <title>ASCollectionNode 다루기 #1</title>
+      <link>/blog/blog11/</link>
+      <pubDate>Fri, 31 Jan 2020 12:41:56 +0000</pubDate>
+      
+      <guid>/blog/blog11/</guid>
+      <description>UICollectionView만 있으면 세상에 현존하는 어떠한 형태의 화면이든 자유롭게 그려낼 수 있는 아주 멋진 View에요.
+주로 이러한 UI에서 사용되고 있어요.
+양방향 페이징할 수 있는 채팅화면 피드형태의 리스트 다양한 그리드 형태를 그려내는 UI 카로셀형태의 UI 기타 등등 보통 일반적으로 많이 설계하는 형태가 Single Column Feed UI인데, 이는 특별히 신경쓸것도 없고 심지어 UITableView로 만들어도 이상하지가 않아요.
+오늘 예기하고자 하는 부분은 Texture에서 제공하는 Proxy 형태의 UICollectionView 인 ASCollectionNode를 가지고 아주 기초적이지만 약간 복잡한 형태의 UI 설계 전략에 대해서 보여드릴까해요.</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI와 Texture의 미래?에 대한 고찰 #1</title>
+      <link>/blog/blog16/</link>
+      <pubDate>Thu, 06 Jun 2019 13:30:24 +0000</pubDate>
+      
+      <guid>/blog/blog16/</guid>
+      <description>WWDC2019에서 드디어 일냈다. Autolayout이 아닌 flexible한 DSL기반 UI 개발을 할 수 있게 되었다. 한편으로는 매우 기쁘지만 한편으로는 iOS13부터 최소지원이라 아쉬운 감도 없잖아 있다.
+이런 상황에서 텍스쳐는 과연 어떻게 앞으로의 입지를 다져 나갈껏인가? 그리고 미래 방향과 메인테이너 분들의 생각이 매우 궁금했다.
+때마침 텍스쳐 커뮤니티에서 술렁술렁 거리는 가운데 huy 메인테이너 분께서 말씀하시기를
+allowing a clear and (hopefully) simple migration path between the 2 frameworks.
+SwiftUI와 Texture간의 migration길을 간단히 열어두는 것이 개인 의견이라고 말씀하셨다.</description>
+    </item>
+    
+    <item>
+      <title>Vingle Texture Style guide</title>
+      <link>/blog/blog18/</link>
+      <pubDate>Thu, 14 Feb 2019 12:53:17 +0000</pubDate>
+      
+      <guid>/blog/blog18/</guid>
+      <description>We hope anybody who loves iOS and Texture find this guide helpful!
+1. Making UI Components use lazy property for Conditional UI Component. otherwise, you end up doing unnecessary allocation and computation even when given UI Component is not used at all
+Don’t use node generate function! We recommend to use automaticallyManagesSubnodes instead of addSubnode.
+Place all UI Component attributes in Const structure. 2. LayoutSpec // MARK: and // MARK: - is Swift equivalent of #pragma mark and #pragma mark - in Objective-C.</description>
+    </item>
+    
+    <item>
+      <title>Texture, 현업 사용가이드</title>
+      <link>/blog/2018-12-21_texture-----------98865bd6a38/</link>
+      <pubDate>Fri, 21 Dec 2018 04:57:46 +0000</pubDate>
+      
+      <guid>/blog/2018-12-21_texture-----------98865bd6a38/</guid>
+      <description>안녕하세요 저는 RxSwift를 즐겨사용하며, Texture 커뮤니티에서 활동중인 Vingle iOS개발자 Geektree0101입니다.
+한해동안 저에겐 많은 일들이 있었는데요.
+Vingle 4th Tech Talk에서 Texture를 이용한 Newsfeed 성능 개선 발표 Let’s us go에서 Texture와 RxSwift를 활용한 Reactive wapper만들기 발표 위와 같은 발표를 가졌고 덕분에 곳곳의 유명한 국내 기업들이 도입을 시도하고 있다는 점이 참 놀랍기도 하고 기쁘기도 했습니다.
+A UI Framework for Effortless Responsiveness
+_Texture_texturegroup.org
+이번에 다룰 주제는 Texture를 실제 현업에서 잘 사용하는 법! 에 대해서 적어볼까 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Let’s make an iOS Google Chrome Pull to refresh with Texture</title>
+      <link>/blog/2018-11-11_let-s-make-an-ios-google-chrome-pull-to-refresh-with-texture-6770b620a6b6/</link>
+      <pubDate>Sun, 11 Nov 2018 07:09:24 +0000</pubDate>
+      
+      <guid>/blog/2018-11-11_let-s-make-an-ios-google-chrome-pull-to-refresh-with-texture-6770b620a6b6/</guid>
+      <description>Today, I made [Pull to Refresh Interaction Tab] like an iOS Google Chrome application.
+A UI Framework for Effortless Responsiveness
+_Texture_texturegroup.org
+At first, you should make button items with indicatorNode.
+IndicatorNode is just circle view with some color.
+And next, you have to make layoutSpec
+Make StackLayout with close/refresh/plus button Set padding Inset about stackLayout static let insets: UIEdgeInsets = .init(top: 30.0, left: 0.0, bottom: 30.0, right: 0.0)
+3. Wrap indicatorNode to absoluteLayout.</description>
+    </item>
+    
+    <item>
+      <title>Floating UISearchBar best practice with Texture(AsyncDisplayKit)</title>
+      <link>/blog/2018-11-10_floating-uisearchbar-best-practice-with-texture-asyncdisplaykit--9978a662982d/</link>
+      <pubDate>Sat, 10 Nov 2018 07:29:38 +0000</pubDate>
+      
+      <guid>/blog/2018-11-10_floating-uisearchbar-best-practice-with-texture-asyncdisplaykit--9978a662982d/</guid>
+      <description>Today, I wanna show you that customized UISearchBar with Texture
+Unfortunately, ASTableNode doesn’t support ASDisplayNode returnable delegate method for header in section.
+So, How to attach Floating UISearchBar on ASTableNode?
+1. Make UISearchBar wrapped ASDisplayNode It’s very simple, http://texturegroup.org/docs/display-node.html Texture support View-Wrapping
+In some cases, it is desirable to initialize a node and provide a view to be used as the backing view. These views are provided via a block that will return a view so that the actual construction of the view can be saved until later.</description>
+    </item>
+    
+    <item>
+      <title>CAGradientLayer with Texture</title>
+      <link>/blog/2018-09-16_cagradientlayer-with-texture-7219074cfa4e/</link>
+      <pubDate>Sun, 16 Sep 2018 04:14:35 +0000</pubDate>
+      
+      <guid>/blog/2018-09-16_cagradientlayer-with-texture-7219074cfa4e/</guid>
+      <description> 1. Define Gradient Direction as Enum 2. CAGradientLayer contain check 3. Apply CAGradientLayer on ASDisplayNode 4. Set gradient on layoutDidFinished override method </description>
+    </item>
+    
+    <item>
+      <title>How to make Bouncing Table HeaderView with Texture?</title>
+      <link>/blog/2018-09-16_how-to-make-bouncing-table-headerview-with-texture--94a95c216666/</link>
+      <pubDate>Sun, 16 Sep 2018 03:44:57 +0000</pubDate>
+      
+      <guid>/blog/2018-09-16_how-to-make-bouncing-table-headerview-with-texture--94a95c216666/</guid>
+      <description>1. Define Bouncing Area 2. Make Constraints Bouncing Area Node Unfortunately, Recently Texture doesn’t support tableHeaderNode (In Texture 2.7)
+Well you know that ASDisplayNode is built on UIView. So, you just use view property from node like a upper source code.
+Also, you can see that backgroundView(bounding area view) setup with fixed height value. (ProfileHeaderNode.Const.defaultHeight)
+Because of consistency.
+In my subjective opinion, If height of bouncing area UI doesn’t consistency then it will occur bad user experience.</description>
+    </item>
+    
+    <item>
+      <title>iOS Storybook with Texture</title>
+      <link>/blog/2018-08-26_ios-storybook-with-texture-56608805b981/</link>
+      <pubDate>Sun, 26 Aug 2018 06:44:39 +0000</pubDate>
+      
+      <guid>/blog/2018-08-26_ios-storybook-with-texture-56608805b981/</guid>
+      <description>Recently, Our Vingle Web-Front team applied the storybook to the development environment. It was a non-jealous jealousy to me. :(
+storybooks/storybook
+_storybook - Interactive UI component dev &amp;amp; test: React, React Native, Vue, Angular_github.com
+If i make as Pure UIKit like a storybook concept then i will failed it due to 3 reasons.
+At first, We have to pay much attention to height calculation in UITableViewCell or UICollectionViewCell.
+Secondly, A Unit Storybook generate logic should branch off between Table and Collection in List case.</description>
+    </item>
+    
+    <item>
+      <title>비동기 UI 업데이트가 Texture가 Layout을 계산하는 과정을 방해한다.</title>
+      <link>/blog/2018-08-23_----ui-------texture--layout-----------------706d733467e1/</link>
+      <pubDate>Thu, 23 Aug 2018 00:04:46 +0000</pubDate>
+      
+      <guid>/blog/2018-08-23_----ui-------texture--layout-----------------706d733467e1/</guid>
+      <description>위의 UI결과화면은 didLoad 되기 전에 setNeedsLayout을 호출 할 경우 bounds가 최초 또는 Pended Layout Bounds로 처리되는 현상입니다.
+이후 setNeedsLayout을 호출해도 변하지 않습니다.
+Texture 2.7이후에서만 발생하는 이슈입니다.
+위의 현상에 대한 ViewModel과 Model을 확인해봅시다. 코드는 다음과 같습니다.
+setNeedsLayout은 attribute가 바뀌었을 때 Layout을 다시계산 하기 위함입니다.
+하지만 실제 binding되는 시점은 init이 완료되기 전에 다 된다고 보장 못합니다. 비동기적으로 처리되기 때문입니다.
+이것이 didLoad 이전 시점에서 binding을 처리하게 되면 setNeedsLayout을 호출하게 되고 더 이상 bounds가 변하지 않게 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Model-View-Intent with Texture</title>
+      <link>/blog/2018-08-11_model-view-intent-with-texture-3ce1b4e01b1e/</link>
+      <pubDate>Sat, 11 Aug 2018 06:24:40 +0000</pubDate>
+      
+      <guid>/blog/2018-08-11_model-view-intent-with-texture-3ce1b4e01b1e/</guid>
+      <description>1. Model ASRenderModelProtocol &amp;amp; ASRenderModelIdentifier is convenience ID object &amp;amp; protocol for identifying the model on ASModelSyncronizer.
+ASModelSyncronizer is model manager base on model unique identifier.
+it is work concurrent on background scheduler with thread safty
+You can inherit ASRenderModelProtocol on your basic model object
+and you should make some business logic like this
+2. View &amp;amp; Intent(Auto) I said my goal that All subnode attributes must initialize before Node initialize completes.</description>
+    </item>
+    
+    <item>
+      <title>Texture 2.7: RxSwift와 setNeedsLayout에 대한 고찰</title>
+      <link>/blog/2018-08-03_texture-2-7--rxswift--setneedslayout--------298609b85e1f/</link>
+      <pubDate>Fri, 03 Aug 2018 17:05:52 +0000</pubDate>
+      
+      <guid>/blog/2018-08-03_texture-2-7--rxswift--setneedslayout--------298609b85e1f/</guid>
+      <description>Texture 2.7에서 많은 변화가 있었습니다. iOS 11 iPhoneX safeArea를 node 어디서든 적용할 수 있게 되었을 뿐만 아니라 전반적으로 퍼포먼스가 상향되었습니다.
+하지만
+Texture 2.6에서 2.7로 마이그레이션 후 프로덕트 테스트를 한 결과 치명적인 문제점을 발견하였는데 바로 아래 이슈입니다.
+[ASDisplayNode] setNeedsLayout doesn&amp;rsquo;t work only Texture 2.7 · Issue #977 · TextureGroup/Texture
+_similar issue In my case, I forced setNeedLayout after textNode attributedText value with a few sec delay…_github.com
+아무리 setNeedsLayout를 호출해도 layoutSpecThatFits: 에서 내려오는 constrainedSize (ASSizeRange)의 max과 min값이 변하지 않고 같은 값으로 계속 유지된다는 점이다.</description>
+    </item>
+    
+    <item>
+      <title>Texture Reactive Wrapper [Let us: Go! 2018 Summer]</title>
+      <link>/blog/2018-07-21_texture-reactive-wrapper--let-us--go--2018-summer--5e9ac4f0729b/</link>
+      <pubDate>Sat, 21 Jul 2018 11:31:54 +0000</pubDate>
+      
+      <guid>/blog/2018-07-21_texture-reactive-wrapper--let-us--go--2018-summer--5e9ac4f0729b/</guid>
+      <description>본 게시물은 Let us: Go! 2018 summer 발표내용을 정리한 게시물 입니다.
+세션은 크게 3가지를 목표로 합니다.
+Texture를 처음 접하시는 분들을 위한 기초적인 내용 Texture 실제 프로덕트 적용사례 Texture x RxSwift 콜라보레이션 Texture는 UIKit를 Base로한 iOS UI Framework로써
+Texture 고유의 특수한 메커니즘을 통해서 부드럽고 반응성 좋은 UI결과물을 보여줍니다. 또한, UIKIT에서 부족하거나 필요한 부분까지 다루고 있는 라이브러리입니다.
+ex) Text뒤에 붙는 more 같은 터치가능한 Text, Progressive Image loading, Placeholder 등등.
+Texture는 UIKit위에 Node라는 객체를 올려놓은 구조로써 Node에서 view property접근 하시면 UIView 및 해당 subclass 를 접근할 수가 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice</title>
+      <link>/blog/2018-05-19_texture-best-practice-1f0ba1a9d903/</link>
+      <pubDate>Sat, 19 May 2018 04:29:44 +0000</pubDate>
+      
+      <guid>/blog/2018-05-19_texture-best-practice-1f0ba1a9d903/</guid>
+      <description>Keeps the most complex iOS user interfaces smooth and responsive. — Texture —
+Texture is an iOS framework built on top of UIKit that keeps even the most complex user interfaces smooth and responsive. It was originally built to make Facebook’s Paper possible, and goes hand-in-hand with pop’s physics-based animations — but it’s just as powerful with UIKit Dynamics and conventional app designs. More recently, it was used to power Pinterest’s app rewrite.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #5</title>
+      <link>/blog/2018-05-19_texture-best-practice--5-8958482e7fb3/</link>
+      <pubDate>Sat, 19 May 2018 03:55:29 +0000</pubDate>
+      
+      <guid>/blog/2018-05-19_texture-best-practice--5-8958482e7fb3/</guid>
+      <description>서론 지난 1 ~ 4 편까지는 전반적으로 Texture를 어떻게 활용해서 기본적인 UI 구성법과 개발자가 주로 실수하는 부분 및 노하우에 대해서 다뤘고, 여기까지 오신분들은 기본적인 Application을 뚝딱 만들어 내실 수 있을꺼라 생각이 듭니다.
+이번에 다룰내용은 학습곡선이 매우 높기 때문에 이번 포스팅을 읽기에 앞서 아래의 항목에 대해서 기본적으로 숙지하신 분들에게 용이한 내용이 될꺼라 생각이 듭니다.
+RxSwift / RxCocoa 에 대한 개념 및 이해 (Link) Texture UI 기본 구성 요소 및 제작 가능 (AsyncDisplayKit) Model, View 에 대한 개념 이해, 기존 MVC 패턴에 대한 경험 MVC와 MVVM 우선 MVVM 패턴에 대해서 간단히 소개하기에 앞서 기존 MVC 패턴을 우선 말씀드리자면</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #4</title>
+      <link>/blog/2018-05-12_texture-best-practice--4-f8d137500bb4/</link>
+      <pubDate>Sat, 12 May 2018 06:38:07 +0000</pubDate>
+      
+      <guid>/blog/2018-05-12_texture-best-practice--4-f8d137500bb4/</guid>
+      <description>#1, 2, 3 을 차근차근 숙지하시고 진행하신 분들이라면 필자가 체감으로는 이제 제법 나름 괜찮은 UI를 어느정도 만들줄 알거라고 생각합니다.
+이전 #3에서 예고했던대로 이번 포스팅에서는 Texture를 사용하면서 주로 개발자들이 실수하는 부분과 노하우에 대해서 정리하고자 합니다.
+물론 Texture Slack활동하면서 받았던 문제점들도 같이 다뤘습니다.
+Q: ASTextNode에서 텍스트가 길 경우 화면을 초과해버려요 ㅠㅠ A: 최근 우리회사 신입개발자가 처음 Texture를 학습하고 프로덕트를 개발하는 과정에서 발견했었던 문제중 자주 접했던 문제이며, Texture 커뮤니티에 주니어 개발자들이 주로 질문했던 내용이다.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #3</title>
+      <link>/blog/2018-05-01_texture-best-practice--3-eef064094f06/</link>
+      <pubDate>Tue, 01 May 2018 15:55:38 +0000</pubDate>
+      
+      <guid>/blog/2018-05-01_texture-best-practice--3-eef064094f06/</guid>
+      <description>이전 Texture Best Practice #3에서 다뤘던 내용은 기초적인 LayoutSpec을 잡는 과정과 각종 노하우를 보여주었으면 오늘은 실질적으로 코드 작성을 통해서 위와 같이 복잡한 Layout을 설계를 해보도록 하겠습니다.
+이 글을 먼저 보신분은 아래의 포스팅된 글을 우선 참고하시면 도움이 되실 것이라 생각합니다.
+Texture Best Practice #2
+_Texture Best Practice #2 LayoutSpec 기초 및 노하우_medium.com
+참고로 FlexBox개념에 대해서 이해하신 분들께서는 이번 포스팅이 지루 할 수도 있습니다.
+Texture는 FlexBox 개념을 토대로 UI 레이아웃을 설계하게 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Texture &#43; RxSwift Interactive Wrapper</title>
+      <link>/blog/2018-04-18_texture---rxswift-interactive-wrapper-d3c9843ed8d7/</link>
+      <pubDate>Wed, 18 Apr 2018 04:24:21 +0000</pubDate>
+      
+      <guid>/blog/2018-04-18_texture---rxswift-interactive-wrapper-d3c9843ed8d7/</guid>
+      <description>How to make RxSwift Interactive wrapper for Texture?
+Basically, Texture provides various basic components as shown in the picture below.
+Especially, I focused on ASControlNode to make reactive wrapper.
+Because, Basically RxCocoa offer various interactive wrapper such as UIButton tap wrapper, UIGestureRecognizer event wrapper etc.
+ref: https://github.com/ReactiveX/RxSwift/blob/master/RxCocoa/iOS/UIGestureRecognizer%2BRx.swift
+https://github.com/ReactiveX/RxSwift/blob/master/RxCocoa/iOS/UIButton%2BRx.swift
+So, If i focused on ASControlNode then i guessed that i could make convenience interactive wrappers on ASImageNode(UIImageView), ASNetworkImageNode(UIImageView), ASButtonNode and so on.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #2</title>
+      <link>/blog/2018-04-13_texture-best-practice--2-7259bde869ee/</link>
+      <pubDate>Fri, 13 Apr 2018 09:50:46 +0000</pubDate>
+      
+      <guid>/blog/2018-04-13_texture-best-practice--2-7259bde869ee/</guid>
+      <description>Texture Best Practice #2 LayoutSpec 기초 및 노하우
+Texture Best Practice #1
+_Texture Best practice #1 기초편_medium.com
+이전 Texture Best Practice #1 에서 주로 다뤘던 내용은 실제 필요한 UI Components를 어떤식으로 만들고 전반적인 구성요소에 대해서 다뤘다면
+이번엔 Texture의 꽃인 layoutSpecThatFits override method를 이용한 Layout구성 방법에 대해서 다루고자한다.
+기본적으로 Texture에서 여러가지 LayoutSpec을 제공하는데 아래의 링크를 참고하자.
+Layout Specs
+_The following ASLayoutSpec subclasses can be used to compose simple or very complex layouts.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #1</title>
+      <link>/blog/2018-04-12_texture-best-practice--1-4d830a7ff11b/</link>
+      <pubDate>Thu, 12 Apr 2018 04:30:25 +0000</pubDate>
+      
+      <guid>/blog/2018-04-12_texture-best-practice--1-4d830a7ff11b/</guid>
+      <description>Texture Best practice #1 기초편
+현재 Vingle에서 iOS 개발을 맡고있는 하현수라고 합니다.
+Vingle에 입사하고 이후 Texture(AsyncDisplayKit)를 도입한지는 이제 7달이 훌쩍 넘어가고 있네요.
+그 동안 Texture로 여러가지 실험적인 것들도 시도해보고 Texture Slack에서 다른 개발자분들 고충도 들어주면서 올해 2월에 Vingle Tech Talk에서 Texture를 주내용으로 발표를 했었습니다.
+Improvement feed performance with Texture(AsyncDisplayKit)
+_아직도 발열을 못잡네. 게임 돌리는것 보다 발열이 심합니다. 앱 최적화가 그만큼 안된다는 소리겠죠? 예전 앱이 더 안정적이었는데 최신앱이 이모양이라니… + 와. 15분 만지고 배터리 20% 광탈…_medium.</description>
+    </item>
+    
+    <item>
+      <title>Chatting application built on Texture</title>
+      <link>/blog/2018-03-04_chatting-application-built-on-texture-43961d4cb495/</link>
+      <pubDate>Sun, 04 Mar 2018 05:28:06 +0000</pubDate>
+      
+      <guid>/blog/2018-03-04_chatting-application-built-on-texture-43961d4cb495/</guid>
+      <description>Texture 사용한지 이제 반년이 넘었다.
+그 동안 Vingle 앱 내부의 대부분 기능들을 Texture로 만들다보니 나름 여러 노하우라던가 Texture Core 까지 들여다볼 정도로 실력이 많이 늘어난거 같다.
+Texture 내부를 들여다보면 SNS 어플리케이션 만드는데 고려된 사소한 코드들과 핵심 로직을 배울 수가 있어서 마치 [수학의 정석?]같은 책을 정독하는 느낌이 든다.
+최근 Vingle에서 진행했던 프로젝트 중에 한가지가 채팅방을 만드는 기능이 있었다.
+물론 iOS 개발인력도 적고 나름 빙글에 다니면서 가장 하고싶었던 부분이기도 해서 3주동안 나혼자 맡게 되었다.</description>
+    </item>
+    
+    <item>
+      <title>ASStackLayoutSpec vs UIStackView</title>
+      <link>/blog/2018-02-25_asstacklayoutspec-vs-uistackview-819beb8e0206/</link>
+      <pubDate>Sun, 25 Feb 2018 08:28:49 +0000</pubDate>
+      
+      <guid>/blog/2018-02-25_asstacklayoutspec-vs-uistackview-819beb8e0206/</guid>
+      <description>지난 2018년 2월 Vingle Tech-Talk에서 받은 질문중 하나가 아직도 기억에 남는다.
+Q. UIStackView가 있는데 (또는 관련 라이브러리 OAStackView) 굳이 Texture로 ASStackLayoutSpec으로 Stack UI를 만들 필요가 있나요?
+발표 취지는 Texture를 사용하면 UIKit로 순수하게 만드는 것과 비교해서 상대적으로 좋은 점에 대해서 발표했던거였지만, 위의 질문은 Texture를 아예 쓰지않는 사람에게는 이해는 간다만…
+당시 질문에 대해서 제대로 답변을 하지 못했던 점이 아쉬웠다. (UIStackView과 비교를 딱히 한적도 없고 단순 사용이 아닌 실제 UI가 사용자에게 보여주기 전까지의 모든 내부적인 동작에 대해서 알 방법이 없기 때문)</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,20 +1,58 @@
-theme = "hugo-theme-minos"
-title = "Geektree0101"
-author = "Geektree0101"
-paginate = 20
-disqusShortname = "https-geektree0101-github-io"
+baseURL = "https://geektree0101.github.io/"
+title = "Geektree0101's website"
+theme = "anatole"
 
-[[Menus.main]]
-name = "Tags"
-url = "/tags"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
 
-[[Menus.main]]
-name = "Categories"
-url = "/categories"
-
-[[Menus.main]]
-name = "About"
-url = "/about"
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 [params]
-  customCSS = ["css/article-toc.css"]
+title = "Hyeonsu Ha"
+author = "Geektree0101"
+description = """
+엔지니어링의 근본은 문제해결이며 
+저에게 있어서 문제에 대한 해결과 해결에 따른 새로운 문제는 놀이이자 즐거움입니다.
+문제해결을 위한 빠른 프로토 타이핑과 제품 실현화를 즐기며,
+이 과정에서 함께하는 동료들과 지속적으로 성장가능한 협업 문화를 추구합니다.
+
+#Geektree0101 #David #iOS #Gopher #Karrot #당근마켓 #Vingle #MIRO
+"""
+profilePicture = "https://avatars.githubusercontent.com/u/19504988?v=4"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "h2s1880@gmail.com"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "github"
+url = "https://github.com/GeekTree0101"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "instagram"
+url = "https://www.instagram.com/geektree0101/"
+
+[menu]
+  [[menu.main]]
+  name = "Index 0"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"

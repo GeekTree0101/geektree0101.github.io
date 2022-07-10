@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>service on Geektree0101</title>
+    <link>/tags/service/</link>
+    <description>Recent content in service on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Aug 2019 02:08:47 +0000</lastBuildDate><atom:link href="/tags/service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>글쓰게 하는 힘 (에디터 1편)</title>
+      <link>/blog/blog15/</link>
+      <pubDate>Thu, 22 Aug 2019 02:08:47 +0000</pubDate>
+      
+      <guid>/blog/blog15/</guid>
+      <description>사람들은 왜 콘텐츠를 만들어 낼까? 그리고 좋은 에디터란? 작성자 입장에선 자신의 행위기록과 반응이 매우 중요하다 생각하며 글을 쓰는 재미와 편리성도 매우중요하다. 특히, 많은 반응을 끌어내기 위해서는 콘텐츠가 재미있어야하고 재미있는 콘텐츠를 만들어내기 위해서는 에디터가 대문과 같은 역할을 한다고 생각한다.
+예시
+TicTalk의 영상에디터를 통해서 재미있는 영상과 글을 작성해서 올린다. 네이버 블로그에 간단한 요리 레시피를 정리해서 올린다. Youtube를 통해서 일상 Vlog를 올린다. 필자와 같이 Medium을 통해서 자신이 가진 전문지식을 작성해서 공유한다. Dribbble을 통해서 자신이 그린 그림솜씨를 보여준다.</description>
+    </item>
+    
+  </channel>
+</rss>

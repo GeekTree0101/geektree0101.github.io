@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tracking on Geektree0101</title>
+    <link>/tags/tracking/</link>
+    <description>Recent content in tracking on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 28 Oct 2018 07:19:54 +0000</lastBuildDate><atom:link href="/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[iOS] Let’s Tracking Visible Cell on ScrollView</title>
+      <link>/blog/2018-10-28_-ios--let-s-tracking-visible-cell-on-scrollview-7f40922f1165/</link>
+      <pubDate>Sun, 28 Oct 2018 07:19:54 +0000</pubDate>
+      
+      <guid>/blog/2018-10-28_-ios--let-s-tracking-visible-cell-on-scrollview-7f40922f1165/</guid>
+      <description>In my experience, When i makes content impression tracking service then i uses iOS UIKit default delegate method such as UITableView &amp;amp; UICollectionView willDisplayCell method, didEnterVisibleStatus in Texture(AsyncDisplayKit) and so on.
+Recently I faced some difficult situation. My company colleague want to exquisite &amp;amp; precise content impression tracking service about horizontal scrollable contents.
+But, UITableView &amp;amp; UICollectionView willDisplayCell delegate method can’t support more exquisite tracking service. (In Texture(ASDK), didEnterVisibleStatus too)</description>
+    </item>
+    
+  </channel>
+</rss>

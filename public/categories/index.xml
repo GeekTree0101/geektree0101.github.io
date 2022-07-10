@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Geektree0101</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vision</title>
+      <link>/categories/vision/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culture</title>
+      <link>/categories/culture/</link>
+      <pubDate>Sun, 09 Jan 2022 04:23:30 +0000</pubDate>
+      
+      <guid>/categories/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>/categories/service/</link>
+      <pubDate>Sat, 08 Jan 2022 04:23:30 +0000</pubDate>
+      
+      <guid>/categories/service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>/categories/devops/</link>
+      <pubDate>Mon, 23 Aug 2021 14:33:41 +0000</pubDate>
+      
+      <guid>/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iOS</title>
+      <link>/categories/ios/</link>
+      <pubDate>Mon, 23 Aug 2021 14:33:41 +0000</pubDate>
+      
+      <guid>/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feed Service</title>
+      <link>/categories/feed-service/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0900</pubDate>
+      
+      <guid>/categories/feed-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Server</title>
+      <link>/categories/server/</link>
+      <pubDate>Fri, 13 Nov 2020 22:28:49 +0000</pubDate>
+      
+      <guid>/categories/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytics</title>
+      <link>/categories/analytics/</link>
+      <pubDate>Sun, 28 Oct 2018 07:19:54 +0000</pubDate>
+      
+      <guid>/categories/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chat Service</title>
+      <link>/categories/chat-service/</link>
+      <pubDate>Sun, 04 Mar 2018 05:28:06 +0000</pubDate>
+      
+      <guid>/categories/chat-service/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

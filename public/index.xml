@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geektree0101</title>
+    <link>/</link>
+    <description>Recent content on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022년 목표</title>
+      <link>/blog/blog20/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/blog20/</guid>
+      <description>2019년 10월 영국에 당근마켓(Karrot)을 출시를 했다. 내가 6월에 입사하고 글로벌 진출은 상상도 못했었는데 지금까지 글로벌 프로덕트를 개발하면서 행복한 나날들을 보내왔다. 그리고 영국에 이어서 캐나다/미국(북미)진출을 하고 현재 일본까지 동료들과 열심히 달려서 iOS앱을 진출시켰다.
+현재 글로벌 프로덕트팀이라는 목적조직과 각 국가팀들과 함께 유기적으로 글로벌 서비스를 열심히 만들어나가고 있다.
+시간이 지나면서 회사의 성장과 함께 동료들도 하나둘씩 늘어가기 시작했고, 글로벌 프로덕트팀엔 PM 3명, 디자이너 1명, 안드로이드, 서버 개발자, 유저 리서처 그리고 iOS개발자 나까지 포함해서 10명 이상 훌쩍넘겼다.</description>
+    </item>
+    
+    <item>
+      <title>예측지능 (Prediction Intelligence)과 OODA(우다)</title>
+      <link>/blog/prediction_intelligence/</link>
+      <pubDate>Sun, 09 Jan 2022 04:23:30 +0000</pubDate>
+      
+      <guid>/blog/prediction_intelligence/</guid>
+      <description>예측지능이란, 이런 불확실성에 맞서 성공가능성을 보다 높일 수 있도록 적절히 계획하고 상황을 분석하며 실행하는 능력을 말한다.
+목표 정하기(Orient) &amp;amp; 체계화하기(Organize) 목표 정하기(Orient)와 체계화하기(Organize)먼저 미래에 대해 크고 생생한 목표를 세워야 한다.
+목표없는 항해는 아무리 빠르고 효율적으로 진행해도 헛수고일뿐이기 때문이다. 대신 너무 많은 목표를 정하는 어리석음을 범해서는 안된다.
+다음으로, 참여할 가치가 있는 게임인지를 파악해야 한다. 만약 게임의 규칙을 일방적으로 수용할 수 밖에 없고 그 결과 얻을것이 없다면 그 게임은 참여하지 않는것이 좋다.</description>
+    </item>
+    
+    <item>
+      <title>실험제품을 만드는 네이티브 개발자의 고충 (확장성)</title>
+      <link>/blog/experiment_or_feature/</link>
+      <pubDate>Sat, 08 Jan 2022 04:23:30 +0000</pubDate>
+      
+      <guid>/blog/experiment_or_feature/</guid>
+      <description>뚝딱뚝딱..
+오늘도 어느 iOS개발자는 유저의 니즈를 검증하기 위해서 실험제품을 만들고 있었다.
+그러던 와중 PM이 찾아와서 개발자에게 물었다.
+이전에 실험했었던 A제품을 다른 유저 타겟에게 확장하고 싶어요. 이전에 실험했었던 B제품에 기능을 더 추가하고 싶어요. 개발자는 머리를 굴려보았고, 돌아오는 답은
+“기술적으로 이러쿵 저러쿵해서 확장 및 추가하기가 쉽지 않아요&amp;quot; 이러쿵 저러쿵의 내용의 정답은 무엇일까?
+정답은!
+“기획상 실험을 목적으로 시작했던 제품이기 때문에 확장성을 설계상 고려하지 않았어요…&amp;quot; 아니 다~ 방법이 있다.
+그렇다면 이런 상황에서 어떻게 네이티브 개발자와 타협을 해서 확장해 나갈 것이며, 초기에 어떻게 설계해야지 확장성 있게 유저에게 실험과 동시에 가치를 전달할 수 있을까에 대해서 다뤄볼려고 한다.</description>
+    </item>
+    
+    <item>
+      <title>버려지는 옷 그리고 환경문제</title>
+      <link>/blog/discarded_clothes/</link>
+      <pubDate>Fri, 07 Jan 2022 04:23:30 +0000</pubDate>
+      
+      <guid>/blog/discarded_clothes/</guid>
+      <description>매년 생산되는 옷이 무려 1000억 개라고 한다. 가늠하기 힘든 숫자이다. 버려지는 옷은 얼마나 될까. 놀랄 준비하시라. 무려 330억 개이다. 도대체 이 옷들은 어디로 가는 걸까. 한철 입고 버릴 옷에 치러야 할 편리함의 대가는 누가 치르고 있을까.
+중고 시장에 들어온 헌 옷의 40%는 쓰레기가 됩니다. 지역의 폐기물 처리 시스템은 이 모든 쓰레기를 처리할 여력이 없습니다. 그래서 많은 쓰레기들이 비공식적으로 처리됩니다. 사람들은 옷 쓰레기를 직접 들거나 작은 수레로 싣고 와서 여기에 버립니다. 시장 근처에서 불태우기도 하죠.</description>
+    </item>
+    
+    <item>
+      <title>성장트랜지스터 (응용능력편)</title>
+      <link>/blog/blog3/</link>
+      <pubDate>Sat, 28 Aug 2021 14:07:46 +0000</pubDate>
+      
+      <guid>/blog/blog3/</guid>
+      <description>“하루의 33%는 멘토와 함께 보내고, 33%는 동료들과 그리고 나머지 33%는 후배와 함께 보낸다.”
+어느 한가로운 저녁시간 수 많은 영감을 얻기위해 Youtube에서 여러 영상을 보던중 접하게된 문장이다.
+나는 이 문장을 접하자마자 머리에 망치를 한대 맞은 느낌이 들었고, 비록 짧지만 지난 시간을 돌아보게한 정말 치명적인 문장이였다.
+사회생활을 시작하면서 동료들 그리고 멘토분들과 시간은 보냈었지만 나머지 33% 후배와의 시간을 전혀 보내지 못했던것이다.
+물론, 동아리 후배들과는 간간히 연락을 하고 지냈었지만 커리어방향이 달랐기 때문에 직접적인 영향을 주진 못했다.</description>
+    </item>
+    
+    <item>
+      <title>모듈화하고 Needle 적용해보기</title>
+      <link>/blog/blog4/</link>
+      <pubDate>Mon, 23 Aug 2021 14:33:41 +0000</pubDate>
+      
+      <guid>/blog/blog4/</guid>
+      <description>8월 11일 오늘도 평화로운 당근마켓의 iOS개발자들은 워크샵을 열어서 VoIP도 뜯어보고 당근마켓 iOS 프로젝트 미래에 대해서 이야기를 나누고 있었다.
+최근 신규 프로젝트 기술스택을 고민하던 레이가 넌지시 필자에게 다음과 같은 질문을 직구로 던졌다.
+“Pure쓸지 Needle쓸지 고민이에요. 요즘 바빠서 Needle을 어떻게 쓰면 잘썼다고 할 수 있을지 연구를 못했는데, 데이빗이 해줘도 좋을꺼같아요!, 데이빗이면 하루면 금방하실꺼같아요!”
+사실 필자의 머릿속엔 원숭이가 심벌즈 치고 있었는데… 동료들의 사슴같은 눈망울을 보자니 차마 거절을 할 수 없었다.
+그렇게 귀가 후 샤워를 마치고 경건한 마음으로 맥북을 열었다.</description>
+    </item>
+    
+    <item>
+      <title>Clean Swift Scaffold</title>
+      <link>/blog/blog1/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0900</pubDate>
+      
+      <guid>/blog/blog1/</guid>
+      <description>2019년 6월쯤이였나.. 당근마켓은 서초루비를 운영하면서 뛰어난 루비개발자들이 루비로 당근마켓 서비스를 열심히 만들고 있었다. (물론 지금도 루비개발자들이 많이 계신다.) 하지만 어느순간 고퍼(golang을 다루는 개발자)분들이 점점 늘어나기 시작하고 당근 repository엔 고퍼들의 작품들이 점점늘어나기 시작했다.
+비록 iOS개발자이지만 파도가 밀려오면 이 때 파도를 타고 노를 저어야겠다는?직감을 가지고 당근에 있는 고퍼분들이 작성한 코드를 흩어보면서 수 개월동안 golang을 기반으로 이런저런것들을 만들어 보기 시작했고, 결국 주로 다루던 Swift몹지 않게 나름? 생각한 것들을 뚝딱뚝딱만들어 내기 시작했다.
+iGospy https://github.</description>
+    </item>
+    
+    <item>
+      <title>네이티브 개발자와 함께하는 피드 서비스 설계하기</title>
+      <link>/blog/blog2/</link>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0900</pubDate>
+      
+      <guid>/blog/blog2/</guid>
+      <description>지난 4년전에 Vingle재직 당시 Texture를 기반으로 피드 퍼포먼스를 개선 했던 적이 있었어요. 당시 기억과 추억들 되돌아보니 감회가 새롭네요 :]
+초기에 당근마켓 피드는 UITableView기반으로 cell size를 계산해서 캐싱 및 Kingfisher를 이용하여 이미지를 fetching해오는 방식으로 구성되어있었고, cell size 계산처리나 UI복잡도가 높은 편은 아니라서 유저들이 사용하는데는 불편함은 없었을거에요.
+하지만, 당근마켓에서의 피드는 중고거래 뿐만 아니라 다양한 서비스들을 제공하고 담아가야하는게 목표였고, UI의 컴포넌트화와 재사용성 그리고 국가분기등 모든 복잡한 과정들을 단순하고 빠르게 Develop해 나감과 동시에 유저에게 보다 더 나은 쾌적한 피드 사용감을 제공하기 위해서 Texture(AsyncDisplayKit)을 도입하게 되었어요.</description>
+    </item>
+    
+    <item>
+      <title>당근런치를 만들어봤어요.</title>
+      <link>/blog/blog5/</link>
+      <pubDate>Sun, 13 Jun 2021 06:06:35 +0000</pubDate>
+      
+      <guid>/blog/blog5/</guid>
+      <description>때는 2021년 5월,
+당근마켓 iOS팀에서는 엔터프라이즈 배포를 한창 준비중이었어요.
+당근마켓 iOS팀에서 애플측에 사내에서 사용할 서비스를 제공하기 위해 엔터프라이즈를 신청 했었고, 어떤 사내 서비스를 만들어 볼지 동료들이 같이 고민을 했었어요.
+제 머릿속에는 항상? 재미난 짓을 벌일 마구니?가 잔뜩끼어있었어요. 😈
+초기에 동료들 사이에선 여러 아이디어들이 나왔었어요.
+사원증?앱 신사옥 지도 앱 ???? 등등 수 많은 아이디어를 고민하는 도중 문득 떠오르는 아이디어가
+19년 6월부터 시작해서 Notion을 통해서 강남역 인근의 맛집을 정리했었던 것이였는데, 이것이 저의 좌뇌엽을 통과에 우뇌엽을 쎄게 때려줬어요.</description>
+    </item>
+    
+    <item>
+      <title>Tasting a flutter 😋</title>
+      <link>/blog/blog6/</link>
+      <pubDate>Sat, 01 May 2021 13:12:49 +0000</pubDate>
+      
+      <guid>/blog/blog6/</guid>
+      <description>A few months ago, I used SwiftUI/UIKit and Jetpack compose. Cuz, there is no doubt that it is good to consider the performance &amp;amp; accessibility.
+But, as everyone has experienced, it was inevitable to feel tired of writing the same UI and business logic… SO, I had approached RN(react native) with expo.
+I felt that it made a lot of progress in development experience compared to the past 4~5 years ago.</description>
+    </item>
+    
+    <item>
+      <title>Vapor, 테스트 주도 개발을 해가면서 Slack slash command 만들기</title>
+      <link>/blog/blog7/</link>
+      <pubDate>Fri, 13 Nov 2020 22:28:49 +0000</pubDate>
+      
+      <guid>/blog/blog7/</guid>
+      <description>고린이(golang 입문기)시절 비록 iOS 앱을 개발하는 한낱의 모바일 개발자이지만, 지난 몇 달간 회사에 재직중인 고퍼(Gopher)분들로 부터 영감을 받아 Echo framework기반으로 간단한 업무용 Slack slash command 로직은 만든적이 있었습니다.
+처음엔 코드를 작성하기 쉬웠지만 가면 갈수록 어렵게 느껴짐과 동시에 서버사이드 개발과 테스트가 미숙하다보니 구조는 오히려 망가져가고 정상적인 테스트 코드를 작성하지 못해서. 결국, 나는 망가진 코드를 직면하게 될 수 밖에 없었습니다. :[
+제일 중요한건 혼자 이걸 유지보수 하다보니 외로움도 없잖아 있었습니다…
+구관이 명관 결국 제가 내린 결론은 처음부터 다시 새로 만드는 것!</description>
+    </item>
+    
+    <item>
+      <title>iOS 14 CTTelephonyNetworkInfo</title>
+      <link>/blog/blog8/</link>
+      <pubDate>Sat, 19 Sep 2020 09:25:48 +0000</pubDate>
+      
+      <guid>/blog/blog8/</guid>
+      <description>iOS 13 이하에선 serviceSubscriberCellularProviders 를 출력하면 국내 디바이스에선 듀얼 유심이 아니기 때문에 CTCarrier 반환값은 한개만 나온다.
+iOS 14에서 serviceSubscriberCellularProviders 를 출력하면 아래와 같은 값을 반환한다.
+▿ Optional&amp;lt;Dictionary&amp;lt;String, CTCarrier&amp;raquo;
+▿ some : 2 elements
+▿ 0 : 2 elements
+- key : &amp;ldquo;0000000100000002&amp;rdquo;
+- value : CTCarrier (0x282b9ae80) {
+Carrier name: []
+Mobile Country Code: []
+Mobile Network Code:[]
+ISO Country Code:[]
+Allows VOIP? [YES]
+}
+▿ 1 : 2 elements</description>
+    </item>
+    
+    <item>
+      <title>당근마켓 그리고 David (벌써일년 회고록)</title>
+      <link>/blog/blog9/</link>
+      <pubDate>Wed, 10 Jun 2020 03:56:25 +0000</pubDate>
+      
+      <guid>/blog/blog9/</guid>
+      <description>Intro Goliath_이 David을 향해 정면으로 걸어 나오자 David은 그를 향해 달려가며 주머니에서 돌 하나를 끄집어내어 물매로 그에게 던졌다. 그러자 그 돌은_ Goliath_의 이마에 정통으로 맞아 꽂히고 그는 땅바닥에 쓰러졌다._
+아무것도 없는 자그만한 촌동네에서 시작해서, 대학교 구석에 창고같은 동아리 MIRO를 거쳐 남들가는 대기업 마다하고 자그만한 스타트업에 들어가서 많은 것을 경험함과 동시에 성장해가면서 살아왔다.
+그리고,
+작년 6월 10일,
+수 많은 유저분들에게 사랑받는 당근마켓에 합류하게 되었다.
+정말 운이 좋게도 커뮤니티에서 말많은 Marty를 만나 당근마켓을 알게 되었고, 입사와 동시에 Marty와 함께 수 많은 시행착오를 거쳐 당근마켓 iOS만의 견고하고 튼튼한 아키텍쳐를 갖추고 정말 효율적인 테스트 코드 작성을 통해 2500개 이상의 테스트 코드와 사랑스러운 당근마켓 유저들에게 안정적인 배포를 하고 있는 현재를 보면 굉장히 뿌듯하다.</description>
+    </item>
+    
+    <item>
+      <title>iOS &amp; Android Declarative UI Programming 방식이 가져온 변화들</title>
+      <link>/blog/blog10/</link>
+      <pubDate>Mon, 04 May 2020 04:06:32 +0000</pubDate>
+      
+      <guid>/blog/blog10/</guid>
+      <description>Hello Declarative UI Programming! 선언적인 UI 개발방식의 역사는 짧지만은 않습니다. 애초에 웹기술에서는 기본적으로 사용 되어왔던 방식입니다.
+몇 년간 frame을 직접계산하거나 Constraints(제약)을 주는 방식으로 UI를 배치해오던 시절을 지나 현재 Native(Android및 iOS) 개발에 있어서도 선언적으로 UI를 개발하는 시대가 왔다는 사실이 기쁘지 않을 수가 없습니다.
+3년전 웹개발을 그만두고 현업에서 iOS를 개발시작했을 때만해도 auto-layout과 constraints개발 방식에 대한 생산성과 유지보수 및 가독성에 좋지 않아 선언적으로 레이아웃을 설계할 수 있는 UI Framework인 Texture(AsyncDisplayKit)로 퉁쳐서 날로먹으며 지금까지 잘 사용해왔습니다.</description>
+    </item>
+    
+    <item>
+      <title>[TIp] ASCollectionNode &amp; Rotation</title>
+      <link>/blog/blog12/</link>
+      <pubDate>Fri, 31 Jan 2020 14:25:18 +0000</pubDate>
+      
+      <guid>/blog/blog12/</guid>
+      <description>How to rotate ASCollectionNode efficiently?
+In UICollectionView case, you just follow above code.
+But, ASCollectionNode doesn’t work. Cuz, Node requires latest constraint size for re-rendering.
+In ASCollectionNode.h, you can find relayoutItems.
+you don’t needs reloadData or performBatch. you just calls relayoutItems: inside of alongsideTransition closure.
+Extra
+If you needs calculate constrainedSize for cell with safe-area-insets, you just calls relayoutItems at viewSafeAreaInsetsDidChange override method! :]</description>
+    </item>
+    
+    <item>
+      <title>ASCollectionNode 다루기 #1</title>
+      <link>/blog/blog11/</link>
+      <pubDate>Fri, 31 Jan 2020 12:41:56 +0000</pubDate>
+      
+      <guid>/blog/blog11/</guid>
+      <description>UICollectionView만 있으면 세상에 현존하는 어떠한 형태의 화면이든 자유롭게 그려낼 수 있는 아주 멋진 View에요.
+주로 이러한 UI에서 사용되고 있어요.
+양방향 페이징할 수 있는 채팅화면 피드형태의 리스트 다양한 그리드 형태를 그려내는 UI 카로셀형태의 UI 기타 등등 보통 일반적으로 많이 설계하는 형태가 Single Column Feed UI인데, 이는 특별히 신경쓸것도 없고 심지어 UITableView로 만들어도 이상하지가 않아요.
+오늘 예기하고자 하는 부분은 Texture에서 제공하는 Proxy 형태의 UICollectionView 인 ASCollectionNode를 가지고 아주 기초적이지만 약간 복잡한 형태의 UI 설계 전략에 대해서 보여드릴까해요.</description>
+    </item>
+    
+    <item>
+      <title>맛있는 반응형 스파게티 레시피</title>
+      <link>/blog/blog13/</link>
+      <pubDate>Wed, 18 Sep 2019 15:26:05 +0000</pubDate>
+      
+      <guid>/blog/blog13/</guid>
+      <description>Rx(ReactiveX)는 정말 힙하고 멋지고 .. Awesome합니다.
+Map, FlatMap, Merge, withLastestFrom등과 같은 수 많은 연산자들과 유연한 스케줄링 및 멀티스레딩 등…
+요즘 주변 개발자들을 봤을 때, 코드 레시피에서 빠질 수 없는 재료이기도 합니다.
+필자도 Rx를 많이 좋아합니다. 몇 년간 Rx를 가지고 여러가지 코드를 요리한 레시피를 소개해볼까 합니다.
+1. FlatMap/SwichMap 등 Rx에서 제공하는 여러 연산자를 체이닝해서 사용하면 멋지고 아름답습니다. 필요에 따라 변환 또는 조합 연산자를 활용하여 적절히 다른형태의 Observable을 반환 할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>Hello Knot</title>
+      <link>/blog/blog14/</link>
+      <pubDate>Fri, 23 Aug 2019 01:08:50 +0000</pubDate>
+      
+      <guid>/blog/blog14/</guid>
+      <description>클린 아키텍처
+_&amp;ldquo;살아있는 전설이 들려주는 실용적인 소프트웨어 아키텍처 원칙&amp;quot;소프트웨어 아키텍처의 보편 원칙을 적용하면 소프트웨어 수명 전반에서 개발자 생산성을 획기적으로 끌어올릴 수 있다. 《클린 코드》와 《클린 코더》의…_book.naver.com
+최근 클린 아키텍처 한글번역판이 나와서 열심히 읽으면서 앞으로 어떤 라이브러리를 만들어서 iOS커뮤니티와 세상?에 기여를 해볼까 수 많은 고민을 해봤었습니다.
+요 몇년간 RxSwift가 국내에서 흥행 하면서 사용하는 회사들도 많이 늘어나고 있고 수 많은 여러 관련 라이브러리들이 쏟아져나왔다. 예를 들면, ReactorKit같은 훌륭한 프레임워크같은 것들.
+필자는 RxSwift좋아하고 Texture 관련된 여러 테크닉들도 연구하고 있는 상황속에서 여러가지 시도 끝에 일주일전 Knot이라는 라이브러리를 배포하게 되었습니다.</description>
+    </item>
+    
+    <item>
+      <title>글쓰게 하는 힘 (에디터 1편)</title>
+      <link>/blog/blog15/</link>
+      <pubDate>Thu, 22 Aug 2019 02:08:47 +0000</pubDate>
+      
+      <guid>/blog/blog15/</guid>
+      <description>사람들은 왜 콘텐츠를 만들어 낼까? 그리고 좋은 에디터란? 작성자 입장에선 자신의 행위기록과 반응이 매우 중요하다 생각하며 글을 쓰는 재미와 편리성도 매우중요하다. 특히, 많은 반응을 끌어내기 위해서는 콘텐츠가 재미있어야하고 재미있는 콘텐츠를 만들어내기 위해서는 에디터가 대문과 같은 역할을 한다고 생각한다.
+예시
+TicTalk의 영상에디터를 통해서 재미있는 영상과 글을 작성해서 올린다. 네이버 블로그에 간단한 요리 레시피를 정리해서 올린다. Youtube를 통해서 일상 Vlog를 올린다. 필자와 같이 Medium을 통해서 자신이 가진 전문지식을 작성해서 공유한다. Dribbble을 통해서 자신이 그린 그림솜씨를 보여준다.</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI와 Texture의 미래?에 대한 고찰 #1</title>
+      <link>/blog/blog16/</link>
+      <pubDate>Thu, 06 Jun 2019 13:30:24 +0000</pubDate>
+      
+      <guid>/blog/blog16/</guid>
+      <description>WWDC2019에서 드디어 일냈다. Autolayout이 아닌 flexible한 DSL기반 UI 개발을 할 수 있게 되었다. 한편으로는 매우 기쁘지만 한편으로는 iOS13부터 최소지원이라 아쉬운 감도 없잖아 있다.
+이런 상황에서 텍스쳐는 과연 어떻게 앞으로의 입지를 다져 나갈껏인가? 그리고 미래 방향과 메인테이너 분들의 생각이 매우 궁금했다.
+때마침 텍스쳐 커뮤니티에서 술렁술렁 거리는 가운데 huy 메인테이너 분께서 말씀하시기를
+allowing a clear and (hopefully) simple migration path between the 2 frameworks.
+SwiftUI와 Texture간의 migration길을 간단히 열어두는 것이 개인 의견이라고 말씀하셨다.</description>
+    </item>
+    
+    <item>
+      <title>아~ Fastlane 이중인증 해결법</title>
+      <link>/blog/blog17/</link>
+      <pubDate>Fri, 24 May 2019 03:13:21 +0000</pubDate>
+      
+      <guid>/blog/blog17/</guid>
+      <description>Apple itune connect two-factor auth issue 1. Get two factor session cookie spaceauth를 이용하여 session cookie를 가져옵니다.
+&amp;gt; 명령어
+rm -rf ~/.fastlane/spaceship/name@gmail.com
+fastlane spaceauth -u name@gmail.com
+&amp;gt; Output Log 예시
+rm -rf ~/.fastlane/spaceship/name@gmail.com
+fastlane spaceauth -u name@gmail.com
+fastlane spaceauth expected output
+Logging into to App Store Connect (name@gmail.com)&amp;hellip;
+Two-step Verification (4 digits code) or Two-factor Authentication (6 digits code) is enabled for account &amp;rsquo;name@gmail.com&amp;rsquo;
+More information about Two-step Verification (4 digits code): https://support.</description>
+    </item>
+    
+    <item>
+      <title>Vingle Texture Style guide</title>
+      <link>/blog/blog18/</link>
+      <pubDate>Thu, 14 Feb 2019 12:53:17 +0000</pubDate>
+      
+      <guid>/blog/blog18/</guid>
+      <description>We hope anybody who loves iOS and Texture find this guide helpful!
+1. Making UI Components use lazy property for Conditional UI Component. otherwise, you end up doing unnecessary allocation and computation even when given UI Component is not used at all
+Don’t use node generate function! We recommend to use automaticallyManagesSubnodes instead of addSubnode.
+Place all UI Component attributes in Const structure. 2. LayoutSpec // MARK: and // MARK: - is Swift equivalent of #pragma mark and #pragma mark - in Objective-C.</description>
+    </item>
+    
+    <item>
+      <title>VEditorKit: Lightweight and Powerful Editor Kit (Part 1.  NSTextStorage)</title>
+      <link>/blog/blog19/</link>
+      <pubDate>Sun, 20 Jan 2019 04:23:30 +0000</pubDate>
+      
+      <guid>/blog/blog19/</guid>
+      <description>Lightweight and Powerful Editor Kit built on Texture(AsyncDisplayKit)
+VEditorKit provides the most core functionality needed for the editor. Unfortunately, When combined words are entered then UITextView selectedRange will changed and typingAttribute will cleared. So, In combined words case, Users can’t continue typing the style they want.
+typingAttributes - UITextView | Apple Developer Documentation
+_This dictionary contains the attribute keys (and corresponding values) to apply to newly typed text. When the text…_developer.</description>
+    </item>
+    
+    <item>
+      <title>Hello Bazel!</title>
+      <link>/blog/2018-12-23_hello-bazel--db5d237e204c/</link>
+      <pubDate>Sun, 23 Dec 2018 13:57:25 +0000</pubDate>
+      
+      <guid>/blog/2018-12-23_hello-bazel--db5d237e204c/</guid>
+      <description>이번 주말동안 나는 약 8시간을 Bazel에 사용했다.
+처음엔 Facebook Buck에 관심있었으나 어차피 Buck은 Bazel위에 만들어진것이고 솔직히 스크립트 작성하는데 여러방면에 있어서는 큰 차이가 없다.
+iOS개발자 시각으로 봤을 때, 딱히 Bazel + tulsi섞어서 굳이 빌드툴을 만들어서 할 필요없다 Xcode에서 기본적으로 설정된 셋팅값만으로도 충분하다. 여러 각종 cocoapod을 섞어 써야한다면 오히려 시간대비 효율이 떨어진다.
+이러한 점을 보완해준 PodToBuild라는 Pinterest에서 만든 라이브러리가 있지만 이거 마저 Build 스크립트 쓰기가 정말 귀찮다.
+pinterest/PodToBUILD
+_An easy way to integrate CocoaPods into Bazel.</description>
+    </item>
+    
+    <item>
+      <title>Texture, 현업 사용가이드</title>
+      <link>/blog/2018-12-21_texture-----------98865bd6a38/</link>
+      <pubDate>Fri, 21 Dec 2018 04:57:46 +0000</pubDate>
+      
+      <guid>/blog/2018-12-21_texture-----------98865bd6a38/</guid>
+      <description>안녕하세요 저는 RxSwift를 즐겨사용하며, Texture 커뮤니티에서 활동중인 Vingle iOS개발자 Geektree0101입니다.
+한해동안 저에겐 많은 일들이 있었는데요.
+Vingle 4th Tech Talk에서 Texture를 이용한 Newsfeed 성능 개선 발표 Let’s us go에서 Texture와 RxSwift를 활용한 Reactive wapper만들기 발표 위와 같은 발표를 가졌고 덕분에 곳곳의 유명한 국내 기업들이 도입을 시도하고 있다는 점이 참 놀랍기도 하고 기쁘기도 했습니다.
+A UI Framework for Effortless Responsiveness
+_Texture_texturegroup.org
+이번에 다룰 주제는 Texture를 실제 현업에서 잘 사용하는 법! 에 대해서 적어볼까 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Buck으로 iOS앱 빌드해보자!</title>
+      <link>/blog/2018-12-19_buck---ios---------d811ad541416/</link>
+      <pubDate>Wed, 19 Dec 2018 13:50:48 +0000</pubDate>
+      
+      <guid>/blog/2018-12-19_buck---ios---------d811ad541416/</guid>
+      <description>화장실 갔다와 커피를 타고 자리에 다시 돌아와도 Xcode는 여전히 빌드를 돌리고 있었습니다.
+Xcode 빌드 속도는 왜 이렇게 느린걸까?
+앱의 규모가 커지면 커질 수록 느려지는 빌드속도…
+작년 부터 회사 앱에서 xib, storyboard를 99%박멸해서 그나마 2년전에 비하면 지금이 양반이다.
+빌드환경 인프라와 최적화, 생산성을 고민한 끝에 나는 회사에서 여유시간 있을 때 마다 짬짬이 예광탄을 쏘아본 결과 Buck으로 수렴한다는 사실을 알게 되었다.
+발음 조심하자, **ck이 아니라 Buck이다.
+Buck is a build system developed and used by Facebook.</description>
+    </item>
+    
+    <item>
+      <title>Let’s make an iOS Google Chrome Pull to refresh with Texture</title>
+      <link>/blog/2018-11-11_let-s-make-an-ios-google-chrome-pull-to-refresh-with-texture-6770b620a6b6/</link>
+      <pubDate>Sun, 11 Nov 2018 07:09:24 +0000</pubDate>
+      
+      <guid>/blog/2018-11-11_let-s-make-an-ios-google-chrome-pull-to-refresh-with-texture-6770b620a6b6/</guid>
+      <description>Today, I made [Pull to Refresh Interaction Tab] like an iOS Google Chrome application.
+A UI Framework for Effortless Responsiveness
+_Texture_texturegroup.org
+At first, you should make button items with indicatorNode.
+IndicatorNode is just circle view with some color.
+And next, you have to make layoutSpec
+Make StackLayout with close/refresh/plus button Set padding Inset about stackLayout static let insets: UIEdgeInsets = .init(top: 30.0, left: 0.0, bottom: 30.0, right: 0.0)
+3. Wrap indicatorNode to absoluteLayout.</description>
+    </item>
+    
+    <item>
+      <title>Floating UISearchBar best practice with Texture(AsyncDisplayKit)</title>
+      <link>/blog/2018-11-10_floating-uisearchbar-best-practice-with-texture-asyncdisplaykit--9978a662982d/</link>
+      <pubDate>Sat, 10 Nov 2018 07:29:38 +0000</pubDate>
+      
+      <guid>/blog/2018-11-10_floating-uisearchbar-best-practice-with-texture-asyncdisplaykit--9978a662982d/</guid>
+      <description>Today, I wanna show you that customized UISearchBar with Texture
+Unfortunately, ASTableNode doesn’t support ASDisplayNode returnable delegate method for header in section.
+So, How to attach Floating UISearchBar on ASTableNode?
+1. Make UISearchBar wrapped ASDisplayNode It’s very simple, http://texturegroup.org/docs/display-node.html Texture support View-Wrapping
+In some cases, it is desirable to initialize a node and provide a view to be used as the backing view. These views are provided via a block that will return a view so that the actual construction of the view can be saved until later.</description>
+    </item>
+    
+    <item>
+      <title>Flask사용하면서 느낀점 정리 #1</title>
+      <link>/blog/2018-11-04_flask--------------1-40f90541f71/</link>
+      <pubDate>Sun, 04 Nov 2018 07:31:23 +0000</pubDate>
+      
+      <guid>/blog/2018-11-04_flask--------------1-40f90541f71/</guid>
+      <description>내가 Flask 를 최근에 많이 가지고 논 이유는 다음과 같다.
+코드 많이 쓰기 귀찮아서 간만에 Node로 때우자니 이전에 사용했던 경험 되살리기 귀찮아서 Xcode랑 AppCode빼고 남아있는게 PyCharm 밖에 없고 vscode사용하자니 내 입맛대로 셋팅하자니 귀찮아서 그냥 귀찮아서…
+용불용설이라고… 했던거 한동안 안하면 까먹거나 가물가물한다.
+요즘엔 AWS가 핫하지 않습니꽈, 특히 lambda (회사 생활하면서 주로 간접적으로 체감했던거라)
+그리고 dynamoDB, 솔직히 이번 포스팅하면서 첨 접하는거라 약간의 룰정도만 익히고 PynamoDB를 씁니다.
+pynamodb/PynamoDB
+_A pythonic interface to Amazon&amp;rsquo;s DynamoDB.</description>
+    </item>
+    
+    <item>
+      <title>[iOS] Let’s Tracking Visible Cell on ScrollView</title>
+      <link>/blog/2018-10-28_-ios--let-s-tracking-visible-cell-on-scrollview-7f40922f1165/</link>
+      <pubDate>Sun, 28 Oct 2018 07:19:54 +0000</pubDate>
+      
+      <guid>/blog/2018-10-28_-ios--let-s-tracking-visible-cell-on-scrollview-7f40922f1165/</guid>
+      <description>In my experience, When i makes content impression tracking service then i uses iOS UIKit default delegate method such as UITableView &amp;amp; UICollectionView willDisplayCell method, didEnterVisibleStatus in Texture(AsyncDisplayKit) and so on.
+Recently I faced some difficult situation. My company colleague want to exquisite &amp;amp; precise content impression tracking service about horizontal scrollable contents.
+But, UITableView &amp;amp; UICollectionView willDisplayCell delegate method can’t support more exquisite tracking service. (In Texture(ASDK), didEnterVisibleStatus too)</description>
+    </item>
+    
+    <item>
+      <title>CAGradientLayer with Texture</title>
+      <link>/blog/2018-09-16_cagradientlayer-with-texture-7219074cfa4e/</link>
+      <pubDate>Sun, 16 Sep 2018 04:14:35 +0000</pubDate>
+      
+      <guid>/blog/2018-09-16_cagradientlayer-with-texture-7219074cfa4e/</guid>
+      <description> 1. Define Gradient Direction as Enum 2. CAGradientLayer contain check 3. Apply CAGradientLayer on ASDisplayNode 4. Set gradient on layoutDidFinished override method </description>
+    </item>
+    
+    <item>
+      <title>How to make Bouncing Table HeaderView with Texture?</title>
+      <link>/blog/2018-09-16_how-to-make-bouncing-table-headerview-with-texture--94a95c216666/</link>
+      <pubDate>Sun, 16 Sep 2018 03:44:57 +0000</pubDate>
+      
+      <guid>/blog/2018-09-16_how-to-make-bouncing-table-headerview-with-texture--94a95c216666/</guid>
+      <description>1. Define Bouncing Area 2. Make Constraints Bouncing Area Node Unfortunately, Recently Texture doesn’t support tableHeaderNode (In Texture 2.7)
+Well you know that ASDisplayNode is built on UIView. So, you just use view property from node like a upper source code.
+Also, you can see that backgroundView(bounding area view) setup with fixed height value. (ProfileHeaderNode.Const.defaultHeight)
+Because of consistency.
+In my subjective opinion, If height of bouncing area UI doesn’t consistency then it will occur bad user experience.</description>
+    </item>
+    
+    <item>
+      <title>iOS Storybook with Texture</title>
+      <link>/blog/2018-08-26_ios-storybook-with-texture-56608805b981/</link>
+      <pubDate>Sun, 26 Aug 2018 06:44:39 +0000</pubDate>
+      
+      <guid>/blog/2018-08-26_ios-storybook-with-texture-56608805b981/</guid>
+      <description>Recently, Our Vingle Web-Front team applied the storybook to the development environment. It was a non-jealous jealousy to me. :(
+storybooks/storybook
+_storybook - Interactive UI component dev &amp;amp; test: React, React Native, Vue, Angular_github.com
+If i make as Pure UIKit like a storybook concept then i will failed it due to 3 reasons.
+At first, We have to pay much attention to height calculation in UITableViewCell or UICollectionViewCell.
+Secondly, A Unit Storybook generate logic should branch off between Table and Collection in List case.</description>
+    </item>
+    
+    <item>
+      <title>비동기 UI 업데이트가 Texture가 Layout을 계산하는 과정을 방해한다.</title>
+      <link>/blog/2018-08-23_----ui-------texture--layout-----------------706d733467e1/</link>
+      <pubDate>Thu, 23 Aug 2018 00:04:46 +0000</pubDate>
+      
+      <guid>/blog/2018-08-23_----ui-------texture--layout-----------------706d733467e1/</guid>
+      <description>위의 UI결과화면은 didLoad 되기 전에 setNeedsLayout을 호출 할 경우 bounds가 최초 또는 Pended Layout Bounds로 처리되는 현상입니다.
+이후 setNeedsLayout을 호출해도 변하지 않습니다.
+Texture 2.7이후에서만 발생하는 이슈입니다.
+위의 현상에 대한 ViewModel과 Model을 확인해봅시다. 코드는 다음과 같습니다.
+setNeedsLayout은 attribute가 바뀌었을 때 Layout을 다시계산 하기 위함입니다.
+하지만 실제 binding되는 시점은 init이 완료되기 전에 다 된다고 보장 못합니다. 비동기적으로 처리되기 때문입니다.
+이것이 didLoad 이전 시점에서 binding을 처리하게 되면 setNeedsLayout을 호출하게 되고 더 이상 bounds가 변하지 않게 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Model-View-Intent with Texture</title>
+      <link>/blog/2018-08-11_model-view-intent-with-texture-3ce1b4e01b1e/</link>
+      <pubDate>Sat, 11 Aug 2018 06:24:40 +0000</pubDate>
+      
+      <guid>/blog/2018-08-11_model-view-intent-with-texture-3ce1b4e01b1e/</guid>
+      <description>1. Model ASRenderModelProtocol &amp;amp; ASRenderModelIdentifier is convenience ID object &amp;amp; protocol for identifying the model on ASModelSyncronizer.
+ASModelSyncronizer is model manager base on model unique identifier.
+it is work concurrent on background scheduler with thread safty
+You can inherit ASRenderModelProtocol on your basic model object
+and you should make some business logic like this
+2. View &amp;amp; Intent(Auto) I said my goal that All subnode attributes must initialize before Node initialize completes.</description>
+    </item>
+    
+    <item>
+      <title>Texture 2.7: RxSwift와 setNeedsLayout에 대한 고찰</title>
+      <link>/blog/2018-08-03_texture-2-7--rxswift--setneedslayout--------298609b85e1f/</link>
+      <pubDate>Fri, 03 Aug 2018 17:05:52 +0000</pubDate>
+      
+      <guid>/blog/2018-08-03_texture-2-7--rxswift--setneedslayout--------298609b85e1f/</guid>
+      <description>Texture 2.7에서 많은 변화가 있었습니다. iOS 11 iPhoneX safeArea를 node 어디서든 적용할 수 있게 되었을 뿐만 아니라 전반적으로 퍼포먼스가 상향되었습니다.
+하지만
+Texture 2.6에서 2.7로 마이그레이션 후 프로덕트 테스트를 한 결과 치명적인 문제점을 발견하였는데 바로 아래 이슈입니다.
+[ASDisplayNode] setNeedsLayout doesn&amp;rsquo;t work only Texture 2.7 · Issue #977 · TextureGroup/Texture
+_similar issue In my case, I forced setNeedLayout after textNode attributedText value with a few sec delay…_github.com
+아무리 setNeedsLayout를 호출해도 layoutSpecThatFits: 에서 내려오는 constrainedSize (ASSizeRange)의 max과 min값이 변하지 않고 같은 값으로 계속 유지된다는 점이다.</description>
+    </item>
+    
+    <item>
+      <title>Smooth &amp; responsive VideoPlayer Feed</title>
+      <link>/blog/2018-07-22_smooth---responsive-videoplayer-feed-2c9763c7e32e/</link>
+      <pubDate>Sun, 22 Jul 2018 17:05:04 +0000</pubDate>
+      
+      <guid>/blog/2018-07-22_smooth---responsive-videoplayer-feed-2c9763c7e32e/</guid>
+      <description>ASVideoNode
+_Texture_texturegroup.org
+이번 주제는 ASVideoNode로 간단한 Feed를 만들겁니다.
+ASVideoNode에는 shouldAutoPlay라는 Property를 제공해줍니다.
+이걸 Yes(True)로 해주면 didEnterVisibleState 에서 자동으로 play시켜주고 didExitVisibleState에서 pause해줍니다.
+[State에 대해서는 여기 참고]
+여기까진 문제 없어보입니다. 그리고 asset or assetURL을 set value할 때는 반드시 Main-Thread에서 적용되어야 합니다.
+내부적으로 Main Thread Assertion이 걸려있기 때문입니다.
+그렇다면 다음과 같이 코드가 완성됩니다.
+편의상 didLoad에서 setAsset을 해주도록 하겠습니다.
+이렇게 만든 VideoCell을 100개를 reload했을 때 피드를 빠른속도로 스크롤하면 퍼포먼스가 과연 나올까요?
+사실 그렇지 않습니다.</description>
+    </item>
+    
+    <item>
+      <title>Texture Reactive Wrapper [Let us: Go! 2018 Summer]</title>
+      <link>/blog/2018-07-21_texture-reactive-wrapper--let-us--go--2018-summer--5e9ac4f0729b/</link>
+      <pubDate>Sat, 21 Jul 2018 11:31:54 +0000</pubDate>
+      
+      <guid>/blog/2018-07-21_texture-reactive-wrapper--let-us--go--2018-summer--5e9ac4f0729b/</guid>
+      <description>본 게시물은 Let us: Go! 2018 summer 발표내용을 정리한 게시물 입니다.
+세션은 크게 3가지를 목표로 합니다.
+Texture를 처음 접하시는 분들을 위한 기초적인 내용 Texture 실제 프로덕트 적용사례 Texture x RxSwift 콜라보레이션 Texture는 UIKit를 Base로한 iOS UI Framework로써
+Texture 고유의 특수한 메커니즘을 통해서 부드럽고 반응성 좋은 UI결과물을 보여줍니다. 또한, UIKIT에서 부족하거나 필요한 부분까지 다루고 있는 라이브러리입니다.
+ex) Text뒤에 붙는 more 같은 터치가능한 Text, Progressive Image loading, Placeholder 등등.
+Texture는 UIKit위에 Node라는 객체를 올려놓은 구조로써 Node에서 view property접근 하시면 UIView 및 해당 subclass 를 접근할 수가 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>How to pre-append ASCellNode like a Chat Application</title>
+      <link>/blog/2018-06-06_how-to-pre-append-ascellnode-like-a-chat-application-23b35d39b6cb/</link>
+      <pubDate>Wed, 06 Jun 2018 04:08:11 +0000</pubDate>
+      
+      <guid>/blog/2018-06-06_how-to-pre-append-ascellnode-like-a-chat-application-23b35d39b6cb/</guid>
+      <description>How to pre-append ASCellNode like a Chat Application? Texture is an iOS framework built on top of UIKit that keeps even the most complex user interfaces smooth and responsive.
+8 months ago, our Vingle iOS team has been using it with RxSwift &amp;amp; RxCocoa.
+About a month, Our team has been working on a realtime chat application project called “Vingle Talk” .
+Well, Every iOS Developer &amp;amp; Texture Fan know that ASTableNode &amp;amp; ASCollectionNode doesn’t support Bi-Directional Pagination.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice</title>
+      <link>/blog/2018-05-19_texture-best-practice-1f0ba1a9d903/</link>
+      <pubDate>Sat, 19 May 2018 04:29:44 +0000</pubDate>
+      
+      <guid>/blog/2018-05-19_texture-best-practice-1f0ba1a9d903/</guid>
+      <description>Keeps the most complex iOS user interfaces smooth and responsive. — Texture —
+Texture is an iOS framework built on top of UIKit that keeps even the most complex user interfaces smooth and responsive. It was originally built to make Facebook’s Paper possible, and goes hand-in-hand with pop’s physics-based animations — but it’s just as powerful with UIKit Dynamics and conventional app designs. More recently, it was used to power Pinterest’s app rewrite.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #5</title>
+      <link>/blog/2018-05-19_texture-best-practice--5-8958482e7fb3/</link>
+      <pubDate>Sat, 19 May 2018 03:55:29 +0000</pubDate>
+      
+      <guid>/blog/2018-05-19_texture-best-practice--5-8958482e7fb3/</guid>
+      <description>서론 지난 1 ~ 4 편까지는 전반적으로 Texture를 어떻게 활용해서 기본적인 UI 구성법과 개발자가 주로 실수하는 부분 및 노하우에 대해서 다뤘고, 여기까지 오신분들은 기본적인 Application을 뚝딱 만들어 내실 수 있을꺼라 생각이 듭니다.
+이번에 다룰내용은 학습곡선이 매우 높기 때문에 이번 포스팅을 읽기에 앞서 아래의 항목에 대해서 기본적으로 숙지하신 분들에게 용이한 내용이 될꺼라 생각이 듭니다.
+RxSwift / RxCocoa 에 대한 개념 및 이해 (Link) Texture UI 기본 구성 요소 및 제작 가능 (AsyncDisplayKit) Model, View 에 대한 개념 이해, 기존 MVC 패턴에 대한 경험 MVC와 MVVM 우선 MVVM 패턴에 대해서 간단히 소개하기에 앞서 기존 MVC 패턴을 우선 말씀드리자면</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #4</title>
+      <link>/blog/2018-05-12_texture-best-practice--4-f8d137500bb4/</link>
+      <pubDate>Sat, 12 May 2018 06:38:07 +0000</pubDate>
+      
+      <guid>/blog/2018-05-12_texture-best-practice--4-f8d137500bb4/</guid>
+      <description>#1, 2, 3 을 차근차근 숙지하시고 진행하신 분들이라면 필자가 체감으로는 이제 제법 나름 괜찮은 UI를 어느정도 만들줄 알거라고 생각합니다.
+이전 #3에서 예고했던대로 이번 포스팅에서는 Texture를 사용하면서 주로 개발자들이 실수하는 부분과 노하우에 대해서 정리하고자 합니다.
+물론 Texture Slack활동하면서 받았던 문제점들도 같이 다뤘습니다.
+Q: ASTextNode에서 텍스트가 길 경우 화면을 초과해버려요 ㅠㅠ A: 최근 우리회사 신입개발자가 처음 Texture를 학습하고 프로덕트를 개발하는 과정에서 발견했었던 문제중 자주 접했던 문제이며, Texture 커뮤니티에 주니어 개발자들이 주로 질문했던 내용이다.</description>
+    </item>
+    
+    <item>
+      <title>How to use regular expressions to distinguish national languages in Swift</title>
+      <link>/blog/2018-05-12_how-to-use-regular-expressions-to-distinguish-national-languages-in-swift-c19d6d8d0a97/</link>
+      <pubDate>Sat, 12 May 2018 04:00:13 +0000</pubDate>
+      
+      <guid>/blog/2018-05-12_how-to-use-regular-expressions-to-distinguish-national-languages-in-swift-c19d6d8d0a97/</guid>
+      <description>String(“안녕하세요”).range(of: “\\p{Hangul}”, options: .regularExpression) True
+String(“Say Hello”).range(of: “\\p{Hangul}”, options: .regularExpression) False
+\p{Common} \p{Arabic} \p{Armenian} \p{Bengali} \p{Bopomofo} \p{Braille} \p{Buhid} \p{Canadian_Aboriginal} \p{Cherokee} \p{Cyrillic} \p{Devanagari} \p{Ethiopic} \p{Georgian} \p{Greek} \p{Gujarati} \p{Gurmukhi} \p{Han} \p{Hangul} \p{Hanunoo} \p{Hebrew} \p{Hiragana} \p{Inherited} \p{Kannada} \p{Katakana} \p{Khmer} \p{Lao} \p{Latin} \p{Limbu} \p{Malayalam} \p{Mongolian} \p{Myanmar} \p{Ogham} \p{Oriya} \p{Runic} \p{Sinhala} \p{Syriac} \p{Tagalog} \p{Tagbanwa} \p{TaiLe} \p{Tamil} \p{Telugu} \p{Thaana} \p{Thai} \p{Tibetan} \p{Yi} ref:
+Regex Tutorial - Unicode Characters and Properties
+_Edit description_www.regular-expressions.info</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #3</title>
+      <link>/blog/2018-05-01_texture-best-practice--3-eef064094f06/</link>
+      <pubDate>Tue, 01 May 2018 15:55:38 +0000</pubDate>
+      
+      <guid>/blog/2018-05-01_texture-best-practice--3-eef064094f06/</guid>
+      <description>이전 Texture Best Practice #3에서 다뤘던 내용은 기초적인 LayoutSpec을 잡는 과정과 각종 노하우를 보여주었으면 오늘은 실질적으로 코드 작성을 통해서 위와 같이 복잡한 Layout을 설계를 해보도록 하겠습니다.
+이 글을 먼저 보신분은 아래의 포스팅된 글을 우선 참고하시면 도움이 되실 것이라 생각합니다.
+Texture Best Practice #2
+_Texture Best Practice #2 LayoutSpec 기초 및 노하우_medium.com
+참고로 FlexBox개념에 대해서 이해하신 분들께서는 이번 포스팅이 지루 할 수도 있습니다.
+Texture는 FlexBox 개념을 토대로 UI 레이아웃을 설계하게 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Texture &#43; RxSwift Interactive Wrapper</title>
+      <link>/blog/2018-04-18_texture---rxswift-interactive-wrapper-d3c9843ed8d7/</link>
+      <pubDate>Wed, 18 Apr 2018 04:24:21 +0000</pubDate>
+      
+      <guid>/blog/2018-04-18_texture---rxswift-interactive-wrapper-d3c9843ed8d7/</guid>
+      <description>How to make RxSwift Interactive wrapper for Texture?
+Basically, Texture provides various basic components as shown in the picture below.
+Especially, I focused on ASControlNode to make reactive wrapper.
+Because, Basically RxCocoa offer various interactive wrapper such as UIButton tap wrapper, UIGestureRecognizer event wrapper etc.
+ref: https://github.com/ReactiveX/RxSwift/blob/master/RxCocoa/iOS/UIGestureRecognizer%2BRx.swift
+https://github.com/ReactiveX/RxSwift/blob/master/RxCocoa/iOS/UIButton%2BRx.swift
+So, If i focused on ASControlNode then i guessed that i could make convenience interactive wrappers on ASImageNode(UIImageView), ASNetworkImageNode(UIImageView), ASButtonNode and so on.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #2</title>
+      <link>/blog/2018-04-13_texture-best-practice--2-7259bde869ee/</link>
+      <pubDate>Fri, 13 Apr 2018 09:50:46 +0000</pubDate>
+      
+      <guid>/blog/2018-04-13_texture-best-practice--2-7259bde869ee/</guid>
+      <description>Texture Best Practice #2 LayoutSpec 기초 및 노하우
+Texture Best Practice #1
+_Texture Best practice #1 기초편_medium.com
+이전 Texture Best Practice #1 에서 주로 다뤘던 내용은 실제 필요한 UI Components를 어떤식으로 만들고 전반적인 구성요소에 대해서 다뤘다면
+이번엔 Texture의 꽃인 layoutSpecThatFits override method를 이용한 Layout구성 방법에 대해서 다루고자한다.
+기본적으로 Texture에서 여러가지 LayoutSpec을 제공하는데 아래의 링크를 참고하자.
+Layout Specs
+_The following ASLayoutSpec subclasses can be used to compose simple or very complex layouts.</description>
+    </item>
+    
+    <item>
+      <title>Texture Best Practice #1</title>
+      <link>/blog/2018-04-12_texture-best-practice--1-4d830a7ff11b/</link>
+      <pubDate>Thu, 12 Apr 2018 04:30:25 +0000</pubDate>
+      
+      <guid>/blog/2018-04-12_texture-best-practice--1-4d830a7ff11b/</guid>
+      <description>Texture Best practice #1 기초편
+현재 Vingle에서 iOS 개발을 맡고있는 하현수라고 합니다.
+Vingle에 입사하고 이후 Texture(AsyncDisplayKit)를 도입한지는 이제 7달이 훌쩍 넘어가고 있네요.
+그 동안 Texture로 여러가지 실험적인 것들도 시도해보고 Texture Slack에서 다른 개발자분들 고충도 들어주면서 올해 2월에 Vingle Tech Talk에서 Texture를 주내용으로 발표를 했었습니다.
+Improvement feed performance with Texture(AsyncDisplayKit)
+_아직도 발열을 못잡네. 게임 돌리는것 보다 발열이 심합니다. 앱 최적화가 그만큼 안된다는 소리겠죠? 예전 앱이 더 안정적이었는데 최신앱이 이모양이라니… + 와. 15분 만지고 배터리 20% 광탈…_medium.</description>
+    </item>
+    
+    <item>
+      <title>Chatting application built on Texture</title>
+      <link>/blog/2018-03-04_chatting-application-built-on-texture-43961d4cb495/</link>
+      <pubDate>Sun, 04 Mar 2018 05:28:06 +0000</pubDate>
+      
+      <guid>/blog/2018-03-04_chatting-application-built-on-texture-43961d4cb495/</guid>
+      <description>Texture 사용한지 이제 반년이 넘었다.
+그 동안 Vingle 앱 내부의 대부분 기능들을 Texture로 만들다보니 나름 여러 노하우라던가 Texture Core 까지 들여다볼 정도로 실력이 많이 늘어난거 같다.
+Texture 내부를 들여다보면 SNS 어플리케이션 만드는데 고려된 사소한 코드들과 핵심 로직을 배울 수가 있어서 마치 [수학의 정석?]같은 책을 정독하는 느낌이 든다.
+최근 Vingle에서 진행했던 프로젝트 중에 한가지가 채팅방을 만드는 기능이 있었다.
+물론 iOS 개발인력도 적고 나름 빙글에 다니면서 가장 하고싶었던 부분이기도 해서 3주동안 나혼자 맡게 되었다.</description>
+    </item>
+    
+    <item>
+      <title>Improvement feed performance with Texture(AsyncDisplayKit)</title>
+      <link>/blog/2018-02-25_improvement-feed-performance-with-texture-asyncdisplaykit--2ef2ee11f06e/</link>
+      <pubDate>Sun, 25 Feb 2018 08:33:26 +0000</pubDate>
+      
+      <guid>/blog/2018-02-25_improvement-feed-performance-with-texture-asyncdisplaykit--2ef2ee11f06e/</guid>
+      <description>아직도 발열을 못잡네. 게임 돌리는것 보다 발열이 심합니다. 앱 최적화가 그만큼 안된다는 소리겠죠? 예전 앱이 더 안정적이었는데 최신앱이 이모양이라니… + 와. 15분 만지고 배터리 20% 광탈…
+아이폰 7 발열이 미친듯합니다 휴대폰 터질거 같아요 다른 어플들은 전혀 발열 없는데 빙글만 이렇네요ㅠ
+…
+서론 지난 2017년 8월, 약 일년이 넘는 긴 시간동안 진행 해왔던 리뉴얼 작업이 끝이 나고 4.0.0 버젼을 업데이트 하고 난 이후 몇 달간 유저로 부터 받은 피드백입니다.
+유저들이 경험한 발열과 피드 퍼포먼스 저하 현상의 원인은 다음과 같습니다.</description>
+    </item>
+    
+    <item>
+      <title>ASStackLayoutSpec vs UIStackView</title>
+      <link>/blog/2018-02-25_asstacklayoutspec-vs-uistackview-819beb8e0206/</link>
+      <pubDate>Sun, 25 Feb 2018 08:28:49 +0000</pubDate>
+      
+      <guid>/blog/2018-02-25_asstacklayoutspec-vs-uistackview-819beb8e0206/</guid>
+      <description>지난 2018년 2월 Vingle Tech-Talk에서 받은 질문중 하나가 아직도 기억에 남는다.
+Q. UIStackView가 있는데 (또는 관련 라이브러리 OAStackView) 굳이 Texture로 ASStackLayoutSpec으로 Stack UI를 만들 필요가 있나요?
+발표 취지는 Texture를 사용하면 UIKit로 순수하게 만드는 것과 비교해서 상대적으로 좋은 점에 대해서 발표했던거였지만, 위의 질문은 Texture를 아예 쓰지않는 사람에게는 이해는 간다만…
+당시 질문에 대해서 제대로 답변을 하지 못했던 점이 아쉬웠다. (UIStackView과 비교를 딱히 한적도 없고 단순 사용이 아닌 실제 UI가 사용자에게 보여주기 전까지의 모든 내부적인 동작에 대해서 알 방법이 없기 때문)</description>
+    </item>
+    
+    <item>
+      <title>ABOUT ME</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+About me &amp;ldquo;자연의 본질은 불규칙의 연속이며 이러한 세상속에서 단순함과 효율을 찾는 과정을 좋아합니다.&amp;rdquo; 제품을 개발하는데 있어서 3가지를 중시합니다. 제품을 개발하는데 있어 MVP(Minimum Viable Product)를 지향합니다. 빠른 프로토 타이핑과 제품 실현화를 즐깁니다. 테스트 주도 개발과 지속적으로 성장가능한 협업 문화를 추구합니다. Links Github Linkedin </description>
+    </item>
+    
+  </channel>
+</rss>

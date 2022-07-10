@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regex on Geektree0101</title>
+    <link>/tags/regex/</link>
+    <description>Recent content in regex on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 12 May 2018 04:00:13 +0000</lastBuildDate><atom:link href="/tags/regex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use regular expressions to distinguish national languages in Swift</title>
+      <link>/blog/2018-05-12_how-to-use-regular-expressions-to-distinguish-national-languages-in-swift-c19d6d8d0a97/</link>
+      <pubDate>Sat, 12 May 2018 04:00:13 +0000</pubDate>
+      
+      <guid>/blog/2018-05-12_how-to-use-regular-expressions-to-distinguish-national-languages-in-swift-c19d6d8d0a97/</guid>
+      <description>String(“안녕하세요”).range(of: “\\p{Hangul}”, options: .regularExpression) True
+String(“Say Hello”).range(of: “\\p{Hangul}”, options: .regularExpression) False
+\p{Common} \p{Arabic} \p{Armenian} \p{Bengali} \p{Bopomofo} \p{Braille} \p{Buhid} \p{Canadian_Aboriginal} \p{Cherokee} \p{Cyrillic} \p{Devanagari} \p{Ethiopic} \p{Georgian} \p{Greek} \p{Gujarati} \p{Gurmukhi} \p{Han} \p{Hangul} \p{Hanunoo} \p{Hebrew} \p{Hiragana} \p{Inherited} \p{Kannada} \p{Katakana} \p{Khmer} \p{Lao} \p{Latin} \p{Limbu} \p{Malayalam} \p{Mongolian} \p{Myanmar} \p{Ogham} \p{Oriya} \p{Runic} \p{Sinhala} \p{Syriac} \p{Tagalog} \p{Tagbanwa} \p{TaiLe} \p{Tamil} \p{Telugu} \p{Thaana} \p{Thai} \p{Tibetan} \p{Yi} ref:
+Regex Tutorial - Unicode Characters and Properties
+_Edit description_www.regular-expressions.info</description>
+    </item>
+    
+  </channel>
+</rss>

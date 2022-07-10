@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>video on Geektree0101</title>
+    <link>/tags/video/</link>
+    <description>Recent content in video on Geektree0101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 22 Jul 2018 17:05:04 +0000</lastBuildDate><atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smooth &amp; responsive VideoPlayer Feed</title>
+      <link>/blog/2018-07-22_smooth---responsive-videoplayer-feed-2c9763c7e32e/</link>
+      <pubDate>Sun, 22 Jul 2018 17:05:04 +0000</pubDate>
+      
+      <guid>/blog/2018-07-22_smooth---responsive-videoplayer-feed-2c9763c7e32e/</guid>
+      <description>ASVideoNode
+_Texture_texturegroup.org
+이번 주제는 ASVideoNode로 간단한 Feed를 만들겁니다.
+ASVideoNode에는 shouldAutoPlay라는 Property를 제공해줍니다.
+이걸 Yes(True)로 해주면 didEnterVisibleState 에서 자동으로 play시켜주고 didExitVisibleState에서 pause해줍니다.
+[State에 대해서는 여기 참고]
+여기까진 문제 없어보입니다. 그리고 asset or assetURL을 set value할 때는 반드시 Main-Thread에서 적용되어야 합니다.
+내부적으로 Main Thread Assertion이 걸려있기 때문입니다.
+그렇다면 다음과 같이 코드가 완성됩니다.
+편의상 didLoad에서 setAsset을 해주도록 하겠습니다.
+이렇게 만든 VideoCell을 100개를 reload했을 때 피드를 빠른속도로 스크롤하면 퍼포먼스가 과연 나올까요?
+사실 그렇지 않습니다.</description>
+    </item>
+    
+  </channel>
+</rss>
