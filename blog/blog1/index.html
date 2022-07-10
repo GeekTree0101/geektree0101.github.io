@@ -1,182 +1,25 @@
-<!doctype html><html>
-<head>
-<title>Clean Swift Scaffold // Geektree0101</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=description content="This is meta description.">
-<meta property="og:title" content="Clean Swift Scaffold">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en">
-<meta property="og:url" content="/blog/blog1/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<link rel=stylesheet href=/css/style.css>
-<link rel=stylesheet href=/css/article-toc.css type=text/css>
-<meta name=generator content="Hugo 0.92.0">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3090955890879034" crossorigin=anonymous></script>
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=/>Geektree0101</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about>About</a>
-<a class=main-nav-link href=/categories>Categories</a>
-<a class=main-nav-link href=/tags>Tags</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>Clean Swift Scaffold</h1>
-</header>
-<div class=article-meta>
-<a href=/blog/blog1/ class=article-date>
-<time datetime=2021-08-21T00:00:00.000+09:00 itemprop=datePublished>2021-08-21</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=/categories/devops>Devops</a>
-</div>
-</div>
-<div class=article-comment-link-wrap>
-<a href=/blog/blog1/#disqus_thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p>2019년 6월쯤이였나.. 당근마켓은 서초루비를 운영하면서 뛰어난 루비개발자들이 루비로 당근마켓 서비스를 열심히 만들고 있었다. (물론 지금도 루비개발자들이 많이 계신다.)
-하지만 어느순간 고퍼(golang을 다루는 개발자)분들이 점점 늘어나기 시작하고 당근 repository엔 고퍼들의 작품들이 점점늘어나기 시작했다.</p>
-<p>비록 iOS개발자이지만 파도가 밀려오면 이 때 파도를 타고 노를 저어야겠다는?직감을 가지고 당근에 있는 고퍼분들이 작성한 코드를 흩어보면서 수 개월동안 golang을 기반으로 이런저런것들을 만들어 보기 시작했고, 결국 주로 다루던 Swift몹지 않게 나름? 생각한 것들을 뚝딱뚝딱만들어 내기 시작했다.</p>
-<p></p>
-<h2 id=igospy>iGospy</h2>
-<p><a href=https://github.com/GeekTree0101/iGospy>https://github.com/GeekTree0101/iGospy</a></p>
-<p>2020년 8월쯤이였을꺼다. 당근에 입사와 동시에 iOS동료인 Marty와 함께 당근마켓 iOS아키텍쳐 방향에 대해서 고민하면서 Clean Swift를 도입하고 Templates를 이용해서 필요한 파일들을 만들고 작성을 해왔다.
-하나의 화면을 구성하는데는 다음과 같은 파일과 객체들이 필요했다.</p>
-<ul>
-<li>Interactor</li>
-<li>ViewController</li>
-<li>Presenter</li>
-<li>Router</li>
-<li>Worker</li>
-<li>Model</li>
-<li>Interactor Unit Test</li>
-<li>Presenter Unit Test</li>
-<li>ViewController Unit Test</li>
-</ul>
-<p>특히, Interactor, Presenterm Router, Worker같은 경우에는 테스트를 위한 Spy객체는 파일생성후 별도로 코드를 Usecase에 따라 작성을 했어야했는데.. 이 과정이 몹시 귀찮았다.</p>
-<p><em>한번 다 작성하고 나면 평균적으로 500~600라인의 코드가 생성이 된다.</em></p>
-<p>그래서 Usecase만 작성하고 Usecase를 기반으로 Implementation code와 Spy객체에 필요한 code를 자동으로 생성해주는 유틸리티를 만들게 되는데 이것이 iGospy다.</p>
-<p>위와 같이 코드를 입력하고</p>
-<p>이렇게 짠! 하고 코드가 생성이 된다. 이것을 프로젝트 소스파일에 복붙하면 된다.</p>
-<p>기존보다는 확실히 화면하나 준비하는데 부담감은 많이 줄었다!
-하지만 복붙하는것마저도 몹시 귀찮았다…</p>
-<p>Ruby on rails처럼 커멘드만 간단하게 입력해서 마법과 같이 화면에 필요한 객체들과 Usecase그리고 Spy까지 만들어주면 얼마나 편할까… 하고 혼자 생각에 잠겨있다가 용기를 내서 Clean Swift Scaffold라는 것을 만들기 시작했다.</p>
-<p>처음엔 golang으로 내 편한방식과? 의식의 흐름대로 코드를 작성해나가기 시작했다. 아무래도 소스코드를 생성해줘야하는데 띄워쓰기나 줄바꿈 마저도 정교하게 기대하는대로 생성하고 잘 동작하기 위해선 검증을 해야했고, 또한 중간에 수정을 하더라도 사이드이펙트 발생에 대한 두려움을 잠재우기 위해서 테스트 주도 개발로 작업을 진행했었다.</p>
-<p>당연히 테스트를 작성했기 때문에 중간에 구현체를 리펙토링하거나 수정을 하더라도 안정감있게 개발을 할 수 있었다. 만약 작성하지 않았더라면 오류를 삽질하다가 스트레스 받고 중간에 포기하고 결국 세상밖에 못나왔을것이다.</p>
-<p>결국 동작방식은 ruby on rails generate와 유사한 방식으로 사용하기 위해서 커멘트 툴을 구축해야했고, 당근 고퍼들이 즐겨쓰는 Cobra를 적극적으로 활용을 했다. (사실 이 만한 서드파티는 없다.)</p>
-<p>이전에도 평소에 Toy project할 때도 자주썼었는데, 이번엔 flag가 필요했었고 처음으로 cobra에서 제공하는 flag를 사용해봤었는데 굉장히 쉽게 사용할 수 있도록 잘되어있었고 생각하는 flag 제공패턴들을 다 준비되어있었다.</p>
-<p></p>
-<h3 id=잠시-가볍게-알아보는-cobras-flag>잠시 가볍게 알아보는 Cobra&rsquo;s Flag</h3>
-<p>StringVarP name flag기준으로 들어가는 arguments를 보면
-&name: 입력한 flag 의 value값을 해당 변수에 저장해준다!</p>
-<p>“name”: flag의 기본 이름 (사용예시: — name)
+<!doctype html><html dir=ltr lang=en data-theme class=html><head><title>Geektree0101
+|
+Clean Swift Scaffold</title><meta charset=utf-8><meta name=generator content="Hugo 0.101.0"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=author content="Geektree0101"><meta name=description content="This is meta description."><link rel=stylesheet href=/scss/main.min.b2e0cb07595e3519ab1193bb421914e06c0e26b0cc561fef23b3c6131d4d2ffa.css integrity="sha256-suDLB1leNRmrEZO7QhkU4GwOJrDMVh/vI7PGEx1NL/o=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/fontawesome/css/fontawesome.min.b1c4e6a10bdbab01f33fff9d78816ee68cf9a9a731f07668afd546a79924cb80.css integrity="sha256-scTmoQvbqwHzP/+deIFu5oz5qacx8HZor9VGp5kky4A=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/fontawesome/css/solid.min.423dee17c62f55fa733a4ee13e00d523dfce88cc4f4ab4549a24ba36bd9de681.css integrity="sha256-Qj3uF8YvVfpzOk7hPgDVI9/OiMxPSrRUmiS6Nr2d5oE=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/fontawesome/css/brands.min.b7d54133b27e5b4de15245b8e143de3e8ed2d674c706137274cedc9953f31917.css integrity="sha256-t9VBM7J+W03hUkW44UPePo7S1nTHBhNydM7cmVPzGRc=" crossorigin=anonymous type=text/css><link rel="shortcut icon" href=/favicon.ico type=image/x-icon><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=canonical href=https://geektree0101.github.io/blog/blog1/><script type=text/javascript src=/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js integrity="sha256-+RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI=" crossorigin=anonymous></script>
+<script type=text/javascript src=/js/anatole-theme-switcher.min.738c0e3a493854876aeab9e2316fd43f1936aeeac4cc6b3e60bb26456dba72ad.js integrity="sha256-c4wOOkk4VIdq6rniMW/UPxk2rurEzGs+YLsmRW26cq0=" crossorigin=anonymous></script><meta name=twitter:card content="summary"><meta name=twitter:title content="Clean Swift Scaffold"><meta name=twitter:description content="This is meta description."><meta property="og:title" content="Clean Swift Scaffold"><meta property="og:description" content="This is meta description."><meta property="og:type" content="article"><meta property="og:url" content="https://geektree0101.github.io/blog/blog1/"><meta property="article:section" content="blog"><meta property="article:published_time" content="2021-08-21T00:00:00+09:00"><meta property="article:modified_time" content="2021-08-21T00:00:00+09:00"><meta property="og:site_name" content="Hyeonsu Ha"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"blog","name":"Clean Swift Scaffold","headline":"Clean Swift Scaffold","alternativeHeadline":"","description":"
+      This is meta description.
+
+
+    ","inLanguage":"en-us","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/geektree0101.github.io\/blog\/blog1\/"},"author":{"@type":"Person","name":"Geektree0101"},"creator":{"@type":"Person","name":"Geektree0101"},"accountablePerson":{"@type":"Person","name":"Geektree0101"},"copyrightHolder":{"@type":"Person","name":"Geektree0101"},"copyrightYear":"2021","dateCreated":"2021-08-21T00:00:00.00Z","datePublished":"2021-08-21T00:00:00.00Z","dateModified":"2021-08-21T00:00:00.00Z","publisher":{"@type":"Organization","name":"Geektree0101","url":"https://geektree0101.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/geektree0101.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/geektree0101.github.io\/blog\/blog1\/","wordCount":"593","genre":["Devops"],"keywords":["ios","golang","utility"]}</script></head><body class="body theme--light"><div class=wrapper><aside class=wrapper__sidebar><div class="sidebar
+animated fadeInDown"><div class=sidebar__content><div class=sidebar__introduction><img class=sidebar__introduction-profileimage src="https://avatars.githubusercontent.com/u/19504988?v=4" alt="profile picture"><div class=sidebar__introduction-title><a href=/>Hyeonsu Ha</a></div><div class=sidebar__introduction-description><p>엔지니어링의 근본은 문제해결이며<br>저에게 있어서 문제에 대한 해결과 해결에 따른 새로운 문제는 놀이이자 즐거움입니다.<br>문제해결을 위한 빠른 프로토 타이핑과 제품 실현화를 즐기며,<br>이 과정에서 함께하는 동료들과 지속적으로 성장가능한 협업 문화를 추구합니다.<br><br>#Geektree0101 #David #iOS #Gopher #Karrot #당근마켓 #Vingle #MIRO<br></p></div></div><ul class=sidebar__list><li class=sidebar__list-item><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/ target=_blank rel=noopener aria-label=Linkedin title=Linkedin><i class="fab fa-linkedin fa-2x" aria-hidden=true></i></a></li><li class=sidebar__list-item><a href=h2s1880@gmail.com target=_blank rel=noopener aria-label=e-mail title=e-mail><i class="fas fa-envelope fa-2x" aria-hidden=true></i></a></li><li class=sidebar__list-item><a href=https://github.com/GeekTree0101 target=_blank rel=noopener aria-label=github title=github><i class="fab fa-github fa-2x" aria-hidden=true></i></a></li><li class=sidebar__list-item><a href=https://www.instagram.com/geektree0101/ target=_blank rel=noopener aria-label=instagram title=instagram><i class="fab fa-instagram fa-2x" aria-hidden=true></i></a></li></ul></div><footer class="footer footer__sidebar"><ul class=footer__list><li class=footer__item>&copy;
+Geektree0101
+2022</li></ul></footer><script type=text/javascript src=/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs=" crossorigin=anonymous></script></div></aside><main class=wrapper__main><header class=header><div class="animated fadeInDown"><a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false><span aria-hidden=true class=navbar-burger__line></span>
+<span aria-hidden=true class=navbar-burger__line></span>
+<span aria-hidden=true class=navbar-burger__line></span></a><nav class=nav><ul class=nav__list id=navMenu><li class=nav__list-item><a href=/ title>Index 0</a></li><li class=nav__list-item><a href=/about/ title>About</a></li></ul><ul class="nav__list nav__list--end"><li class=nav__list-item><div class=themeswitch><a title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></li></ul></nav></div></header><div class="post
+animated fadeInDown"><div class=post__content><h1>Clean Swift Scaffold</h1><p>2019년 6월쯤이였나.. 당근마켓은 서초루비를 운영하면서 뛰어난 루비개발자들이 루비로 당근마켓 서비스를 열심히 만들고 있었다. (물론 지금도 루비개발자들이 많이 계신다.)
+하지만 어느순간 고퍼(golang을 다루는 개발자)분들이 점점 늘어나기 시작하고 당근 repository엔 고퍼들의 작품들이 점점늘어나기 시작했다.</p><p>비록 iOS개발자이지만 파도가 밀려오면 이 때 파도를 타고 노를 저어야겠다는?직감을 가지고 당근에 있는 고퍼분들이 작성한 코드를 흩어보면서 수 개월동안 golang을 기반으로 이런저런것들을 만들어 보기 시작했고, 결국 주로 다루던 Swift몹지 않게 나름? 생각한 것들을 뚝딱뚝딱만들어 내기 시작했다.</p><p></p><h2 id=igospy>iGospy</h2><p><a href=https://github.com/GeekTree0101/iGospy>https://github.com/GeekTree0101/iGospy</a></p><p>2020년 8월쯤이였을꺼다. 당근에 입사와 동시에 iOS동료인 Marty와 함께 당근마켓 iOS아키텍쳐 방향에 대해서 고민하면서 Clean Swift를 도입하고 Templates를 이용해서 필요한 파일들을 만들고 작성을 해왔다.
+하나의 화면을 구성하는데는 다음과 같은 파일과 객체들이 필요했다.</p><ul><li>Interactor</li><li>ViewController</li><li>Presenter</li><li>Router</li><li>Worker</li><li>Model</li><li>Interactor Unit Test</li><li>Presenter Unit Test</li><li>ViewController Unit Test</li></ul><p>특히, Interactor, Presenterm Router, Worker같은 경우에는 테스트를 위한 Spy객체는 파일생성후 별도로 코드를 Usecase에 따라 작성을 했어야했는데.. 이 과정이 몹시 귀찮았다.</p><p><em>한번 다 작성하고 나면 평균적으로 500~600라인의 코드가 생성이 된다.</em></p><p>그래서 Usecase만 작성하고 Usecase를 기반으로 Implementation code와 Spy객체에 필요한 code를 자동으로 생성해주는 유틸리티를 만들게 되는데 이것이 iGospy다.</p><p>위와 같이 코드를 입력하고</p><p>이렇게 짠! 하고 코드가 생성이 된다. 이것을 프로젝트 소스파일에 복붙하면 된다.</p><p>기존보다는 확실히 화면하나 준비하는데 부담감은 많이 줄었다!
+하지만 복붙하는것마저도 몹시 귀찮았다…</p><p>Ruby on rails처럼 커멘드만 간단하게 입력해서 마법과 같이 화면에 필요한 객체들과 Usecase그리고 Spy까지 만들어주면 얼마나 편할까… 하고 혼자 생각에 잠겨있다가 용기를 내서 Clean Swift Scaffold라는 것을 만들기 시작했다.</p><p>처음엔 golang으로 내 편한방식과? 의식의 흐름대로 코드를 작성해나가기 시작했다. 아무래도 소스코드를 생성해줘야하는데 띄워쓰기나 줄바꿈 마저도 정교하게 기대하는대로 생성하고 잘 동작하기 위해선 검증을 해야했고, 또한 중간에 수정을 하더라도 사이드이펙트 발생에 대한 두려움을 잠재우기 위해서 테스트 주도 개발로 작업을 진행했었다.</p><p>당연히 테스트를 작성했기 때문에 중간에 구현체를 리펙토링하거나 수정을 하더라도 안정감있게 개발을 할 수 있었다. 만약 작성하지 않았더라면 오류를 삽질하다가 스트레스 받고 중간에 포기하고 결국 세상밖에 못나왔을것이다.</p><p>결국 동작방식은 ruby on rails generate와 유사한 방식으로 사용하기 위해서 커멘트 툴을 구축해야했고, 당근 고퍼들이 즐겨쓰는 Cobra를 적극적으로 활용을 했다. (사실 이 만한 서드파티는 없다.)</p><p>이전에도 평소에 Toy project할 때도 자주썼었는데, 이번엔 flag가 필요했었고 처음으로 cobra에서 제공하는 flag를 사용해봤었는데 굉장히 쉽게 사용할 수 있도록 잘되어있었고 생각하는 flag 제공패턴들을 다 준비되어있었다.</p><p></p><h3 id=잠시-가볍게-알아보는-cobras-flag>잠시 가볍게 알아보는 Cobra&rsquo;s Flag</h3><p>StringVarP name flag기준으로 들어가는 arguments를 보면
+&name: 입력한 flag 의 value값을 해당 변수에 저장해준다!</p><p>“name”: flag의 기본 이름 (사용예시: — name)
 “n”: flag의 단축형 이름 (사용예시: -n)
 “”: 빈 string값을 넣었는데 이 영역은 flag를 사용하지 않았을 때 처리되는 기본값(default value)를 의미한다.
-“Usecase name, ~~~”: 해당 flag의 설명(description)에 해당</p>
-<p>이 만큼 정말 직관적이고 편리하게 제공되고 있다.</p>
-<p></p>
-<h2 id=어떻게-export하지>어떻게 Export하지…</h2>
-<p>사실 golang으로 뭔가 만들어서 서드파티를 제공해본 경험이 없는게 함정…</p>
-<p><em>분명 외부에서 사용하도록 제공하기 위한 국룰(기본 컨벤션)같은 것이 있을꺼 같아서 다른 서드파티들을 둘러봤는데 역시… 정답은 없는것인가;; 혹시 좋은 방법있다면 코멘드 남겨주시면 감사하겠습니다..</em></p>
-<p>결국 궁극적으로 다른 개발자나 혹은 동료들이 사용하기 위해서 필요한 건 cmd고 cmd를 기존에 구축해둔 cmd에 무지성으로 추가만 하면 구축할 수 있도록 최소한만 제공해보자 해서 cmd의 use만 자유롭게 가변할 수 있도록 parameter로 받고 scaffold cmd객체를 반환만 하도록 설계를 해서 Deploy했고 실험적으로 개인적으로 했었던 프로젝트(Uber의 Needle을 가볍게 사용해보았던 프로젝트, 다음에 이것도 글로 작성예정)에 도입을 해봤다.</p>
-<p>어어… 한번에 성공하면 안되는데… 너무 잘동작해버려서 몹시 당황스럽다..</p>
-<p>심지어 결과물도 문제가 없었다… (소리없는 기쁨의 아우성)</p>
-<p>다음날 Demo를 준비해서 당근마켓 iOS동료들앞에서 이 마법과 같은 순간을 공유하고 피드백도 받았었다. 몹시 기뻤다.</p>
-<ul>
-<li>중간에 새로운 Usecase추가할 수도 있으면 좋겠어요.</li>
-<li>Created by 에서 name은 스크립트를 실행한 사람의 이름으로 들어가면 좋겠어요.</li>
-<li>저희 Pure쓰는데 Pure안써도 되는 Templates뿐만 아니라 Pure도 적용된 Templates도 지정해서 동작할 수 있으면 좋겠어요.</li>
-<li>저희 iOS 프로젝트에 go의존성도 있고 요상한 go로 만든 것들 있는데 다른 레포로 빼서 옮겨줬으면 좋겠어요. (sorry…)</li>
-</ul>
-<p></p>
-<h2 id=마무리>마무리</h2>
-<p>사실 이러한 프로그램을 만드는데 있어서 언어는 중요하진 않다. 당연히 Ruby나 Swift로도 충분히 만들 수 있다.
-이러한 프로그램이 나올 수 있었던 가장 큰 본질은 이 무더운 여름날 땀흘려가면서 키보드위에서 손가락 크로스 핏을 뛰고 있는 고생하는 동료에 대한 사랑하는 마음에서 우러났기 때문이라 생각한다.
-</p>
-</div>
-<div class=article-toc>
-<h3>Contents</h3>
-<nav id=TableOfContents>
-<ul>
-<li><a href=#igospy>iGospy</a>
-<ul>
-<li><a href=#잠시-가볍게-알아보는-cobras-flag>잠시 가볍게 알아보는 Cobra&rsquo;s Flag</a></li>
-</ul>
-</li>
-<li><a href=#어떻게-export하지>어떻게 Export하지…</a></li>
-<li><a href=#마무리>마무리</a></li>
-</ul>
-</nav>
-</div>
-<footer class=article-footer>
-<ul class=article-tag-list>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=tags/ios>ios
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=tags/golang>golang
-</a>
-</li>
-<li class=article-tag-list-item>
-<a class=article-tag-list-link href=tags/utility>utility
-</a>
-</li>
-</ul>
-</footer>
-</div>
-<nav id=article-nav>
-<a href=/blog/blog4/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-모듈화하고 Needle 적용해보기
-</div>
-</a>
-<a href=/blog/blog2/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>네이티브 개발자와 함께하는 피드 서비스 설계하기&nbsp;<span>></span></div>
-</a>
-</nav>
-</article>
-<div id=disqus_thread></div>
-<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//https-geektree0101-github-io.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</section>
-<footer id=footer>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2022 Geektree0101
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+“Usecase name, ~~~”: 해당 flag의 설명(description)에 해당</p><p>이 만큼 정말 직관적이고 편리하게 제공되고 있다.</p><p></p><h2 id=어떻게-export하지>어떻게 Export하지…</h2><p>사실 golang으로 뭔가 만들어서 서드파티를 제공해본 경험이 없는게 함정…</p><p><em>분명 외부에서 사용하도록 제공하기 위한 국룰(기본 컨벤션)같은 것이 있을꺼 같아서 다른 서드파티들을 둘러봤는데 역시… 정답은 없는것인가;; 혹시 좋은 방법있다면 코멘드 남겨주시면 감사하겠습니다..</em></p><p>결국 궁극적으로 다른 개발자나 혹은 동료들이 사용하기 위해서 필요한 건 cmd고 cmd를 기존에 구축해둔 cmd에 무지성으로 추가만 하면 구축할 수 있도록 최소한만 제공해보자 해서 cmd의 use만 자유롭게 가변할 수 있도록 parameter로 받고 scaffold cmd객체를 반환만 하도록 설계를 해서 Deploy했고 실험적으로 개인적으로 했었던 프로젝트(Uber의 Needle을 가볍게 사용해보았던 프로젝트, 다음에 이것도 글로 작성예정)에 도입을 해봤다.</p><p>어어… 한번에 성공하면 안되는데… 너무 잘동작해버려서 몹시 당황스럽다..</p><p>심지어 결과물도 문제가 없었다… (소리없는 기쁨의 아우성)</p><p>다음날 Demo를 준비해서 당근마켓 iOS동료들앞에서 이 마법과 같은 순간을 공유하고 피드백도 받았었다. 몹시 기뻤다.</p><ul><li>중간에 새로운 Usecase추가할 수도 있으면 좋겠어요.</li><li>Created by 에서 name은 스크립트를 실행한 사람의 이름으로 들어가면 좋겠어요.</li><li>저희 Pure쓰는데 Pure안써도 되는 Templates뿐만 아니라 Pure도 적용된 Templates도 지정해서 동작할 수 있으면 좋겠어요.</li><li>저희 iOS 프로젝트에 go의존성도 있고 요상한 go로 만든 것들 있는데 다른 레포로 빼서 옮겨줬으면 좋겠어요. (sorry…)</li></ul><p></p><h2 id=마무리>마무리</h2><p>사실 이러한 프로그램을 만드는데 있어서 언어는 중요하진 않다. 당연히 Ruby나 Swift로도 충분히 만들 수 있다.
+이러한 프로그램이 나올 수 있었던 가장 큰 본질은 이 무더운 여름날 땀흘려가면서 키보드위에서 손가락 크로스 핏을 뛰고 있는 고생하는 동료에 대한 사랑하는 마음에서 우러났기 때문이라 생각한다.</p></div><div class=post__footer><span><a class=category href=/categories/devops/>Devops</a></span>
+<span><a class=tag href=/tags/ios/>ios</a><a class=tag href=/tags/golang/>golang</a><a class=tag href=/tags/utility/>utility</a></span></div></div></main></div><footer class="footer footer__base"><ul class=footer__list><li class=footer__item>&copy;
+Geektree0101
+2022</li></ul></footer><script type=text/javascript src=/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs=" crossorigin=anonymous></script></body></html>

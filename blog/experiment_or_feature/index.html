@@ -1,160 +1,24 @@
-<!doctype html><html>
-<head>
-<title>실험제품을 만드는 네이티브 개발자의 고충 (확장성) // Geektree0101</title>
-<meta charset=utf-8>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta name=description content="엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다.">
-<meta property="og:title" content="실험제품을 만드는 네이티브 개발자의 고충 (확장성)">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en">
-<meta property="og:url" content="/blog/experiment_or_feature/">
-<link rel="shortcut icon" href=/favicon.ico>
-<link href=/webfonts/ptserif/main.css rel=stylesheet type=text/css>
-<link href=/webfonts/source-code-pro/main.css rel=stylesheet type=text/css>
-<link rel=stylesheet href=/css/style.css>
-<link rel=stylesheet href=/css/article-toc.css type=text/css>
-<meta name=generator content="Hugo 0.92.0">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3090955890879034" crossorigin=anonymous></script>
-</head>
-<body>
-<div id=container>
-<header id=header>
-<div id=header-outer class=outer>
-<div id=header-inner class=inner>
-<a id=main-nav-toggle class=nav-icon href=javascript:;></a>
-<a id=logo class=logo-text href=/>Geektree0101</a>
-<nav id=main-nav>
-<a class=main-nav-link href=/about>About</a>
-<a class=main-nav-link href=/categories>Categories</a>
-<a class=main-nav-link href=/tags>Tags</a>
-</nav>
-<nav id=sub-nav>
-<div id=search-form-wrap>
-</div>
-</nav>
-</div>
-</div>
-</header>
-<section id=main class=outer>
-<article class="article article-type-post" itemscope itemprop=blogPost>
-<div class=article-inner>
-<header class=article-header>
-<h1 class=article-title itemprop=name>실험제품을 만드는 네이티브 개발자의 고충 (확장성)</h1>
-</header>
-<div class=article-meta>
-<a href=/blog/experiment_or_feature/ class=article-date>
-<time datetime=2022-01-08T04:23:30.385+00:00 itemprop=datePublished>2022-01-08</time>
-</a>
-<div class=post-categories>
-<div class=article-category>
-<a class=article-category-link href=/categories/service>Service</a>
-</div>
-</div>
-<div class=article-comment-link-wrap>
-<a href=/blog/experiment_or_feature/#disqus_thread class=article-comment-link>Comments</a>
-</div>
-</div>
-<div class=article-entry itemprop=articleBody>
-<p>뚝딱뚝딱..</p>
-<p>오늘도 어느 iOS개발자는 유저의 니즈를 검증하기 위해서 실험제품을 만들고 있었다.</p>
-<p>그러던 와중 PM이 찾아와서 개발자에게 물었다.</p>
-<ul>
-<li>이전에 실험했었던 A제품을 다른 유저 타겟에게 확장하고 싶어요.</li>
-<li>이전에 실험했었던 B제품에 기능을 더 추가하고 싶어요.</li>
-</ul>
-<p>개발자는 머리를 굴려보았고, 돌아오는 답은</p>
-<ul>
-<li>“기술적으로 이러쿵 저러쿵해서 확장 및 추가하기가 쉽지 않아요"</li>
-</ul>
-<p>이러쿵 저러쿵의 내용의 정답은 무엇일까?</p>
-<p>정답은!</p>
-<h5 id=기획상-실험을-목적으로-시작했던-제품이기-때문에-확장성을-설계상-고려하지-않았어요>“기획상 실험을 목적으로 시작했던 제품이기 때문에 확장성을 설계상 고려하지 않았어요…"</h5>
-<p>아니 다~ 방법이 있다.</p>
-<p>그렇다면 이런 상황에서 어떻게 네이티브 개발자와 타협을 해서 확장해 나갈 것이며, 초기에 어떻게 설계해야지 확장성 있게 유저에게 실험과 동시에 가치를 전달할 수 있을까에 대해서 다뤄볼려고 한다.</p>
-<h2 id=아끼면--된다>아끼면 💩 된다</h2>
-<p>이전에 실험한다고 제품만드는데 쏟은 시간과 코드들이 아까운거 보단 사이드 이펙트 없이 안정적인 상태로 제품을 유지하는게 최우선이다.
-불안정한 실험제품에 기능을 추가하거나 다른 유저대상에게 우려먹는건 “젠가”와 큰 차이점이 없다.</p>
-<p>즉, 엔지니어링/개발관점을 배제하고 사용자 관점을 생각해서 무작정 확장하면 결국 제품은 무너지고, 원치않는 피해를 받는 유저가 생기게 되고 결국 개발자에겐 버그를 만든 손목을 자르고 싶은 자괴감?이라는 선물을 선사하게 될 것이다.
+<!doctype html><html dir=ltr lang=en data-theme class=html><head><title>Geektree0101
+|
+실험제품을 만드는 네이티브 개발자의 고충 (확장성)</title><meta charset=utf-8><meta name=generator content="Hugo 0.101.0"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=author content="Geektree0101"><meta name=description content="엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다."><link rel=stylesheet href=/scss/main.min.b2e0cb07595e3519ab1193bb421914e06c0e26b0cc561fef23b3c6131d4d2ffa.css integrity="sha256-suDLB1leNRmrEZO7QhkU4GwOJrDMVh/vI7PGEx1NL/o=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/fontawesome/css/fontawesome.min.b1c4e6a10bdbab01f33fff9d78816ee68cf9a9a731f07668afd546a79924cb80.css integrity="sha256-scTmoQvbqwHzP/+deIFu5oz5qacx8HZor9VGp5kky4A=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/fontawesome/css/solid.min.423dee17c62f55fa733a4ee13e00d523dfce88cc4f4ab4549a24ba36bd9de681.css integrity="sha256-Qj3uF8YvVfpzOk7hPgDVI9/OiMxPSrRUmiS6Nr2d5oE=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/fontawesome/css/brands.min.b7d54133b27e5b4de15245b8e143de3e8ed2d674c706137274cedc9953f31917.css integrity="sha256-t9VBM7J+W03hUkW44UPePo7S1nTHBhNydM7cmVPzGRc=" crossorigin=anonymous type=text/css><link rel="shortcut icon" href=/favicon.ico type=image/x-icon><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=canonical href=https://geektree0101.github.io/blog/experiment_or_feature/><script type=text/javascript src=/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js integrity="sha256-+RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI=" crossorigin=anonymous></script>
+<script type=text/javascript src=/js/anatole-theme-switcher.min.738c0e3a493854876aeab9e2316fd43f1936aeeac4cc6b3e60bb26456dba72ad.js integrity="sha256-c4wOOkk4VIdq6rniMW/UPxk2rurEzGs+YLsmRW26cq0=" crossorigin=anonymous></script><meta name=twitter:card content="summary"><meta name=twitter:title content="실험제품을 만드는 네이티브 개발자의 고충 (확장성)"><meta name=twitter:description content="엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다."><meta property="og:title" content="실험제품을 만드는 네이티브 개발자의 고충 (확장성)"><meta property="og:description" content="엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다."><meta property="og:type" content="article"><meta property="og:url" content="https://geektree0101.github.io/blog/experiment_or_feature/"><meta property="article:section" content="blog"><meta property="article:published_time" content="2022-01-08T04:23:30+00:00"><meta property="article:modified_time" content="2022-01-08T04:23:30+00:00"><meta property="og:site_name" content="Hyeonsu Ha"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"blog","name":"실험제품을 만드는 네이티브 개발자의 고충 (확장성)","headline":"실험제품을 만드는 네이티브 개발자의 고충 (확장성)","alternativeHeadline":"","description":"
+      엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다.
+
+
+    ","inLanguage":"en-us","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/geektree0101.github.io\/blog\/experiment_or_feature\/"},"author":{"@type":"Person","name":"Geektree0101"},"creator":{"@type":"Person","name":"Geektree0101"},"accountablePerson":{"@type":"Person","name":"Geektree0101"},"copyrightHolder":{"@type":"Person","name":"Geektree0101"},"copyrightYear":"2022","dateCreated":"2022-01-08T04:23:30.38Z","datePublished":"2022-01-08T04:23:30.38Z","dateModified":"2022-01-08T04:23:30.38Z","publisher":{"@type":"Organization","name":"Geektree0101","url":"https://geektree0101.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/geektree0101.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/geektree0101.github.io\/blog\/experiment_or_feature\/","wordCount":"480","genre":["Service"],"keywords":[]}</script></head><body class="body theme--light"><div class=wrapper><aside class=wrapper__sidebar><div class="sidebar
+animated fadeInDown"><div class=sidebar__content><div class=sidebar__introduction><img class=sidebar__introduction-profileimage src="https://avatars.githubusercontent.com/u/19504988?v=4" alt="profile picture"><div class=sidebar__introduction-title><a href=/>Hyeonsu Ha</a></div><div class=sidebar__introduction-description><p>엔지니어링의 근본은 문제해결이며<br>저에게 있어서 문제에 대한 해결과 해결에 따른 새로운 문제는 놀이이자 즐거움입니다.<br>문제해결을 위한 빠른 프로토 타이핑과 제품 실현화를 즐기며,<br>이 과정에서 함께하는 동료들과 지속적으로 성장가능한 협업 문화를 추구합니다.<br><br>#Geektree0101 #David #iOS #Gopher #Karrot #당근마켓 #Vingle #MIRO<br></p></div></div><ul class=sidebar__list><li class=sidebar__list-item><a href=https://www.linkedin.com/in/hyeonsu-ha-7ba02b112/ target=_blank rel=noopener aria-label=Linkedin title=Linkedin><i class="fab fa-linkedin fa-2x" aria-hidden=true></i></a></li><li class=sidebar__list-item><a href=h2s1880@gmail.com target=_blank rel=noopener aria-label=e-mail title=e-mail><i class="fas fa-envelope fa-2x" aria-hidden=true></i></a></li><li class=sidebar__list-item><a href=https://github.com/GeekTree0101 target=_blank rel=noopener aria-label=github title=github><i class="fab fa-github fa-2x" aria-hidden=true></i></a></li><li class=sidebar__list-item><a href=https://www.instagram.com/geektree0101/ target=_blank rel=noopener aria-label=instagram title=instagram><i class="fab fa-instagram fa-2x" aria-hidden=true></i></a></li></ul></div><footer class="footer footer__sidebar"><ul class=footer__list><li class=footer__item>&copy;
+Geektree0101
+2022</li></ul></footer><script type=text/javascript src=/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs=" crossorigin=anonymous></script></div></aside><main class=wrapper__main><header class=header><div class="animated fadeInDown"><a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false><span aria-hidden=true class=navbar-burger__line></span>
+<span aria-hidden=true class=navbar-burger__line></span>
+<span aria-hidden=true class=navbar-burger__line></span></a><nav class=nav><ul class=nav__list id=navMenu><li class=nav__list-item><a href=/ title>Index 0</a></li><li class=nav__list-item><a href=/about/ title>About</a></li></ul><ul class="nav__list nav__list--end"><li class=nav__list-item><div class=themeswitch><a title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></div></li></ul></nav></div></header><div class="post
+animated fadeInDown"><div class=post__content><h1>실험제품을 만드는 네이티브 개발자의 고충 (확장성)</h1><p>뚝딱뚝딱..</p><p>오늘도 어느 iOS개발자는 유저의 니즈를 검증하기 위해서 실험제품을 만들고 있었다.</p><p>그러던 와중 PM이 찾아와서 개발자에게 물었다.</p><ul><li>이전에 실험했었던 A제품을 다른 유저 타겟에게 확장하고 싶어요.</li><li>이전에 실험했었던 B제품에 기능을 더 추가하고 싶어요.</li></ul><p>개발자는 머리를 굴려보았고, 돌아오는 답은</p><ul><li>“기술적으로 이러쿵 저러쿵해서 확장 및 추가하기가 쉽지 않아요"</li></ul><p>이러쿵 저러쿵의 내용의 정답은 무엇일까?</p><p>정답은!</p><h5 id=기획상-실험을-목적으로-시작했던-제품이기-때문에-확장성을-설계상-고려하지-않았어요>“기획상 실험을 목적으로 시작했던 제품이기 때문에 확장성을 설계상 고려하지 않았어요…"</h5><p>아니 다~ 방법이 있다.</p><p>그렇다면 이런 상황에서 어떻게 네이티브 개발자와 타협을 해서 확장해 나갈 것이며, 초기에 어떻게 설계해야지 확장성 있게 유저에게 실험과 동시에 가치를 전달할 수 있을까에 대해서 다뤄볼려고 한다.</p><h2 id=아끼면--된다>아끼면 💩 된다</h2><p>이전에 실험한다고 제품만드는데 쏟은 시간과 코드들이 아까운거 보단 사이드 이펙트 없이 안정적인 상태로 제품을 유지하는게 최우선이다.
+불안정한 실험제품에 기능을 추가하거나 다른 유저대상에게 우려먹는건 “젠가”와 큰 차이점이 없다.</p><p>즉, 엔지니어링/개발관점을 배제하고 사용자 관점을 생각해서 무작정 확장하면 결국 제품은 무너지고, 원치않는 피해를 받는 유저가 생기게 되고 결국 개발자에겐 버그를 만든 손목을 자르고 싶은 자괴감?이라는 선물을 선사하게 될 것이다.
 여기서 가장 중요한 포인트는
-확장한다는건 실험이 기대한 만큼 잘 동작했기 때문이기 때문에, 기존 실험은 그대로 두고 확장가능한 형태의 제품을 새로만들어서 출시하는게 바람직할 것이다.</p>
-<h2 id=아끼지말자-된다-계속-고도화하면-누군가가-거대한-을-치우겠지>아끼지말자… 💩된다… 계속 고도화하면 누군가가 거대한 💩을 치우겠지?</h2>
-<p>처음부터 개발자분들이 확장가능하게 만들면 안되는 일이 였을까요? 🥲
-개발자가 이전에 말한 것을 되짚어보자,</p>
-<h5 id=기획상-실험을-목적으로-시작했던-제품이기-때문에-확장성을-설계상-고려하지-않았어요-1>“기획상 실험을 목적으로 시작했던 제품이기 때문에 확장성을 설계상 고려하지 않았어요…”</h5>
-<p>이 말은 애초에 기획적인 측면에서 커뮤니케이션 당시에 확장성을 고려하지 않았기 때문에 개발자는 확장성을 고려하지않고 빠르게 최소스펙으로 제품을 작성하고 목표를 실현하는데 집중을 했을 것이다.</p>
-<p>기획자여.. 만약 실험당시 확장까지 꿈꾸고 있었다면 개발자에게 확장가능성에 대해서 정확하게 의사를 전달하면 된다.
+확장한다는건 실험이 기대한 만큼 잘 동작했기 때문이기 때문에, 기존 실험은 그대로 두고 확장가능한 형태의 제품을 새로만들어서 출시하는게 바람직할 것이다.</p><h2 id=아끼지말자-된다-계속-고도화하면-누군가가-거대한-을-치우겠지>아끼지말자… 💩된다… 계속 고도화하면 누군가가 거대한 💩을 치우겠지?</h2><p>처음부터 개발자분들이 확장가능하게 만들면 안되는 일이 였을까요? 🥲
+개발자가 이전에 말한 것을 되짚어보자,</p><h5 id=기획상-실험을-목적으로-시작했던-제품이기-때문에-확장성을-설계상-고려하지-않았어요-1>“기획상 실험을 목적으로 시작했던 제품이기 때문에 확장성을 설계상 고려하지 않았어요…”</h5><p>이 말은 애초에 기획적인 측면에서 커뮤니케이션 당시에 확장성을 고려하지 않았기 때문에 개발자는 확장성을 고려하지않고 빠르게 최소스펙으로 제품을 작성하고 목표를 실현하는데 집중을 했을 것이다.</p><p>기획자여.. 만약 실험당시 확장까지 꿈꾸고 있었다면 개발자에게 확장가능성에 대해서 정확하게 의사를 전달하면 된다.
 그러면 개발자는 확장성을 고려한 형태와 최소스펙을 고려하면서 빠르게 설계를 하게 될 것이고, 당신에게 큰 선물을 안겨다 줄 것이다.
-요즘엔.. 앞만 보고 달리기엔 너무 험난한 세상이다…</p>
-<h2 id=-흠-하지만-확장성-고려할-정도로-예측하기-어려운-실험이에요-이런경우엔-그럼-어찌하나요>🤔 흠 하지만… 확장성 고려할 정도로 예측하기 어려운 실험이에요.. 이런경우엔 그럼 어찌하나요?</h2>
-<p>개발자는 기획과 목표를 엔지니어링을 통해서 실현 함과 동시에 안정적인 상태로 제품을 유지하는데 신경을 많이쓰고 있습니다.</p>
-<p>특히, “안정적인 상태로 제품을 유지”의 표현이 추상적일 수도 있는데 풀어서 말하자면 아래와 같다.</p>
-<p>실험의 변화가 다른 기능에 의도하지 않는/원치않는 동작이 일어나지 않도록 노력하는 부분
-기존 기능이 실험으로 인해서 구조적으로 많은 변화를 주지 않도록 신경을 씀. (쉽게 비유하자면, 파란색에 빨간색 50%만 영향을 줘도 파란색이 보라색(기존과 전혀다른 기능)으로 바뀌는 현상을 방지하기 위해 머리를 굴리는 행위)</p>
-<p>위 내용과 함께 정리해서 답을 하자면,
-다른 기능에 영향을 최소화 함과 동시에 언제든 파괴하고 새로만들 수 있는 방향을 고려해서 개발자와 커뮤니케이션 하는 것이다.</p>
-<p>머리가 복잡할 때 복잡한 생각의 범위를 벗어나 새로운 것을 생각해서 빠르게 문제를 해결듯이, 빠르게 유저에게 가치를 전달하고 싶다면 이전 허물은 과감히 벗어 던지고 새로 만드는 것이 빠를 수도 있다.</p>
-<h2 id=결국-엔트로피는-증가한다>결국 엔트로피는 증가한다.</h2>
-<p>기능을 확장하다보면 당연히 엔트로피는 증가한다.</p>
-<p>지라 컨플루언스에 작성했던 깔끔했던 기획서도 시간이 지나면 복잡해지고 무질서해지기 마련이고,</p>
-<p>코드도 마찬가지로 시간이 지나면서 복잡해지고 무질서해지고 이로 인해서 cs에 버그 리포트는 점점 늘어날 것이다.</p>
-<p>우리가 궁극적으로 지향하는 건, 유저에게 좋은 가치를 줌과 동시에 튼튼한 제품을 선사하는 것 아닌가?</p>
-<p>즉, 엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다.</p>
-<h2 id=마무리>마무리</h2>
-<p>유저관점도 중요하지만 기존 제품 설계 관점도 중요하고 이것은 결코 개발자만 고려하거나 생각해야하는 부분이 아님을 다시 재강조 하면서 이 글을 마무리할려고한다.</p>
-</div>
-<div class=article-toc>
-<h3>Contents</h3>
-<nav id=TableOfContents>
-<ul>
-<li>
-<ul>
-<li></li>
-</ul>
-</li>
-<li><a href=#아끼면--된다>아끼면 💩 된다</a></li>
-<li><a href=#아끼지말자-된다-계속-고도화하면-누군가가-거대한-을-치우겠지>아끼지말자… 💩된다… 계속 고도화하면 누군가가 거대한 💩을 치우겠지?</a>
-<ul>
-<li></li>
-</ul>
-</li>
-<li><a href=#-흠-하지만-확장성-고려할-정도로-예측하기-어려운-실험이에요-이런경우엔-그럼-어찌하나요>🤔 흠 하지만… 확장성 고려할 정도로 예측하기 어려운 실험이에요.. 이런경우엔 그럼 어찌하나요?</a></li>
-<li><a href=#결국-엔트로피는-증가한다>결국 엔트로피는 증가한다.</a></li>
-<li><a href=#마무리>마무리</a></li>
-</ul>
-</nav>
-</div>
-</div>
-<nav id=article-nav>
-<a href=/blog/prediction_intelligence/ id=article-nav-newer class=article-nav-link-wrap>
-<div class=article-nav-title><span>&lt;</span>&nbsp;
-예측지능 (Prediction Intelligence)과 OODA(우다)
-</div>
-</a>
-<a href=/blog/discarded_clothes/ id=article-nav-older class=article-nav-link-wrap>
-<div class=article-nav-title>버려지는 옷 그리고 환경문제&nbsp;<span>></span></div>
-</a>
-</nav>
-</article>
-<div id=disqus_thread></div>
-<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//https-geektree0101-github-io.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</section>
-<footer id=footer>
-<div class=outer>
-<div id=footer-info class=inner>
-&copy; 2022 Geektree0101
-<br>
-Powered by <a href=https://gohugo.io target=_blank>Hugo</a> with theme <a href=https://github.com/carsonip/hugo-theme-minos target=_blank>Minos</a>
-</div>
-</div>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night.min.css integrity="sha256-2wL88NKUqvJi/ExflDzkzUumjUM73mcK2gBvBBeLvTk=" crossorigin=anonymous>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js integrity="sha256-KbfTjB0WZ8vvXngdpJGY3Yp3xKk+tttbqClO11anCIU=" crossorigin=anonymous></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script>document.getElementById('main-nav-toggle').addEventListener('click',function(){var a=document.getElementById('header');a.classList.contains('mobile-on')?a.classList.remove('mobile-on'):a.classList.add('mobile-on')})</script>
-</footer>
-</div>
-</body>
-</html>
+요즘엔.. 앞만 보고 달리기엔 너무 험난한 세상이다…</p><h2 id=-흠-하지만-확장성-고려할-정도로-예측하기-어려운-실험이에요-이런경우엔-그럼-어찌하나요>🤔 흠 하지만… 확장성 고려할 정도로 예측하기 어려운 실험이에요.. 이런경우엔 그럼 어찌하나요?</h2><p>개발자는 기획과 목표를 엔지니어링을 통해서 실현 함과 동시에 안정적인 상태로 제품을 유지하는데 신경을 많이쓰고 있습니다.</p><p>특히, “안정적인 상태로 제품을 유지”의 표현이 추상적일 수도 있는데 풀어서 말하자면 아래와 같다.</p><p>실험의 변화가 다른 기능에 의도하지 않는/원치않는 동작이 일어나지 않도록 노력하는 부분
+기존 기능이 실험으로 인해서 구조적으로 많은 변화를 주지 않도록 신경을 씀. (쉽게 비유하자면, 파란색에 빨간색 50%만 영향을 줘도 파란색이 보라색(기존과 전혀다른 기능)으로 바뀌는 현상을 방지하기 위해 머리를 굴리는 행위)</p><p>위 내용과 함께 정리해서 답을 하자면,
+다른 기능에 영향을 최소화 함과 동시에 언제든 파괴하고 새로만들 수 있는 방향을 고려해서 개발자와 커뮤니케이션 하는 것이다.</p><p>머리가 복잡할 때 복잡한 생각의 범위를 벗어나 새로운 것을 생각해서 빠르게 문제를 해결듯이, 빠르게 유저에게 가치를 전달하고 싶다면 이전 허물은 과감히 벗어 던지고 새로 만드는 것이 빠를 수도 있다.</p><h2 id=결국-엔트로피는-증가한다>결국 엔트로피는 증가한다.</h2><p>기능을 확장하다보면 당연히 엔트로피는 증가한다.</p><p>지라 컨플루언스에 작성했던 깔끔했던 기획서도 시간이 지나면 복잡해지고 무질서해지기 마련이고,</p><p>코드도 마찬가지로 시간이 지나면서 복잡해지고 무질서해지고 이로 인해서 cs에 버그 리포트는 점점 늘어날 것이다.</p><p>우리가 궁극적으로 지향하는 건, 유저에게 좋은 가치를 줌과 동시에 튼튼한 제품을 선사하는 것 아닌가?</p><p>즉, 엔트로피가 높아지면 낮추기 위한 노력은 개발자 뿐만 아니라 제품과 실험을 기획한 당사자들도 함께 노력해야하는 부분이다.</p><h2 id=마무리>마무리</h2><p>유저관점도 중요하지만 기존 제품 설계 관점도 중요하고 이것은 결코 개발자만 고려하거나 생각해야하는 부분이 아님을 다시 재강조 하면서 이 글을 마무리할려고한다.</p></div><div class=post__footer><span><a class=category href=/categories/service/>Service</a></span></div></div></main></div><footer class="footer footer__base"><ul class=footer__list><li class=footer__item>&copy;
+Geektree0101
+2022</li></ul></footer><script type=text/javascript src=/js/medium-zoom.min.602bd2014468bd348112e2aa24f595c530d257a4ed6c335d7baaa6ac9a7ca6fb.js integrity="sha256-YCvSAURovTSBEuKqJPWVxTDSV6TtbDNde6qmrJp8pvs=" crossorigin=anonymous></script></body></html>

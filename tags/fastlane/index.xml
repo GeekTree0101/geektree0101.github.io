@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fastlane on Geektree0101</title><link>/tags/fastlane/</link><description>Recent content in fastlane on Geektree0101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 24 May 2019 03:13:21 +0000</lastBuildDate><atom:link href="/tags/fastlane/index.xml" rel="self" type="application/rss+xml"/><item><title>아~ Fastlane 이중인증 해결법</title><link>/blog/blog17/</link><pubDate>Fri, 24 May 2019 03:13:21 +0000</pubDate><guid>/blog/blog17/</guid><description>Apple itune connect two-factor auth issue 1. Get two factor session cookie spaceauth를 이용하여 session cookie를 가져옵니다.
-&amp;gt; 명령어
-rm -rf ~/.fastlane/spaceship/name@gmail.com
-fastlane spaceauth -u name@gmail.com
-&amp;gt; Output Log 예시
-rm -rf ~/.fastlane/spaceship/name@gmail.com
-fastlane spaceauth -u name@gmail.com
-fastlane spaceauth expected output
-Logging into to App Store Connect (name@gmail.com)&amp;hellip;
-Two-step Verification (4 digits code) or Two-factor Authentication (6 digits code) is enabled for account &amp;lsquo;name@gmail.com&amp;rsquo;
-More information about Two-step Verification (4 digits code): https://support.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>fastlane on Geektree0101's website</title><link>https://geektree0101.github.io/tags/fastlane/</link><description>Recent content in fastlane on Geektree0101's website</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 24 May 2019 03:13:21 +0000</lastBuildDate><atom:link href="https://geektree0101.github.io/tags/fastlane/index.xml" rel="self" type="application/rss+xml"/><item><title>아~ Fastlane 이중인증 해결법</title><link>https://geektree0101.github.io/blog/blog17/</link><pubDate>Fri, 24 May 2019 03:13:21 +0000</pubDate><guid>https://geektree0101.github.io/blog/blog17/</guid><description>Apple itune connect two-factor auth issue</description></item></channel></rss>
