@@ -52,6 +52,12 @@ url = "https://www.instagram.com/geektree0101/"
   url = "/"
 
   [[menu.main]]
+  name = "Index 1"
+  identifier = "gallery"
+  weight = 100
+  url = "/gallery/"
+
+  [[menu.main]]
   name = "About"
   weight = 300
   identifier = "about"
